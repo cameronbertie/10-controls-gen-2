@@ -1,97 +1,138 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
 export const GlobalStyles = createGlobalStyle`
-  body {
-    background: ${({ theme }) => theme.bg};
-    color: ${({ theme }) => theme.text};
-  }
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-
-
-
-
-
-
-
-
-
-
-
-// TODO: Sort these out NOW. Create a global stylesheet. Then remove the old styled components from the code. Revert back to old navigation margins and paddings
-
-  /* * {
-  margin: 0;
-  padding: 0;
-}
+// TODO: Sort these out NOW. Create a global stylesheet. Then remove the old styled components from the code.
 
 body {
-  background-color: black;
-  color: white;
-  text-transform: uppercase;
-  font-family: "Inter", sans-serif;
-  font-weight: 900;
+  background-color: ${({ theme }) => theme.background};
+  color: ${({ theme }) => theme.text};
+}
+
+#navigation__top {
+  background-color: ${({ theme }) => theme.background};
+}
+
+#menu__OuterContainer {
+  background-color: ${({ theme }) => theme.menuBackground};
+}
+
+#menu__hr {
+  background-color: ${({ theme }) => theme.menuHrColor};
+  border-color: ${({ theme }) => theme.menuHrColor};
+}
+
+svg {
+  fill: ${({ theme }) => theme.text};
+
+  :hover {
+    opacity: 50%;
+    transition: 0.3s;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: ${({ theme }) => theme.text};
 }
 
 h1 {
   font-size: 90px;
-  font-weight: 900;
+
+  @media (max-width: 1023px) {
+    font-size: 60px;
+  }
+
+  @media (max-width: 799px) {
+    font-size: 32px;
+  }
+  
 }
 
 h2 {
   font-size: 32px;
-  font-weight: 900;
+
+  @media (max-width: 1023px) {
+    font-size: 24px;
+  }
+ 
 }
 
 h3 {
   font-size: 24px;
-  font-weight: 900;
+
+  @media (max-width: 1023px) {
+    font-size: 18.72px;
+  }
+  
 }
 
 h4 {
   font-size: 18.72px;
-  font-weight: 900;
+  
+  @media (max-width: 1023px) {
+    font-size: 16px;
+  }
+
 }
 
 h5 {
   font-size: 16px;
-  font-weight: 900;
+ 
+  @media (max-width: 1023px) {
+    font-size: 13.28px;
+  }
+
 }
 
 h6 {
   font-size: 13.28px;
-  font-weight: 900;
+  
+  @media (max-width: 1023px) {
+    font-size: 10.72px;
+  }
+
 }
 
 p {
   font-size: 16px;
-  font-weight: 900;
+
 }
 
 hr {
-  border-top: 3px solid white;
+  border: 1.5px solid ${({ theme }) => theme.hrColor};
   width: 74px;
-  background-color: white;
+  background-color: ${({ theme }) => theme.hrColor};
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: ${({ theme }) => theme.link};
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: ${({ theme }) => theme.linkHover};
+  transition: 0.3s;
 }
 
 button {
-background-color: #C18794;
-color: black;
-font-family: "Inter", sans-serif;
+background-color: ${({ theme }) => theme.buttonBackground};
+color: ${({ theme }) => theme.buttonText};
 font-size: 16px;
 border-radius: 25px;
-padding: 13px 16px;
-text-transform: uppercase;
-font-weight: 900;
-border: none;
+padding: 10px 13px;
+border: 3px solid transparent;
 cursor: pointer;
+
+@media (max-width: 1023px) {
+    font-size: 13.28px;
+  }
+
 }
 
 button:hover {
   transition: 0.3s;
-  background-color: white;
-} */
-  `
+  background-color: ${({ theme }) => theme.buttonBackgroundHover};
+  border-color: ${({ theme }) => theme.buttonBorderHover};
+  color: ${({ theme }) => theme.buttonTextHover}
+}
+  `;

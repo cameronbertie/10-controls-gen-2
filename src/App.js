@@ -41,8 +41,7 @@ const Header = styled.header`
 const PageContent = styled.main`
   position: relative;
   z-index: 998;
-  margin: 0 84px 0 84px;
-  padding-top: 84px;
+  margin: 84px 84px 0 84px;
   width: auto;
 
   @media (max-width: 1023px) {

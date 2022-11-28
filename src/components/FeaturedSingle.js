@@ -1,23 +1,22 @@
 import React from "react";
 import styled from "styled-components";
 import * as S from "../styles/styles";
+import { Link } from "react-router-dom";
 
 function FeaturedSingle({ heading, imageURL, siteURL }) {
   return (
     <S.Section>
-      <S.RouterLink to={siteURL}>
-        <FeaturedSingleContainer>
-          <img src={imageURL} alt=""/>
-          <S.Heading2>{heading}</S.Heading2>
-        </FeaturedSingleContainer>
-      </S.RouterLink>
+      <FeaturedSingleContainer to={siteURL}>
+        <img src={imageURL} alt="" />
+        <h2>{heading}</h2>
+      </FeaturedSingleContainer>
     </S.Section>
   );
 }
 
 export default FeaturedSingle;
 
-const FeaturedSingleContainer = styled.div`
+const FeaturedSingleContainer = styled(Link)`
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -25,7 +24,7 @@ const FeaturedSingleContainer = styled.div`
   flex-direction: column;
 
   :hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
     transition: 0.3s;
   }
 
