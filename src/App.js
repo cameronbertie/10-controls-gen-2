@@ -4,6 +4,7 @@ import styled, { withTheme } from "styled-components";
 import ScrollToTop from "./components/ScrollToTop";
 import Navigation from "./components/Navigation";
 import Home from './components/Home';
+import F1 from './components/F1';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <PageContent>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/F1" element={<F1 />} />
         </Routes>
         </PageContent>
         </>

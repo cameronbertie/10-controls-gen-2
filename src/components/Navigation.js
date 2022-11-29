@@ -35,15 +35,14 @@ function Navigation() {
           </SiteLogoContainer>
           <NavigationLinks>
             <NavigationLink>
-              <Link to="/rl/tournaments">Rocket League</Link>
-            </NavigationLink>
-            <NavigationLink>
               <Link to="/f1">F1 22</Link>
             </NavigationLink>
             <NavigationLink>
               <Link to="/acc">Assetto Corsa Competizione</Link>
             </NavigationLink>
-            <button onClick={themeToggler}>Switch Theme</button>
+            <NavigationLink>
+              <Link to="/rl/tournaments">Rocket League</Link>
+            </NavigationLink>
           </NavigationLinks>
           <MenuContainer>
             <HamburgerIcon toggled={isOpen} toggle={setOpen} />
@@ -54,7 +53,7 @@ function Navigation() {
         <NavigationRight>
         
           <NavigationIconsContainer>
-            
+          <button onClick={themeToggler}>Switch Theme</button>
 
             <NavigationIcon
               href="https://discord.gg/10controls"

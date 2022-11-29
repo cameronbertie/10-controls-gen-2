@@ -150,6 +150,7 @@ const CategoryContent = styled.nav`
     width: 32px;
     border-color: #c18794;
     background-color: #c18794;
+    margin: 0;
   }
 `;
 

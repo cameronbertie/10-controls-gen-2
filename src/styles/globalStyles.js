@@ -22,6 +22,10 @@ body {
   border-color: ${({ theme }) => theme.menuHrColor};
 }
 
+#pageHero1 {
+  background-image: linear-gradient(180deg, rgba(73,40,51,0.6) 0%, rgba(73,40,51,0.6) 100%);
+}
+
 svg {
   fill: ${({ theme }) => theme.text};
 
@@ -102,6 +106,7 @@ hr {
   border: 1.5px solid ${({ theme }) => theme.hrColor};
   width: 74px;
   background-color: ${({ theme }) => theme.hrColor};
+  margin-bottom: 16px;
 }
 
 a {

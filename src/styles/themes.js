@@ -1,5 +1,5 @@
 export const darkTheme = {
-    text: "rgb(255, 255, 255, 0.87)",
+    text: "rgba(255, 255, 255, 0.87)",
     background: "#121212",
     link: "#c18794",
     linkHover: "white",
@@ -8,7 +8,7 @@ export const darkTheme = {
     buttonBorderHover: "#c18794",
     buttonText: "black",
     buttonTextHover: "#c18794",
-    hrColor: "rgb(255, 255, 255, 0.87)",
+    hrColor: "#c18794",
     menuHrColor: "#492833",
     menuBackground: "rgba(18, 18, 18, 0.82)",
   }

@@ -26,12 +26,29 @@ export const Anchor = styled.a`
 `;
 
 export const Section = styled.section`
-  padding: 30px 8%;
+  padding: 60px 8%;
   max-width: 1120px;
   margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (max-width: 1023px) {
+    padding: 30px 8%;
+    }
+
+    
 `;
 
 export const SectionFull = styled.section`
-  padding: 30px 0;
+  padding: 60px 0;
   width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  @media (max-width: 1023px) {
+    padding: 30px 0;
+    }
 `;
