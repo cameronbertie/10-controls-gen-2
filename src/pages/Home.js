@@ -1,8 +1,8 @@
 import React from "react";
 import * as S from "../styles/styles";
-import FeaturedSingle from "./FeaturedSingle";
-import FeaturedDouble from "./FeaturedDouble";
-import Footer from "./Footer";
+import FeaturedSingle from "../components/FeaturedSingle";
+import FeaturedDouble from "../components/FeaturedDouble";
+import Footer from "../components/Footer";
 
 function Home() {
   return (

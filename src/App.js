@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import styled, { withTheme } from "styled-components";
 import ScrollToTop from "./components/ScrollToTop";
 import Navigation from "./components/Navigation";
-import Home from './components/Home';
-import F1 from './components/F1';
+import Home from './pages/Home';
+import F1 from './pages/F1';
 
 function App() {
   return (
