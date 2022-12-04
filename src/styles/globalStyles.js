@@ -26,6 +26,28 @@ body {
   background-image: linear-gradient(180deg, rgba(73,40,51,0.6) 0%, rgba(73,40,51,0.6) 100%);
 }
 
+#pageHero2 {
+  background-color: ${({ theme }) => theme.background};
+  background-image: ${({ theme }) => theme.heroPattern};
+}
+
+#eventContainer, #f1ScheduleCompletedContainer {
+  border-color: ${({ theme }) => theme.borderColor};
+}
+
+#f1ScheduleCompletedMiddle:hover {
+  background-color: ${({ theme }) => theme.buttonBackground};
+  border-color: ${({ theme }) => theme.text};
+}
+
+#raceRoundTitle {
+  color: ${({ theme }) => theme.borderColor};
+}
+
+#filterButton {
+
+}
+
 svg {
   fill: ${({ theme }) => theme.text};
 

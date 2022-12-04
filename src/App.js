@@ -5,6 +5,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Navigation from "./components/Navigation";
 import Home from './pages/Home';
 import F1 from './pages/F1';
+import F1Schedule from './pages/f1 schedule/F1Schedule';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/F1" element={<F1 />} />
+          <Route path="/f1/schedule" element={<F1Schedule />} />
         </Routes>
         </PageContent>
         </>
