@@ -22,7 +22,7 @@ function F1ScheduleCompleted({roundNumber, days, month, raceCountryFlag, raceNam
       <F1ScheduleCompletedRaceTitle>
           <h4>{raceName}</h4>
         </F1ScheduleCompletedRaceTitle>
-      <Link to={tierAResultsLink}>
+      <Link to={`/f1/schedule/${tierAResultsLink}`}>
       <F1ScheduleCompletedMiddle id="f1ScheduleCompletedMiddle">
       <h6>TIER A RESULTS</h6>
       <ArrowForwardIosIcon />
@@ -74,6 +74,7 @@ const F1ScheduleCompletedContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 326px;
+  height: 289px;
   
   @media (max-width: 799px) {
     width: 100%;
@@ -116,6 +117,10 @@ const F1ScheduleCompletedMiddle = styled.div`
     :hover {
     cursor: pointer;
     transition: 0.3s;
+  }
+
+  > .MuiSvgIcon-root:hover {
+    opacity: 1;
   }
 `;
 

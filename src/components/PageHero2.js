@@ -36,6 +36,7 @@ const PageHero2Container = styled.div`
     margin: 0 auto;
     padding: 0 8%;
   text-align: center;
+  
 
   @media (max-width: 1023px) {
       height: 300px;

@@ -24,18 +24,20 @@ body {
 
 #pageHero1 {
   background-image: linear-gradient(180deg, rgba(73,40,51,0.6) 0%, rgba(73,40,51,0.6) 100%);
+  border-bottom: 1px solid #492833;
 }
 
 #pageHero2 {
   background-color: ${({ theme }) => theme.background};
   background-image: ${({ theme }) => theme.heroPattern};
+  border-bottom: 1px solid #492833;
 }
 
-#eventContainer, #f1ScheduleCompletedContainer {
+#eventContainer, #f1ScheduleCompletedContainer, #f1ScheduleUpcomingContainer, #resultsTable {
   border-color: ${({ theme }) => theme.borderColor};
 }
 
-#f1ScheduleCompletedMiddle:hover {
+#f1ScheduleCompletedMiddle:hover, #f1ScheduleUpcomingMiddle:hover  {
   background-color: ${({ theme }) => theme.buttonBackground};
   border-color: ${({ theme }) => theme.text};
 }

@@ -27,7 +27,6 @@ export default SecondaryNavigation;
 
 const SecondaryNavigationContainer = styled.div`
   align-items: center;
-  border-top: 1px solid #492833;
   border-bottom: 1px solid #492833;
   display: flex;
   height: 84px;

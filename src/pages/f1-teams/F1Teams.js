@@ -3,18 +3,16 @@ import * as S from "../../styles/styles";
 import styled from "styled-components";
 import SecondaryNavigation from "../../components/SecondaryNavigation";
 import PageHero2 from "../../components/PageHero2";
-import F1ScheduleSeason1 from "./season 1/F1ScheduleSeason1";
 import Footer from "../../components/Footer";
-import F1ScheduleSeason2 from "./season 2/F1ScheduleSeason2";
 
-function F1Schedule() {
-  const [selectedSeason, setSelectedSeason] = useState("Season 2");
+
+function F1Teams() {
   const [selectedTier, setSelectedTier] = useState("Tier A");
   return (
     <>
       <PageHero2
-        mainHeading="F1 22 Schedule"
-        subHeading="Check out our F1 22 calendar to see upcoming races and race results."
+        mainHeading="F1 22 Teams"
+        subHeading="Check out this seasons driver line-up and what teams they will be representing."
       />
       <SecondaryNavigation
         // Please ensure that page titles are in order of how they should be displayed. Make sure that the order of the links match their respected page titles.
@@ -22,29 +20,28 @@ function F1Schedule() {
         links={["/f1/schedule", "/f1/teams", "/f1/register"]}
       />
       <S.Section>
-      <F1ScheduleMenuTitle>Other Seasons</F1ScheduleMenuTitle>
+      <F1ScheduleMenuTitle>Other Tiers</F1ScheduleMenuTitle>
       <F1ScheduleMenuContainer>
           <button
-            className="races-menu-link"
-            style={{ display: selectedSeason === 'Season 1' ? 'none' : 'block' }}
-            onClick={() => setSelectedSeason("Season 1")}
+            style={{ display: selectedTier === 'Tier B' ? 'none' : 'block' }}
+            onClick={() => setSelectedTier("Tier B")}
           >
-            Season 1
+            Tier B
           </button>
           <button
-            className="races-menu-link"
-            style={{ display: selectedSeason === 'Season 2' ? 'none' : 'block' }}
-            onClick={() => setSelectedSeason("Season 2")}
+            style={{ display: selectedTier === 'Tier A' ? 'none' : 'block' }}
+            onClick={() => setSelectedTier("Tier A")}
           >
-            Season 2
+            Tier A
           </button>
       </F1ScheduleMenuContainer>
-      <F1ScheduleTitle>{selectedSeason} Calendar</F1ScheduleTitle>
+      <F1SchedulePreTitle>Season 2</F1SchedulePreTitle>
+      <F1ScheduleTitle>{selectedTier} Line-Up</F1ScheduleTitle>
         <F1ScheduleGrid>
-        {selectedSeason === 'Season 1'
-          ? <F1ScheduleSeason1 />
-          : <F1ScheduleSeason2 />
-        }
+        {/* {selectedTier === 'Tier B'
+          ? <F1TeamsTierB />
+          : <F1TeamsTierA />
+        } */}
       
       </F1ScheduleGrid>
       </S.Section>
@@ -56,7 +53,7 @@ function F1Schedule() {
   );
 }
 
-export default F1Schedule;
+export default F1Teams;
 
 
 const F1ScheduleMenuContainer = styled.div`
@@ -67,9 +64,14 @@ const F1ScheduleMenuContainer = styled.div`
     justify-content: flex-end;
 `;
 
+const F1SchedulePreTitle = styled.h3`
+text-align: center;
+margin-top: 30px;
+`
+
 const F1ScheduleTitle = styled.h2`
 text-align: center;
-margin: 30px 0;
+margin-bottom: 30px;
 `
 
 const F1ScheduleMenuTitle = styled.h6`
