@@ -33,7 +33,7 @@ body {
   border-bottom: 1px solid #492833;
 }
 
-#eventContainer, #f1ScheduleCompletedContainer, #f1ScheduleUpcomingContainer, #resultsTable {
+#eventContainer, #f1ScheduleCompletedContainer, #f1ScheduleUpcomingContainer, #f1TeamContainer, #resultsTable {
   border-color: ${({ theme }) => theme.borderColor};
 }
 

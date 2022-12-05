@@ -20,8 +20,8 @@ function F1() {
       />
       <SecondaryNavigation
         // Please ensure that page titles are in order of how they should be displayed. Make sure that the order of the links match their respected page titles.
-        pages={["Schedule", "Teams", "Register"]}
-        links={["/f1/schedule", "/f1/teams", "/f1/register"]}
+        pages={["Schedule", "Teams", "Standings", "Register"]}
+        links={["/f1/schedule", "/f1/teams", "/f1/standings", "/f1/register"]}
       />
       <S.Section>
         <hr />

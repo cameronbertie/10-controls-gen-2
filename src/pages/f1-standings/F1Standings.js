@@ -4,17 +4,17 @@ import styled from "styled-components";
 import SecondaryNavigation from "../../components/SecondaryNavigation";
 import PageHero2 from "../../components/PageHero2";
 import Footer from "../../components/Footer";
-import F1TeamsTierA from "./tier-a/F1TeamsTierA";
-import F1TeamsTierB from "./tier-b/F1TeamsTierB";
+// import F1TeamsTierA from "./tier-a/F1TeamsTierA";
+// import F1TeamsTierB from "./tier-b/F1TeamsTierB";
 
 
-function F1Teams() {
+function F1Standings() {
   const [selectedTier, setSelectedTier] = useState("Tier A");
   return (
     <>
       <PageHero2
-        mainHeading="F1 22 Teams"
-        subHeading="Check out this seasons driver line-up and what teams they will be representing"
+        mainHeading="F1 22 Standings"
+        subHeading="Who's bringing home the championship?"
       />
       <SecondaryNavigation
         // Please ensure that page titles are in order of how they should be displayed. Make sure that the order of the links match their respected page titles.
@@ -40,10 +40,10 @@ function F1Teams() {
       <F1TeamsPreTitle>Season 2</F1TeamsPreTitle>
       <F1TeamsTitle>{selectedTier} Line-Up</F1TeamsTitle>
         <F1TeamsGrid>
-         {selectedTier === 'Tier B'
+         {/* {selectedTier === 'Tier B'
           ? <F1TeamsTierB />
           : <F1TeamsTierA />
-        }
+        } */}
       
       </F1TeamsGrid>
       </S.Section>
@@ -55,7 +55,7 @@ function F1Teams() {
   );
 }
 
-export default F1Teams;
+export default F1Standings;
 
 
 const F1TeamsMenuContainer = styled.div`

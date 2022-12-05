@@ -17,8 +17,10 @@ function PageHero2({
       }}
     >
       <PageHero2Container>
+        <PageHero2Text>
         <h2>{mainHeading}</h2>
         <h3>{subHeading}</h3>
+        </PageHero2Text>
       </PageHero2Container>
     </S.SectionFull>
   );
@@ -28,14 +30,14 @@ export default PageHero2;
 
 const PageHero2Container = styled.div`
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     max-width: 1120px;
     height: 360px;
     margin: 0 auto;
     padding: 0 8%;
-  text-align: center;
+    text-align: left;
   
 
   @media (max-width: 1023px) {
@@ -45,8 +47,12 @@ const PageHero2Container = styled.div`
     @media (max-width: 799px) {
       height: 180px;
     }
+`;
 
-  > h1 {
+const PageHero2Text = styled.div`
+    width: 60%;
+
+    > h1 {
     font-size: 24px;
 
     @media (max-width: 1023px) {

@@ -14,8 +14,8 @@ function Melbourne1A() {
     <>
       <SecondaryNavigation
         // Please ensure that page titles are in order of how they should be displayed. Make sure that the order of the links match their respected page titles.
-        pages={["Schedule", "Teams", "Register"]}
-        links={["/f1/schedule", "/f1/teams", "/f1/register"]}
+        pages={["Schedule", "Teams", "Standings", "Register"]}
+        links={["/f1/schedule", "/f1/teams", "/f1/standings", "/f1/register"]}
       />
       <PageHero2
         mainHeading="Melbourne"
@@ -129,7 +129,7 @@ function Melbourne1A() {
             driverPosition="11"
             driverName="LucaDude"
             driverFlag="/gb.png"
-            team="aston Martin"
+            team="aston-martin"
             driverTime="+24.977"
             driverPoints=""
           />
@@ -213,20 +213,30 @@ const FastestLapContainer = styled.div`
   display: flex;
   column-gap: 5px;
   margin: 30px 0;
+  align-items: center;
 
   > img {
     height: 16px;
     width: auto;
+
+    @media only screen and (max-width: 799px) {
+      height: 13px;
+  }
   }
 `;
 
 const DriverDayContainer = styled.div`
   display: flex;
   column-gap: 5px;
+  align-items: center;
 
   > img {
     height: 16px;
     width: auto;
+
+    @media only screen and (max-width: 799px) {
+      height: 13px;
+  }
   }
 `;
 

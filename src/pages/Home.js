@@ -10,7 +10,7 @@ function Home() {
       <S.Section>
         <h5>This is</h5>
         <h1>10 Controls</h1>
-        <h5>EUROPE’S NEW HOME FOR COMPETITIVE GAMING AND ESPORTS TOURNAMENTS</h5>
+        <h3>EUROPE’S NEW HOME FOR COMPETITIVE GAMING AND ESPORTS TOURNAMENTS</h3>
       </S.Section>
       <FeaturedSingle
         // Required Image Size - 1280x720
