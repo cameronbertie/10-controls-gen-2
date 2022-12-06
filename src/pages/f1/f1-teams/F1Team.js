@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import * as S from "../../styles/styles";
+// import * as S from "../../../../styles/styles";
 import styled from "styled-components";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { Link } from "react-router-dom";

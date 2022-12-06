@@ -1,27 +1,28 @@
 import React from "react";
-import * as S from "../../../../styles/styles";
+import * as S from "../../../../../styles/styles";
 import styled from "styled-components";
-import PageHero2 from "../../../../components/PageHero2";
+import PageHero2 from "../../../../../components/PageHero2";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Link } from "react-router-dom";
-import Footer from "../../../../components/Footer";
-import SecondaryNavigation from "../../../../components/SecondaryNavigation";
+import Footer from "../../../../../components/Footer";
 import F1RaceResult from "../../F1RaceResult";
+import F1SecondaryNavigation from "../../../F1SecondaryNavigation";
 
 function Melbourne1A() {
   return (
     <>
-      <SecondaryNavigation
+      <F1SecondaryNavigation
         // Please ensure that page titles are in order of how they should be displayed. Make sure that the order of the links match their respected page titles.
         pages={["Schedule", "Teams", "Standings", "Register"]}
         links={["/f1/schedule", "/f1/teams", "/f1/standings", "/f1/register"]}
       />
-      <PageHero2
+      {/* <PageHero2
         mainHeading="Melbourne"
         subHeading="Season 1 - Tier A - Round 1"
-      />
+      /> */}
       <S.Section>
+      
         <CalendarArrowContainer>
           <Link>
             <ArrowPrevious />
@@ -30,8 +31,8 @@ function Melbourne1A() {
             <ArrowNext />
           </Link>
         </CalendarArrowContainer>
-        
-
+        <h6>Season 1 - Tier A - Round 1</h6>
+        <h2>Melbourne</h2>
         <ResultsTable id="resultsTable">
           <tr>
             <th></th>
@@ -259,6 +260,7 @@ const ArrowNext = styled(ArrowForwardIosIcon)`
 const ResultsTable = styled.table`
   width: 100%;
   border-spacing: 0;
+  margin-top: 30px;
 
   th,
   td {

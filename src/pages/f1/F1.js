@@ -1,13 +1,13 @@
 import React from "react";
-import * as S from "../styles/styles";
+import * as S from "../../styles/styles";
 import styled from "styled-components";
-import PageHero1 from "../components/PageHero1";
-import Video from "../components/Video";
-import FeaturedSingle from "../components/FeaturedSingle";
-import FeaturedDouble from "../components/FeaturedDouble";
-import SecondaryNavigation from "../components/SecondaryNavigation";
-import Footer from "../components/Footer";
-import Event from "../components/Event";
+import PageHero1 from "../../components/PageHero1";
+import Video from "../../components/Video";
+import FeaturedSingle from "../../components/FeaturedSingle";
+import FeaturedDouble from "../../components/FeaturedDouble";
+import Footer from "../../components/Footer";
+import Event from "../../components/Event";
+import F1SecondaryNavigation from "./F1SecondaryNavigation";
 
 function F1() {
   return (
@@ -18,11 +18,7 @@ function F1() {
         subHeading="Two tiers. highly competitive. prize money on the line. live on twitch"
         backgroundImageURL="/f1-mclaren-screenshot.jpg"
       />
-      <SecondaryNavigation
-        // Please ensure that page titles are in order of how they should be displayed. Make sure that the order of the links match their respected page titles.
-        pages={["Schedule", "Teams", "Standings", "Register"]}
-        links={["/f1/schedule", "/f1/teams", "/f1/standings", "/f1/register"]}
-      />
+      <F1SecondaryNavigation />
       <S.Section>
         <hr />
         <h2>We value fair racing above all</h2>

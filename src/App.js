@@ -4,12 +4,12 @@ import styled, { withTheme } from "styled-components";
 import ScrollToTop from "./components/ScrollToTop";
 import Navigation from "./components/Navigation";
 import Home from './pages/Home';
-import F1 from './pages/F1';
-import F1Schedule from './pages/f1-schedule/F1Schedule';
-import F1Standings from './pages/f1-standings/F1Standings';
-import F1Teams from './pages/f1-teams/F1Teams';
-import Melbourne1A from './pages/f1-schedule/season-1/races/Melbourne1A';
-import Silverstone1A from './pages/f1-schedule/season-1/races/Silverstone1A';
+import F1 from './pages/f1/F1';
+import F1Schedule from './pages/f1/f1-schedule/F1Schedule';
+import F1Standings from './pages/f1/f1-standings/F1Standings';
+import F1Teams from './pages/f1/f1-teams/F1Teams';
+import Melbourne1A from './pages/f1/f1-schedule/season-1/races/Melbourne1A';
+import Silverstone1A from './pages/f1/f1-schedule/season-1/races/Silverstone1A';
 
 function App() {
   return (

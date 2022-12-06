@@ -17,8 +17,8 @@ function Menu() {
             <hr id="menu__hr" />
             <CategoryList>
               <h3>
-                <Link to="/f1/races">
-                  Races
+                <Link to="/f1/schedule">
+                  Schedule
                 </Link>
               </h3>
             </CategoryList>
@@ -31,8 +31,8 @@ function Menu() {
             </CategoryList>
             <CategoryList>
               <h3>
-                <Link to="/f1/drivers">
-                  Drivers
+                <Link to="/f1/teams">
+                  Teams
                 </Link>
               </h3>
             </CategoryList>
@@ -51,7 +51,7 @@ function Menu() {
               </Link>
             </h2>
             <hr id="menu__hr" />
-            <CategoryList>
+            {/* <CategoryList>
               <h3>
                 <Link to="/acc/drivers" >
                   Drivers
@@ -64,13 +64,12 @@ function Menu() {
                   Register
                 </Link>
               </h3>
-            </CategoryList>
+            </CategoryList> */}
           </CategoryContent>
           <CategoryContent>
             <h2>
-              <Link to="/rl/tournaments">Rocket League</Link>
+              <Link to="/rl">Rocket League</Link>
             </h2>
-
             <hr id="menu__hr" />
             <CategoryList>
                 <h3>

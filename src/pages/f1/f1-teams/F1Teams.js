@@ -1,25 +1,25 @@
 import React, { useState } from "react";
-import * as S from "../../styles/styles";
+import * as S from "../../../styles/styles";
 import styled from "styled-components";
-import SecondaryNavigation from "../../components/SecondaryNavigation";
-import PageHero2 from "../../components/PageHero2";
-import Footer from "../../components/Footer";
-// import F1TeamsTierA from "./tier-a/F1TeamsTierA";
-// import F1TeamsTierB from "./tier-b/F1TeamsTierB";
+import PageHero2 from "../../../components/PageHero2";
+import Footer from "../../../components/Footer";
+import F1TeamsTierA from "./tier-a/F1TeamsTierA";
+import F1TeamsTierB from "./tier-b/F1TeamsTierB";
+import F1SecondaryNavigation from "../F1SecondaryNavigation";
 
 
-function F1Standings() {
+function F1Teams() {
   const [selectedTier, setSelectedTier] = useState("Tier A");
   return (
     <>
       <PageHero2
-        mainHeading="F1 22 Standings"
-        subHeading="Who's bringing home the championship?"
+        mainHeading="F1 22 Teams"
+        subHeading="Check out this seasons driver line-up and what teams they will be representing"
       />
-      <SecondaryNavigation
+      <F1SecondaryNavigation
         // Please ensure that page titles are in order of how they should be displayed. Make sure that the order of the links match their respected page titles.
-        pages={["Schedule", "Teams", "Standings", "Register"]}
-        links={["/f1/schedule", "/f1/teams", "/f1/standings", "/f1/register"]}
+        pages={["Schedule", "Standings", "Teams", "Register"]}
+        links={["/f1/schedule", "/f1/standings", "/f1/teams", "/f1/register"]}
       />
       <S.Section>
       <F1TeamsMenuTitle>Other Tiers</F1TeamsMenuTitle>
@@ -40,10 +40,10 @@ function F1Standings() {
       <F1TeamsPreTitle>Season 2</F1TeamsPreTitle>
       <F1TeamsTitle>{selectedTier} Line-Up</F1TeamsTitle>
         <F1TeamsGrid>
-         {/* {selectedTier === 'Tier B'
+         {selectedTier === 'Tier B'
           ? <F1TeamsTierB />
           : <F1TeamsTierA />
-        } */}
+        }
       
       </F1TeamsGrid>
       </S.Section>
@@ -55,7 +55,7 @@ function F1Standings() {
   );
 }
 
-export default F1Standings;
+export default F1Teams;
 
 
 const F1TeamsMenuContainer = styled.div`

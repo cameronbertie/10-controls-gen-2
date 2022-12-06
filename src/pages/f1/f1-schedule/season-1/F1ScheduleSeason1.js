@@ -1,5 +1,5 @@
 import React from "react";
-import * as S from "../../../styles/styles";
+import * as S from "../../../../styles/styles";
 import styled from "styled-components";
 import F1ScheduleCompleted from "../F1ScheduleCompleted";
 

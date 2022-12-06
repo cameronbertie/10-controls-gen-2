@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import * as S from "../../styles/styles";
+import * as S from "../../../styles/styles";
 import styled from "styled-components";
-import SecondaryNavigation from "../../components/SecondaryNavigation";
-import PageHero2 from "../../components/PageHero2";
+import PageHero2 from "../../../components/PageHero2";
 import F1ScheduleSeason1 from "./season-1/F1ScheduleSeason1";
-import Footer from "../../components/Footer";
+import Footer from "../../../components/Footer";
 import F1ScheduleSeason2 from "./season-2/F1ScheduleSeason2";
+import F1SecondaryNavigation from "../F1SecondaryNavigation";
 
 function F1Schedule() {
   const [selectedSeason, setSelectedSeason] = useState("Season 2");
@@ -16,10 +16,7 @@ function F1Schedule() {
         mainHeading="F1 22 Schedule"
         subHeading="Check out our F1 22 calendar to see upcoming races and race results."
       />
-      <SecondaryNavigation
-        // Please ensure that page titles are in order of how they should be displayed. Make sure that the order of the links match their respected page titles.
-        pages={["Schedule", "Teams", "Standings", "Register"]}
-        links={["/f1/schedule", "/f1/teams", "/f1/standings", "/f1/register"]}
+      <F1SecondaryNavigation
       />
       <S.Section>
       <F1ScheduleMenuTitle>Other Seasons</F1ScheduleMenuTitle>

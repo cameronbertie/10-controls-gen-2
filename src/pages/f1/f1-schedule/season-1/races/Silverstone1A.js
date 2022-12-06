@@ -1,12 +1,12 @@
 import React from "react";
-import * as S from "../../../../styles/styles";
+import * as S from "../../../../../styles/styles";
 import styled from "styled-components";
-import PageHero2 from "../../../../components/PageHero2";
+import PageHero2 from "../../../../../components/PageHero2";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Link } from "react-router-dom";
-import Footer from "../../../../components/Footer";
-import SecondaryNavigation from "../../../../components/SecondaryNavigation";
+import Footer from "../../../../../components/Footer";
+import SecondaryNavigation from "../../../../../components/SecondaryNavigation";
 import F1RaceResult from "../../F1RaceResult";
 
 function Silverstone1A() {
