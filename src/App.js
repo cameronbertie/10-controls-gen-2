@@ -11,7 +11,20 @@ import F1Teams from './pages/f1/f1-teams/F1Teams';
 import Melbourne1A from './pages/f1/f1-schedule/season-1/races/Melbourne1A';
 import Silverstone1A from './pages/f1/f1-schedule/season-1/races/Silverstone1A';
 
+import Melbourne2A from './pages/f1/f1-schedule/season-2/races/tier-a/Melbourne2A';
+import Melbourne2B from './pages/f1/f1-schedule/season-2/races/tier-b/Melbourne2B';
+import Portimao from './pages/f1/f1-schedule/season-2/races/Portimao';
+
+import ACC from './pages/acc/ACC';
+import RL from './pages/rl/RL';
+import { useSelector } from "react-redux";
+import { selectTheme } from "./redux/features/themeSlice";
+
+
+
 function App() {
+
+
   return (
     
     <Router>
@@ -29,6 +42,15 @@ function App() {
           <Route path="/f1/teams" element={<F1Teams />} />
           <Route path="/f1/schedule/season-1/tier-a/melbourne" element={<Melbourne1A />} />
           <Route path="/f1/schedule/season-1/tier-a/silverstone" element={<Silverstone1A />} />
+
+          <Route path="/f1/schedule/season-2/tier-a/melbourne" element={<Melbourne2A />} />
+          <Route path="/f1/schedule/season-2/tier-b/melbourne" element={<Melbourne2B />} />
+
+          <Route path="/f1/schedule/season-2/portimao" element={<Portimao />} />
+
+          <Route path="/acc" element={<ACC />} />
+          <Route path="/rl" element={<RL />} />
+          
         </Routes>
         </PageContent>
         </>

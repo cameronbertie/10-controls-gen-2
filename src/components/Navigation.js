@@ -8,6 +8,8 @@ import styled, { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "../styles/globalStyles";
 import { lightTheme, darkTheme } from "../styles/themes";
 import { Link } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { darkMode, lightMode, selectTheme } from "../redux/features/themeSlice";
 
 function Navigation() {
   const [isOpen, setOpen] = useState(false);
@@ -18,9 +20,11 @@ function Navigation() {
     setOpen(false);
   }, [location]);
 
-  const [theme, setTheme] = useState("light");
-  const themeToggler = () => {
-    theme === "light" ? setTheme("dark") : setTheme("light");
+  const theme = useSelector(selectTheme);
+  const dispatch = useDispatch();
+
+   const themeToggler = () => {
+    theme === "light" ? dispatch(darkMode()) : dispatch(lightMode());
   };
 
   return (
@@ -41,7 +45,7 @@ function Navigation() {
               <Link to="/acc">Assetto Corsa Competizione</Link>
             </NavigationLink>
             <NavigationLink>
-              <Link to="/rl/tournaments">Rocket League</Link>
+              <Link to="/rl/">Rocket League</Link>
             </NavigationLink>
           </NavigationLinks>
           <MenuContainer>

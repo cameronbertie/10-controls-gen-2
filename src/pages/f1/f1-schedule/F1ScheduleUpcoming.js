@@ -4,7 +4,7 @@ import styled from "styled-components";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { Link } from "react-router-dom";
 
-function F1ScheduleUpcoming({roundNumber, days, month, raceCountryFlag, raceName, raceDetailLink}) {
+function F1ScheduleUpcoming({roundNumber, days, month, raceCountryFlag, raceName, raceDetailsLink}) {
   return (
     <F1ScheduleUpcomingContainer id="f1ScheduleUpcomingContainer">
       <F1ScheduleUpcomingTop>
@@ -21,7 +21,7 @@ function F1ScheduleUpcoming({roundNumber, days, month, raceCountryFlag, raceName
       <F1ScheduleUpcomingRaceTitle>
           <h4>{raceName}</h4>
         </F1ScheduleUpcomingRaceTitle>
-      <Link to={raceDetailLink}>
+      <Link to={`/f1/schedule/${raceDetailsLink}`}>
       <F1ScheduleUpcomingMiddle id="f1ScheduleUpcomingMiddle">
       <h6>VIEW RACE DETAILS</h6>
       <ArrowForwardIosIcon />
