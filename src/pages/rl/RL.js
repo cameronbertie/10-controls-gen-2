@@ -25,7 +25,7 @@ function RL() {
           In the meantime why don't you check out our F1 22 League races.
         </p>
         <br></br>
-        <a href="/f1"><button>F1 League Racing</button></a>
+        <a href="/f1"><button>Take Me There</button></a>
       </S.Section>
       
       

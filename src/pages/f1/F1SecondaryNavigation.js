@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function F1SecondaryNavigation() {
 
@@ -9,18 +9,10 @@ function F1SecondaryNavigation() {
   return (
     <F1SecondaryNavigationContainer>
       <F1SecondaryNavigationLinks>
-            <h5>
-              <Link to={"/f1/schedule"}>Schedule</Link>
-            </h5>
-            <h5>
-            <Link to={"/f1/standings"}>Standings</Link>
-          </h5>
-          <h5>
-          <Link to={"/f1/teams"}>Teams</Link>
-        </h5>
-        <h5>
-          <Link to={"/f1/register"}>Register</Link>
-        </h5>
+          <F1SecondaryNavigationLink to={"/f1/schedule"}>Schedule</F1SecondaryNavigationLink>
+          <F1SecondaryNavigationLink to={"/f1/standings"}>Standings</F1SecondaryNavigationLink>
+          <F1SecondaryNavigationLink to={"/f1/teams"}>Teams</F1SecondaryNavigationLink>
+          <F1SecondaryNavigationLink to={"/f1/register"}>Register</F1SecondaryNavigationLink>
       </F1SecondaryNavigationLinks>
     </F1SecondaryNavigationContainer>
   );
@@ -40,7 +32,7 @@ const F1SecondaryNavigationContainer = styled.div`
   }
 `;
 
-const F1SecondaryNavigationLinks = styled.div`
+const F1SecondaryNavigationLinks = styled.nav`
   align-items: center;
   -webkit-column-gap: 60px;
   column-gap: 60px;
@@ -50,4 +42,23 @@ const F1SecondaryNavigationLinks = styled.div`
   max-width: 1120px;
   text-align: center;
   margin: 0 auto;
+
+  > a {
+    border-bottom: 2px transparent solid;
+  }
+
+  > a.active {
+    border-bottom: 2px solid;
+    transition: none;
+  }
+`;
+
+const F1SecondaryNavigationLink = styled(NavLink)`
+  padding: 8px 0;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  overflow: hidden;
+  width: auto;
+  font-size: 16px;
 `;

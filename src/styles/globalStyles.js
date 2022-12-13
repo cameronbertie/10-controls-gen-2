@@ -138,6 +138,12 @@ a {
   text-decoration: none !important;
 }
 
+a.active {
+    color: ${({ theme }) => theme.linkHover};
+    
+    border-color: ${({ theme }) => theme.linkHover};
+  }
+
 a:hover {
   color: ${({ theme }) => theme.linkHover};
   transition: 0.3s;
@@ -164,4 +170,52 @@ button:hover {
   border-color: ${({ theme }) => theme.buttonBorderHover};
   color: ${({ theme }) => theme.buttonTextHover}
 }
+
+input {
+  background: none;
+  color: white;
+  border-radius: 25px;
+  border: 1px solid;
+  border-color: ${({ theme }) => theme.borderColor};
+  font-size: 16px;
+  padding: 8px 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  text-transform: none;
+}
+
+select {
+  background: none;
+  color: white;
+  border-radius: 25px;
+  border: 1px solid;
+  border-color: ${({ theme }) => theme.borderColor};
+  font-size: 16px !important;
+  padding: 8px 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: white;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+}
+
+::placeholder {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+}
+
   `;
+
+

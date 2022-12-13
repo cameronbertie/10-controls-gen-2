@@ -15,8 +15,6 @@ export const themeSlice = createSlice({
   },
 });
 
-localStorage.setItem("theme", JSON.stringify(state.theme.theme))
-
 export const { darkMode, lightMode } = themeSlice.actions;
 
 // Selectors

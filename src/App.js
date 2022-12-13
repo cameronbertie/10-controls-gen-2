@@ -8,6 +8,8 @@ import F1 from './pages/f1/F1';
 import F1Schedule from './pages/f1/f1-schedule/F1Schedule';
 import F1Standings from './pages/f1/f1-standings/F1Standings';
 import F1Teams from './pages/f1/f1-teams/F1Teams';
+import F1Register from './pages/f1/f1-register/F1Register';
+
 import Melbourne1A from './pages/f1/f1-schedule/season-1/races/Melbourne1A';
 import Silverstone1A from './pages/f1/f1-schedule/season-1/races/Silverstone1A';
 
@@ -40,6 +42,8 @@ function App() {
           <Route path="/f1/schedule" element={<F1Schedule />} />
           <Route path="/f1/standings" element={<F1Standings />} />
           <Route path="/f1/teams" element={<F1Teams />} />
+          <Route path="/f1/register" element={<F1Register />} />
+          
           <Route path="/f1/schedule/season-1/tier-a/melbourne" element={<Melbourne1A />} />
           <Route path="/f1/schedule/season-1/tier-a/silverstone" element={<Silverstone1A />} />
 

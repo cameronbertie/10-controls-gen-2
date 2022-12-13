@@ -7,7 +7,7 @@ import * as S from "../styles/styles";
 import styled, { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "../styles/globalStyles";
 import { lightTheme, darkTheme } from "../styles/themes";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { darkMode, lightMode, selectTheme } from "../redux/features/themeSlice";
 
@@ -38,15 +38,9 @@ function Navigation() {
             </Link>
           </SiteLogoContainer>
           <NavigationLinks>
-            <NavigationLink>
-              <Link to="/f1">F1 22</Link>
-            </NavigationLink>
-            <NavigationLink>
-              <Link to="/acc">Assetto Corsa Competizione</Link>
-            </NavigationLink>
-            <NavigationLink>
-              <Link to="/rl/">Rocket League</Link>
-            </NavigationLink>
+              <NavigationLink to="/f1">F1 22</NavigationLink>
+              <NavigationLink to="/acc">Assetto Corsa Competizione</NavigationLink>
+              <NavigationLink to="/rl/">Rocket League</NavigationLink>
           </NavigationLinks>
           <MenuContainer>
             <HamburgerIcon toggled={isOpen} toggle={setOpen} />
@@ -138,7 +132,7 @@ const NavigationTop = styled.nav`
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 16px;
   background-color: none;
 
   @media (max-width: 799px) {
@@ -171,9 +165,18 @@ const NavigationLinks = styled.div`
   @media (max-width: 799px) {
     display: none;
   }
+
+  > a {
+    border-bottom: 2px transparent solid;
+  }
+
+  > a.active {
+    border-bottom: 2px solid;
+    transition: none;
+  }
 `;
 
-const NavigationLink = styled.div`
+const NavigationLink = styled(NavLink)`
   padding: 8px 0;
   display: inline-block;
   vertical-align: middle;
