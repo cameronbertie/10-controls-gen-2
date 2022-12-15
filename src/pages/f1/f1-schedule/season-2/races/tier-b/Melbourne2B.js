@@ -9,31 +9,25 @@ import Footer from "../../../../../../components/Footer";
 import F1RaceResult from "../../../F1RaceResult";
 import F1SecondaryNavigation from "../../../../F1SecondaryNavigation";
 
-function Melbourne2A() {
+function Melbourne2B() {
   return (
     <>
       <F1SecondaryNavigation
-        // Please ensure that page titles are in order of how they should be displayed. Make sure that the order of the links match their respected page titles.
-        pages={["Schedule", "Teams", "Standings", "Register"]}
-        links={["/f1/schedule", "/f1/teams", "/f1/standings", "/f1/register"]}
       />
-      {/* <PageHero2
-        mainHeading="Melbourne"
-        subHeading="Season 1 - Tier A - Round 1"
-      /> */}
       <S.Section>
       
-        {/* <CalendarArrowContainer>
+        <CalendarArrowContainer>
           <Link>
             <ArrowPrevious />
           </Link>
-          <Link to={`/f1/schedule/portimao`}>
+          <Link to={`/f1/schedule/season-2/tier-b/portimao`}>
             <ArrowNext />
           </Link>
-        </CalendarArrowContainer> */}
+        </CalendarArrowContainer>
         <h6>Season 2 - Tier B - Round 1</h6>
         <br></br>
         <h2>Melbourne</h2>
+        <h5>Results</h5>
         <br></br>
         <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=-0KDDogT30Y&ab_channel=10Controls"><button>View Race Highlights</button></a>
         <ResultsTable id="resultsTable">
@@ -205,7 +199,7 @@ function Melbourne2A() {
   );
 }
 
-export default Melbourne2A;
+export default Melbourne2B;
 
 const CalendarArrowContainer = styled.div`
   display: flex;

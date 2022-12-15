@@ -172,8 +172,8 @@ button:hover {
 }
 
 input {
-  background: none;
-  color: white;
+  background-color: ${({ theme }) => theme.background};
+  color: ${({ theme }) => theme.text};
   border-radius: 25px;
   border: 1px solid;
   border-color: ${({ theme }) => theme.borderColor};
@@ -185,8 +185,8 @@ input {
 }
 
 select {
-  background: none;
-  color: white;
+  background-color: ${({ theme }) => theme.background};
+  color: ${({ theme }) => theme.text};
   border-radius: 25px;
   border: 1px solid;
   border-color: ${({ theme }) => theme.borderColor};
@@ -198,20 +198,20 @@ select {
 
 ::-webkit-input-placeholder {
   /* Edge */
-  color: white;
+  color: ${({ theme }) => theme.text};
   text-transform: uppercase;
   font-family: "Inter", sans-serif;
 }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: white;
+  color: ${({ theme }) => theme.text};
   text-transform: uppercase;
   font-family: "Inter", sans-serif;
 }
 
 ::placeholder {
-  color: white;
+  color: ${({ theme }) => theme.text};
   text-transform: uppercase;
   font-family: "Inter", sans-serif;
 }

@@ -9,26 +9,26 @@ import Footer from "../../../../../components/Footer";
 import F1RaceResult from "../../F1RaceResult";
 import F1SecondaryNavigation from "../../../F1SecondaryNavigation";
 
-function Portimao() {
+function PaulRicard() {
   return (
     <>
       
       <F1SecondaryNavigation
       />
       <S.Section>
-      <h6>Season 2 - Round 2</h6>
+      <h6>Season 2 - Round 3 - Sprint</h6>
         <br></br>
-        <h1>PORTIMÃO</h1>
+        <h1>Paul Ricard</h1>
         <br></br>
         <hr></hr>
       <RaceDetails>
       <h2>Tier A Race Details</h2>
               <br></br>
               <h3>Practice Lobby</h3>
-              <p>Friday 9th December 2022 - 18:00 GMT</p>
+              <p>Friday 16th December 2022 - 18:00 GMT</p>
               <br></br>
               <h3>Race Starts</h3>
-              <p>Friday 9th December 2022 - 19:30 GMT</p>
+              <p>Friday 16th December 2022 - 19:30 GMT</p>
               <br></br>
               <br></br>
               <br></br>
@@ -36,10 +36,10 @@ function Portimao() {
               <h2>Tier B Race Details</h2>
               <br></br>
               <h3>Practice Lobby</h3>
-              <p>Saturday 10th December 2022 - 18:00 GMT</p>
+              <p>Saturday 17th December 2022 - 18:00 GMT</p>
               <br></br>
               <h3>Race Starts</h3>
-              <p>Saturday 10th December 2022 - 19:30 GMT</p>
+              <p>Saturday 17th December 2022 - 19:30 GMT</p>
               <br></br>
               <br></br>
               <a href="/f1/register"><button>Register Now</button></a>
@@ -55,7 +55,7 @@ function Portimao() {
   );
 }
 
-export default Portimao;
+export default PaulRicard;
 
 const RaceDetails = styled.div`
   

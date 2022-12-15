@@ -9,7 +9,7 @@ import Footer from "../../../../../../components/Footer";
 import F1RaceResult from "../../../F1RaceResult";
 import F1SecondaryNavigation from "../../../../F1SecondaryNavigation";
 
-function Melbourne2A() {
+function Portimao2A() {
   return (
     <>
       <F1SecondaryNavigation
@@ -17,19 +17,19 @@ function Melbourne2A() {
       <S.Section>
       
         <CalendarArrowContainer>
-          <Link>
+          <Link to={`/f1/schedule/season-2/tier-a/melbourne`}>
             <ArrowPrevious />
           </Link>
-          <Link to={`/f1/schedule/season-2/tier-a/portimao`}>
+          {/* <Link to={`/f1/schedule/portimao`}>
             <ArrowNext />
-          </Link>
+          </Link> */}
         </CalendarArrowContainer>
-        <h6>Season 2 - Tier A - Round 1</h6>
+        <h6>Season 2 - Tier A - Round 2</h6>
         <br></br>
-        <h2>Melbourne</h2>
+        <h2>PORTIMÃO</h2>
         <h5>Results</h5>
         <br></br>
-        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=vIwjRb97EXw&ab_channel=10Controls"><button>View Race Highlights</button></a>
+        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=Fzu8GGtsgNg&ab_channel=10Controls"><button>View Race Highlights</button></a>
         <ResultsTable id="resultsTable">
           <tr>
             <th></th>
@@ -199,7 +199,7 @@ function Melbourne2A() {
   );
 }
 
-export default Melbourne2A;
+export default Portimao2A;
 
 const CalendarArrowContainer = styled.div`
   display: flex;
@@ -240,7 +240,6 @@ const DriverDayContainer = styled.div`
 
 const ArrowPrevious = styled(ArrowBackIosNewIcon)`
   font-size: 64px !important;
-  display: none !important;
 
   :hover {
     opacity: 1;
