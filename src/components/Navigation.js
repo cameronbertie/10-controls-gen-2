@@ -109,14 +109,14 @@ function Navigation() {
               </svg>
             </NavigationIcon>
 
-            <NavigationIcon
+            {/* <NavigationIcon
               href="/"
               target="_blank"
               rel="noreferrer"
               label="Join our Minecraft server"
             >
              <img src="/minecraft-logo.png" alt="Minecraft Logo" />
-            </NavigationIcon>
+            </NavigationIcon> */}
           </NavigationIconsContainer>
         </NavigationRight>
       </>

@@ -63,14 +63,14 @@ function Footer() {
         </svg>
       </FooterIcon>
 
-      <FooterIcon
+      {/* <FooterIcon
         href="/"
         target="_blank"
         rel="noreferrer"
         label="Join our Minecraft server"
       >
         <img src="/minecraft-logo.png" alt="Minecraft Logo" />
-      </FooterIcon>
+      </FooterIcon> */}
       </FooterIconsContainer>
       <h6>10 Controls 2022, All rights reserved.</h6>
     </FooterContainer>

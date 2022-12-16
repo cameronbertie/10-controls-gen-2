@@ -62,7 +62,7 @@ function F1RaceResult({
         <h6>{driverName}</h6>
       </td>
       <DriverFlagData>
-        <DriverFlag className="" src={`/flags/${driverFlag}`} />
+        <DriverFlag className="" src={`/flags/${driverFlag}.png`} />
       </DriverFlagData>
       <TeamDetailsData>
         <TeamDetails>

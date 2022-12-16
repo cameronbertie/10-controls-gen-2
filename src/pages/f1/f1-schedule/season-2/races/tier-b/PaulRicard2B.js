@@ -9,22 +9,22 @@ import Footer from "../../../../../../components/Footer";
 import F1RaceResult from "../../../F1RaceResult";
 import F1SecondaryNavigation from "../../../../F1SecondaryNavigation";
 
-function Portimao2B() {
+function PaulRicard2B() {
   return (
     <>
       <F1SecondaryNavigation />
       <S.Section>
         <CalendarArrowContainer>
-          <Link to={`/f1/schedule/season-2/tier-b/melbourne`}>
+          <Link to={`/f1/schedule/season-2/tier-b/portimao`}>
             <ArrowPrevious />
           </Link>
-          <Link to={`/f1/schedule/season-2/tier-b/paul-ricard`}>
+          {/* <Link >
             <ArrowNext />
-          </Link>
+          </Link> */}
         </CalendarArrowContainer>
-        <h6>Season 2 - Tier B - Round 2</h6>
+        <h6>Season 2 - Tier B - Round 3</h6>
         <br></br>
-        <h2>PORTIMÃO</h2>
+        <h2>Paul Ricard</h2>
         <h5>Results</h5>
         <br></br>
         <a
@@ -189,13 +189,170 @@ function Portimao2B() {
       </S.Section>
 
       <S.Section>
+        <h6>Season 2 - Tier B - Round 3</h6>
+        <br></br>
+        <h2>Paul Ricard</h2>
+        <h5>Sprint Results</h5>
+        <br></br>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.youtube.com/watch?v=PrPKO3VKsVM&ab_channel=10Controls"
+        >
+          <button>View Race Highlights</button>
+        </a>
+        <ResultsTable id="resultsTable">
+          <tr>
+            <th></th>
+            <th></th>
+            <DriverFlagHeader></DriverFlagHeader>
+            <TeamDetailsHeader></TeamDetailsHeader>
+            <th>
+              <h6>Time</h6>
+            </th>
+            <th>
+              <h6>Pts</h6>
+            </th>
+          </tr>
+          <F1RaceResult
+            driverPosition="1"
+            driverName="MELON"
+            driverFlag="ro"
+            team="aston-martin"
+            driverTime="49:36.298"
+            driverPoints="+25"
+          />
+          <F1RaceResult
+            driverPosition="2"
+            driverName="STRA"
+            driverFlag="rs"
+            team="mclaren"
+            driverTime="+2.650"
+            driverPoints="+18"
+          />
+          <F1RaceResult
+            driverPosition="3"
+            driverName="MAX HOUSLEY"
+            driverFlag="gb"
+            team="haas"
+            driverTime="+3.394"
+            driverPoints="+15"
+          />
+          <F1RaceResult
+            driverPosition="4"
+            driverName="JSTN NL"
+            driverFlag="nl"
+            team="alpine"
+            driverTime="+6.919"
+            driverPoints="+12"
+          />
+          <F1RaceResult
+            driverPosition="5"
+            driverName="ARAB"
+            driverFlag="us"
+            team="red-bull"
+            driverTime="+9.933"
+            driverPoints="+10"
+          />
+          <F1RaceResult
+            driverPosition="6"
+            driverName="MAXFAN"
+            driverFlag="pl"
+            team="red-bull"
+            driverTime="+14.310"
+            driverPoints="+8"
+          />
+          <F1RaceResult
+            driverPosition="7"
+            driverName="VADE"
+            driverFlag="se"
+            team="alpine"
+            driverTime="+14.671"
+            driverPoints="+6"
+          />
+          <F1RaceResult
+            driverPosition="8"
+            driverName="DOPICHU"
+            driverFlag="fi"
+            team="williams"
+            driverTime="+25.451"
+            driverPoints="+4"
+          />
+          <F1RaceResult
+            driverPosition="9"
+            driverName="ZEROTIX"
+            driverFlag="de"
+            team="alpha-tauri"
+            driverTime="+31.160"
+            driverPoints="+2"
+          />
+          <F1RaceResult
+            driverPosition="10"
+            driverName="ARBITERELITE"
+            driverFlag="it"
+            team="ferrari"
+            driverTime="+33.289"
+            driverPoints="+2"
+          />
+          <F1RaceResult
+            driverPosition="11"
+            driverName="CountMuttly"
+            driverFlag="dk"
+            team="mclaren"
+            driverTime="+1:18.842"
+            driverPoints=""
+          />
+          <F1RaceResult
+            driverPosition="12"
+            driverName="JCOB ADAMCZAK"
+            driverFlag="pl"
+            team="mercedes"
+            driverTime="+3 LAPS"
+            driverPoints=""
+          />
+          <F1RaceResult
+            driverPosition=""
+            driverName="SP3XTRE"
+            driverFlag="se"
+            team="mercedes"
+            driverTime="DNF"
+            driverPoints=""
+          />
+          <F1RaceResult
+            driverPosition=""
+            driverName="ANOLDENEMY"
+            driverFlag="hr"
+            team="aston-martin"
+            driverTime="DNF"
+            driverPoints=""
+          />
+          <F1RaceResult
+            driverPosition=""
+            driverName="LUKAS HENDRYCH"
+            driverFlag="cz"
+            team="ferrari"
+            driverTime="DNF"
+            driverPoints=""
+          />
+          <F1RaceResult
+            driverPosition=""
+            driverName="Bartusg"
+            driverFlag="hu"
+            team="williams"
+            driverTime="DNF"
+            driverPoints=""
+          />
+        </ResultsTable>
+      </S.Section>
+
+      <S.Section>
         <Footer />
       </S.Section>
     </>
   );
 }
 
-export default Portimao2B;
+export default PaulRicard2B;
 
 const CalendarArrowContainer = styled.div`
   display: flex;

@@ -37,13 +37,20 @@ function F1ScheduleSeason2() {
         tierAResultsLink="season-2/tier-a/portimao"
         tierBResultsLink="season-2/tier-b/portimao"
       />
-      <F1ScheduleUpcoming
-        roundNumber="3 - sprint"
-        days="16-17"
-        month="Dec"
-        raceCountryFlag="fr"
-        raceName="Paul Ricard"
-        raceDetailsLink="season-2/paul-ricard"
+      <F1ScheduleCompleted
+         roundNumber="3 - sprint"
+         days="16-17"
+         month="Dec"
+         raceCountryFlag="fr"
+         raceName="Paul Ricard"
+        tierADriver=""
+        tierADriverFlag=""
+        tierADriverTeam=""
+        tierBDriver=""
+        tierBDriverFlag=""
+        tierBDriverTeam=""
+        tierAResultsLink="season-2/tier-a/paul-ricard"
+        tierBResultsLink="season-2/tier-b/paul-ricard"
       />
       <F1ScheduleUpcoming
         roundNumber="4"

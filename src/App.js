@@ -17,8 +17,9 @@ import Melbourne2A from './pages/f1/f1-schedule/season-2/races/tier-a/Melbourne2
 import Melbourne2B from './pages/f1/f1-schedule/season-2/races/tier-b/Melbourne2B';
 import Portimao2A from './pages/f1/f1-schedule/season-2/races/tier-a/Portimao2A';
 import Portimao2B from './pages/f1/f1-schedule/season-2/races/tier-b/Portimao2B';
+import PaulRicard2A from './pages/f1/f1-schedule/season-2/races/tier-a/PaulRicard2A';
+import PaulRicard2B from './pages/f1/f1-schedule/season-2/races/tier-b/PaulRicard2B';
 
-import PaulRicard from "./pages/f1/f1-schedule/season-2/races/PaulRicard";
 import Suzuka from "./pages/f1/f1-schedule/season-2/races/Suzuka";
 import Hungaroring from "./pages/f1/f1-schedule/season-2/races/Hungaroring";
 import Austria from "./pages/f1/f1-schedule/season-2/races/Austria";
@@ -64,8 +65,9 @@ function App() {
           <Route path="/f1/schedule/season-2/tier-b/melbourne" element={<Melbourne2B />} />
           <Route path="/f1/schedule/season-2/tier-a/portimao" element={<Portimao2A />} />
           <Route path="/f1/schedule/season-2/tier-b/portimao" element={<Portimao2B />} />
-
-          <Route path="/f1/schedule/season-2/paul-ricard" element={<PaulRicard />} />
+          <Route path="/f1/schedule/season-2/tier-a/paul-ricard" element={<PaulRicard2A />} />
+          <Route path="/f1/schedule/season-2/tier-b/paul-ricard" element={<PaulRicard2B />} />
+          
           <Route path="/f1/schedule/season-2/suzuka" element={<Suzuka />} />
           <Route path="/f1/schedule/season-2/hungaroring" element={<Hungaroring />} />
           <Route path="/f1/schedule/season-2/austria" element={<Austria />} />

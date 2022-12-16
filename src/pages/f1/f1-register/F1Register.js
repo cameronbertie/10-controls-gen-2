@@ -262,6 +262,7 @@ function F1Register() {
                 placeholder="Player ID"
                 required
               />
+              <img className="form-image" alt="" src="/f1-game-name.jpg"/>
               <select
                 value={platform}
                 onChange={(e) => setPlatform(e.target.value)}
