@@ -3,7 +3,7 @@ import * as S from "../../../../../styles/styles";
 import styled from "styled-components";
 import F1DriverStanding from "../../F1DriverStanding";
 
-function F1StandingsDrivers1A() {
+function F1StandingsDrivers2A() {
   return (
     <>
     <StandingsTable id="standingsTable">
@@ -18,150 +18,150 @@ function F1StandingsDrivers1A() {
       </tr>
       <F1DriverStanding
         driverPosition="1"
-        driverName="Faded"
-        driverFlag="us"
-        team="alpine"
-        driverPoints="195"
+        driverName="ALPHAROMEO"
+        driverFlag="nl"
+        team="williams"
+        driverPoints="72"
       />
       <F1DriverStanding
         driverPosition="2"
-        driverName="Nik Kei"
-        driverFlag="ua"
-        team="mclaren"
-        driverPoints="176"
+        driverName="THOMAS VINK"
+        driverFlag="nl"
+        team="red-bull"
+        driverPoints="36"
       />
       <F1DriverStanding
         driverPosition="3"
-        driverName="Thomas Vink"
-        driverFlag="nl"
-        team="red-bull"
-        driverPoints="172"
+        driverName="FADED"
+        driverFlag="us"
+        team="alpine"
+        driverPoints="36"
       />
       <F1DriverStanding
         driverPosition="4"
-        driverName="Kalcess"
-        driverFlag="no"
-        team="williams"
-        driverPoints="136"
+        driverName="ANTONIO BRANCHIX"
+        driverFlag="it"
+        team="ferrari"
+        driverPoints="34"
       />
       <F1DriverStanding
         driverPosition="5"
-        driverName="Focuser"
+        driverName="ANTONIO CORTES"
         driverFlag="es"
-        team="alfa-romeo"
-        driverPoints="119"
+        team="ferrari"
+        driverPoints="22"
       />
       <F1DriverStanding
         driverPosition="6"
-        driverName="Luca"
+        driverName="COUNTERFEIT"
         driverFlag="gb"
-        team="aston-martin"
-        driverPoints="116"
+        team="mercedes"
+        driverPoints="21"
       />
       <F1DriverStanding
         driverPosition="7"
-        driverName="Cortes"
-        driverFlag="es"
-        team="ferrari"
-        driverPoints="100"
+        driverName="CHEERS"
+        driverFlag="de"
+        team="alpha-tauri"
+        driverPoints="19"
       />
       <F1DriverStanding
         driverPosition="8"
-        driverName="Newman"
-        driverFlag="it"
-        team="ferrari"
-        driverPoints="91"
+        driverName="LUCA"
+        driverFlag="gb"
+        team="mercedes"
+        driverPoints="14"
       />
       <F1DriverStanding
         driverPosition="9"
-        driverName="Flaw"
-        driverFlag="nl"
-        team="haas"
-        driverPoints="77"
+        driverName="FOCUSER"
+        driverFlag="es"
+        team="red-bull"
+        driverPoints="14"
       />
       <F1DriverStanding
         driverPosition="10"
-        driverName="Counterfeit"
-        driverFlag="gb"
-        team="aston-martin"
-        driverPoints="75"
+        driverName="PHILIP"
+        driverFlag="nl"
+        team="haas"
+        driverPoints="12"
       />
       <F1DriverStanding
         driverPosition="11"
-        driverName="Kudos"
+        driverName="IM3J3N"
         driverFlag="de"
-        team="mclaren"
-        driverPoints="67"
+        team="aston-martin"
+        driverPoints="10"
       />
       <F1DriverStanding
         driverPosition="12"
-        driverName="Im3j3n"
+        driverName="KUDOS"
         driverFlag="de"
-        team="mclaren"
-        driverPoints="53"
+        team="aston-martin"
+        driverPoints="6"
       />
       <F1DriverStanding
         driverPosition="13"
-        driverName="AnOldEnemy"
+        driverName="FLAW"
         driverFlag="nl"
-        team="haas"
-        driverPoints="39"
+        team="williams"
+        driverPoints="6"
       />
       <F1DriverStanding
         driverPosition="14"
-        driverName="CountMuttly"
-        driverFlag="dk"
-        team="alfa-romeo"
-        driverPoints="25"
+        driverName="KALCESS"
+        driverFlag="no"
+        team="alpha-tauri"
+        driverPoints="6"
       />
       <F1DriverStanding
         driverPosition="15"
-        driverName="Jaysen"
+        driverName="BRIM"
         driverFlag="nl"
-        team="alpha-tauri"
-        driverPoints="20"
-      />
-      <F1DriverStanding
-        driverPosition="16"
-        driverName="LawrenceSelling"
-        driverFlag="ph"
-        team="williams"
-        driverPoints="4"
-      />
-      <F1DriverStanding
-        driverPosition="17"
-        driverName="Kyan"
-        driverFlag="nl"
-        team="alpha-tauri"
+        team="mclaren"
         driverPoints="3"
       />
       <F1DriverStanding
-        driverPosition="18"
-        driverName="Hailee"
+        driverPosition="16"
+        driverName="NYDROW"
+        driverFlag="be"
+        team="alfa-romeo"
+        driverPoints="3"
+      />
+      <F1DriverStanding
+        driverPosition="17"
+        driverName="LUC"
         driverFlag="nl"
-        team="red-bull"
-        driverPoints="OUT"
+        team="mclaren"
+        driverPoints="0"
+      />
+      <F1DriverStanding
+        driverPosition="18"
+        driverName="VEIXEL"
+        driverFlag="se"
+        team="alfa-romeo"
+        driverPoints="0"
       />
       <F1DriverStanding
         driverPosition="19"
-        driverName="Mute"
-        driverFlag="ng"
-        team="mercedes"
-        driverPoints="OUT"
+        driverName="DANIEL BODNAR"
+        driverFlag="sk"
+        team="haas"
+        driverPoints="0"
       />
       <F1DriverStanding
         driverPosition="20"
-        driverName="EddyWorth"
-        driverFlag="fr"
-        team="mercedes"
-        driverPoints="OUT"
+        driverName="NIK KEI"
+        driverFlag="ua"
+        team="alpine"
+        driverPoints="0"
       />
     </StandingsTable>
     </>
   );
 }
 
-export default F1StandingsDrivers1A;
+export default F1StandingsDrivers2A;
 
 const StandingsTable = styled.table`
   width: 100%;

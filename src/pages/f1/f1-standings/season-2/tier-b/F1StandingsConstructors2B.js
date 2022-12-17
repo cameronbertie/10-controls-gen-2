@@ -3,7 +3,7 @@ import * as S from "../../../../../styles/styles";
 import styled from "styled-components";
 import F1ConstructorStanding from "../../F1ConstructorStanding";
 
-function F1Standingsconstructors1B() {
+function F1StandingsConstructors2B() {
   return (
     <>
     <StandingsTable id="standingsTable">
@@ -16,60 +16,60 @@ function F1Standingsconstructors1B() {
       </tr>
       <F1ConstructorStanding
         constructorPosition="1"
-        team="ferrari"
-        constructorPoints="338"
+        team="haas"
+        constructorPoints="40"
       />
       <F1ConstructorStanding
         constructorPosition="2"
-        team="alfa-romeo"
-        constructorPoints="283"
+        team="mclaren"
+        constructorPoints="30"
       />
       <F1ConstructorStanding
         constructorPosition="3"
-        team="mercedes"
-        constructorPoints="177"
+        team="red-bull"
+        constructorPoints="28"
       />
       <F1ConstructorStanding
         constructorPosition="4"
-        team="haas"
-        constructorPoints="167"
+        team="alpine"
+        constructorPoints="26"
       />
       <F1ConstructorStanding
         constructorPosition="5"
-        team="red-bull"
-        constructorPoints="146"
+        team="aston-martin"
+        constructorPoints="25"
       />
       <F1ConstructorStanding
         constructorPosition="6"
-        team="williams"
-        constructorPoints="145"
+        team="mercedes"
+        constructorPoints="18"
       />
       <F1ConstructorStanding
         constructorPosition="7"
-        team="mclaren"
-        constructorPoints="144"
+        team="alpha-tauri"
+        constructorPoints="17"
       />
       <F1ConstructorStanding
         constructorPosition="8"
-        team="alpha-tauri"
-        constructorPoints="132"
+        team="williams"
+        constructorPoints="6"
       />
       <F1ConstructorStanding
         constructorPosition="9"
-        team="aston-martin"
-        constructorPoints="59"
+        team="alfa-romeo"
+        constructorPoints="4"
       />
       <F1ConstructorStanding
         constructorPosition="10"
-        team="alpine"
-        constructorPoints="44"
+        team="ferrari"
+        constructorPoints="2"
       />
     </StandingsTable>
     </>
   );
 }
 
-export default F1Standingsconstructors1B;
+export default F1StandingsConstructors2B;
 
 const StandingsTable = styled.table`
   width: 100%;

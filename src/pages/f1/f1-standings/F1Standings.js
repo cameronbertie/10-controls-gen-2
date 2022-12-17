@@ -6,6 +6,12 @@ import Footer from "../../../components/Footer";
 import F1StandingsDrivers1A from "./season-1/tier-a/F1StandingsDrivers1A";
 import F1StandingsConstructors1A from "./season-1/tier-a/F1StandingsConstructors1A";
 import F1SecondaryNavigation from "../F1SecondaryNavigation";
+import F1StandingsDrivers1B from "./season-1/tier-b/F1StandingsDrivers1B";
+import F1StandingsDrivers2B from "./season-2/tier-b/F1StandingsDrivers2B";
+import F1StandingsConstructors2B from "./season-2/tier-b/F1StandingsConstructors2B";
+import F1StandingsConstructors1B from "./season-1/tier-b/F1StandingsConstructors1B";
+import F1StandingsConstructors2A from "./season-2/tier-a/F1StandingsConstructors2A";
+import F1StandingsDrivers2A from "./season-2/tier-a/F1StandingsDrivers2A";
 // import F1StandingsDrivers1B from "./season-1/tier-b/F1StandingsDrivers1B";
 // import F1StandingsConstructors1B from "./season-1/tier-b/F1StandingsDrivers1B";
 // import F1StandingsDrivers2A from "./season-2/tier-a/F1StandingsDrivers2A";
@@ -23,8 +29,7 @@ function F1Standings() {
         mainHeading="F1 22 Standings"
         subHeading="Who's bringing home the championship?"
       />
-      <F1SecondaryNavigation
-      />
+      <F1SecondaryNavigation />
       <S.Section>
         <F1StandingsOuterContainer>
           <div>
@@ -70,11 +75,12 @@ function F1Standings() {
             </F1StandingsMenuContainer>
           </div>
           <div>
-          <F1StandingsMenuTitle>Other Championships</F1StandingsMenuTitle>
+            <F1StandingsMenuTitle>Other Championships</F1StandingsMenuTitle>
             <F1StandingsMenuContainer>
               <button
                 style={{
-                  display: selectedChampionship === "Constructors'" ? "none" : "block",
+                  display:
+                    selectedChampionship === "Constructors'" ? "none" : "block",
                 }}
                 onClick={() => setSelectedChampionship("Constructors'")}
               >
@@ -82,7 +88,8 @@ function F1Standings() {
               </button>
               <button
                 style={{
-                  display: selectedChampionship === "Drivers'" ? "none" : "block",
+                  display:
+                    selectedChampionship === "Drivers'" ? "none" : "block",
                 }}
                 onClick={() => setSelectedChampionship("Drivers'")}
               >
@@ -91,28 +98,42 @@ function F1Standings() {
             </F1StandingsMenuContainer>
           </div>
         </F1StandingsOuterContainer>
-        <F1StandingsPreTitle>{selectedSeason} - {selectedTier}</F1StandingsPreTitle>
+        <F1StandingsPreTitle>
+          {selectedSeason} - {selectedTier}
+        </F1StandingsPreTitle>
         <F1StandingsTitle>{selectedChampionship} Championship</F1StandingsTitle>
         <F1StandingsGrid>
-        <F1StandingsDrivers1A />
-        <F1StandingsConstructors1A />
-          {/* {selectedTier === "Tier A" && selectedSeason === "Season 1" ? (
-            <>
-              <F1StandingsDrivers1A /> <F1StandingsConstructors1A />
-            </>
-          ) : selectedTier === "Tier B" && selectedSeason === "Season 1" ? (
-            <>
-              <F1StandingsDrivers1B /> <F1StandingsConstructors1B />
-            </>
-          ) : selectedTier === "Tier A" && selectedSeason === "Season 2" ? (
-            <>
-              <F1StandingsDrivers2A /> <F1StandingsConstructors2A />
-            </>
-          ) : (
-            <>
-              <F1StandingsDrivers2B /> <F1StandingsConstructors2B />
-            </>
-          )} */}
+          {selectedTier === "Tier A" &&
+          selectedSeason === "Season 1" &&
+          selectedChampionship === "Drivers'" ? (
+            <F1StandingsDrivers1A />
+          ) : selectedTier === "Tier A" &&
+            selectedSeason === "Season 1" &&
+            selectedChampionship === "Constructors'" ? (
+            <F1StandingsConstructors1A />
+          ) : selectedTier === "Tier B" &&
+            selectedSeason === "Season 1" &&
+            selectedChampionship === "Drivers'" ? (
+            <F1StandingsDrivers1B />
+          ) : selectedTier === "Tier B" &&
+            selectedSeason === "Season 1" &&
+            selectedChampionship === "Constructors'" ? (
+            <F1StandingsConstructors1B />
+          ) : selectedTier === "Tier A" &&
+            selectedSeason === "Season 2" &&
+            selectedChampionship === "Drivers'" ? (
+            <F1StandingsDrivers2A />
+          ) : selectedTier === "Tier A" &&
+            selectedSeason === "Season 2" &&
+            selectedChampionship === "Constructors'" ? (
+            <F1StandingsConstructors2A />
+          ) : selectedTier === "Tier B" &&
+            selectedSeason === "Season 2" &&
+            selectedChampionship === "Drivers'" ? (
+            <F1StandingsDrivers2B />
+          ) : 
+            <F1StandingsConstructors2B />
+          }
         </F1StandingsGrid>
       </S.Section>
       <S.Section>

@@ -29,7 +29,7 @@ function PaulRicard2A() {
         <h2>Paul Ricard</h2>
         <h5>Results</h5>
         <br></br>
-        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=Fzu8GGtsgNg&ab_channel=10Controls"><button>View Race Highlights</button></a>
+        {/* <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=Fzu8GGtsgNg&ab_channel=10Controls"><button>View Race Highlights</button></a> */}
         <ResultsTable id="resultsTable">
           <tr>
             <th></th>
@@ -45,74 +45,74 @@ function PaulRicard2A() {
           </tr>
           <F1RaceResult
             driverPosition="1"
-            driverName="Melon"
-            driverFlag="ro"
-            team="aston-martin"
-            driverTime="46:23.716"
+            driverName="ALPHAROMEO"
+            driverFlag="nl"
+            team="williams"
+            driverTime="43:00.630"
             driverPoints="+25"
           />
           <F1RaceResult
             driverPosition="2"
-            driverName="ANTONIO BRANCHIX"
-            driverFlag="it"
-            team="ferrari"
-            driverTime="+12.773"
+            driverName="THOMAS VINK"
+            driverFlag="nl"
+            team="red-bull"
+            driverTime="+0.571"
             driverPoints="+18"
           />
           <F1RaceResult
             driverPosition="3"
-            driverName="ALPHAROMEO"
-            driverFlag="nl"
-            team="williams"
-            driverTime="+14.422"
+            driverName="FADED"
+            driverFlag="us"
+            team="alpine"
+            driverTime="+10.068"
             driverPoints="+15"
           />
           <F1RaceResult
             driverPosition="4"
-            driverName="THOMAS VINK"
-            driverFlag="nl"
-            team="red-bull"
-            driverTime="+14.433"
+            driverName="Antonio Cortes"
+            driverFlag="es"
+            team="ferrari"
+            driverTime="+11.937"
             driverPoints="+12"
           />
           <F1RaceResult
             driverPosition="5"
-            driverName="Cortes"
-            driverFlag="es"
-            team="ferrari"
-            driverTime="+17.300"
+            driverName="Cheers"
+            driverFlag="de"
+            team="alpha-tauri"
+            driverTime="+13.167"
             driverPoints="+10"
           />
           <F1RaceResult
             driverPosition="6"
-            driverName="LUCA"
-            driverFlag="gb"
-            team="mercedes"
-            driverTime="+26.437"
+            driverName="ANTONIO BRANCHIX"
+            driverFlag="it"
+            team="ferrari"
+            driverTime="+21.960"
             driverPoints="+8"
           />
           <F1RaceResult
             driverPosition="7"
-            driverName="FLAW"
-            driverFlag="nl"
-            team="williams"
-            driverTime="+34.512"
+            driverName="LUCA"
+            driverFlag="gb"
+            team="mercedes"
+            driverTime="+26.892"
             driverPoints="+6"
           />
           <F1RaceResult
             driverPosition="8"
-            driverName="FOCUSER"
-            driverFlag="es"
-            team="red-bull"
-            driverTime="+35.596"
+            driverName="KUDOS"
+            driverFlag="de"
+            team="aston-martin"
+            driverTime="+27.445"
             driverPoints="+4"
           />
           <F1RaceResult
             driverPosition="9"
-            driverName="NYDROW"
-            driverFlag="be"
-            team="alfa-romeo"
-            driverTime="+36.114"
+            driverName="COUNTERFEIT"
+            driverFlag="gb"
+            team="mercedes"
+            driverTime="+35.876"
             driverPoints="+2"
           />
           <F1RaceResult
@@ -120,91 +120,59 @@ function PaulRicard2A() {
             driverName="BRIM"
             driverFlag="nl"
             team="mclaren"
-            driverTime="+40.807"
+            driverTime="+38.839"
             driverPoints="+1"
           />
           <F1RaceResult
             driverPosition="11"
-            driverName="PHILIP"
+            driverName="LUC"
             driverFlag="nl"
-            team="haas"
-            driverTime="+42.160"
+            team="mclaren"
+            driverTime="+48.470"
             driverPoints=""
           />
           <F1RaceResult
             driverPosition="12"
-            driverName="COUNTERFEIT"
-            driverFlag="gb"
-            team="mercedes"
-            driverTime="+45.189"
+            driverName="Maxfan"
+            driverFlag="pl"
+            team="red-bull"
+            driverTime="+1:04.567"
             driverPoints=""
           />
           <F1RaceResult
             driverPosition="13"
-            driverName="DANIEL BODNAR"
-            driverFlag="sk"
-            team="alfa-romeo"
-            driverTime="+45.189"
+            driverName="Im3j3n"
+            driverFlag="de"
+            team="aston-martin"
+            driverTime="+1:06.859"
             driverPoints=""
           />
           <F1RaceResult
             driverPosition="14"
-            driverName="LUC"
+            driverName="PHILIP"
             driverFlag="nl"
-            team="mclaren"
-            driverTime="+1:23.012"
-            driverPoints=""
-          />
-          <F1RaceResult
-            driverPosition="15"
-            driverName="Zerotix"
-            driverFlag="de"
-            team="alpha-tauri"
+            team="haas"
             driverTime="+1 LAP"
             driverPoints=""
           />
           <F1RaceResult
             driverPosition=""
-            driverName="FADED"
-            driverFlag="us"
-            team="alpine"
-            driverTime="DNF"
-            driverPoints=""
-          />
-          <F1RaceResult
-            driverPosition=""
-            driverName="KUDOS"
-            driverFlag="de"
-            team="aston-martin"
-            driverTime="DNF"
-            driverPoints=""
-          />
-          <F1RaceResult
-            driverPosition=""
-            driverName="VEIXEL"
-            driverFlag="se"
+            driverName="NYDROW"
+            driverFlag="be"
             team="alfa-romeo"
-            driverTime="DNF"
-            driverPoints=""
-          />
-          <F1RaceResult
-            driverPosition=""
-            driverName="NIK KEI"
-            driverFlag="gb"
-            team="alpine"
             driverTime="DNF"
             driverPoints=""
           />
         </ResultsTable>
 
         <FastestLapContainer>
-          <h6>Fastest Lap: ANTONIO BRANCHIX</h6>
-          <img src="/teams/ferrari.png" alt=""/>
-          <h6>1:19.494</h6>
+          <h6>Fastest Lap: Philip</h6>
+          <img src="/teams/haas.png" alt=""/>
+          <h6>1:31.775</h6>
         </FastestLapContainer>
         <DriverDayContainer>
-          <h6>Driver Of The Day: Focuser</h6>
-          <img src="/teams/red-bull.png" alt=""/>
+          <h6>Driver Of The Day: Antonio Cortes</h6>
+          <img src="/teams/ferrari.png" alt=""/>
         </DriverDayContainer>
         </S.Section>
 
@@ -214,7 +182,7 @@ function PaulRicard2A() {
         <h2>Paul Ricard</h2>
         <h5>Sprint Results</h5>
         <br></br>
-        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=Fzu8GGtsgNg&ab_channel=10Controls"><button>View Race Highlights</button></a>
+        {/* <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=Fzu8GGtsgNg&ab_channel=10Controls"><button>View Race Highlights</button></a> */}
         <ResultsTable id="resultsTable">
           <tr>
             <th></th>
@@ -230,153 +198,121 @@ function PaulRicard2A() {
           </tr>
           <F1RaceResult
             driverPosition="1"
-            driverName="Melon"
-            driverFlag="ro"
-            team="aston-martin"
-            driverTime="46:23.716"
-            driverPoints="+25"
-          />
-          <F1RaceResult
-            driverPosition="2"
             driverName="ANTONIO BRANCHIX"
             driverFlag="it"
             team="ferrari"
-            driverTime="+12.773"
-            driverPoints="+18"
-          />
-          <F1RaceResult
-            driverPosition="3"
-            driverName="ALPHAROMEO"
-            driverFlag="nl"
-            team="williams"
-            driverTime="+14.422"
-            driverPoints="+15"
-          />
-          <F1RaceResult
-            driverPosition="4"
-            driverName="THOMAS VINK"
-            driverFlag="nl"
-            team="red-bull"
-            driverTime="+14.433"
-            driverPoints="+12"
-          />
-          <F1RaceResult
-            driverPosition="5"
-            driverName="Cortes"
-            driverFlag="es"
-            team="ferrari"
-            driverTime="+17.300"
-            driverPoints="+10"
-          />
-          <F1RaceResult
-            driverPosition="6"
-            driverName="LUCA"
-            driverFlag="gb"
-            team="mercedes"
-            driverTime="+26.437"
+            driverTime="16:07.947"
             driverPoints="+8"
           />
           <F1RaceResult
-            driverPosition="7"
-            driverName="FLAW"
+            driverPosition="2"
+            driverName="ALPHAROMEO"
             driverFlag="nl"
             team="williams"
-            driverTime="+34.512"
+            driverTime="+0.827"
+            driverPoints="+7"
+          />
+          <F1RaceResult
+            driverPosition="3"
+            driverName="THOMAS VINK"
+            driverFlag="nl"
+            team="red-bull"
+            driverTime="+0.929"
             driverPoints="+6"
           />
           <F1RaceResult
-            driverPosition="8"
-            driverName="FOCUSER"
-            driverFlag="es"
-            team="red-bull"
-            driverTime="+35.596"
+            driverPosition="4"
+            driverName="Cheers"
+            driverFlag="de"
+            team="alpha-tauri"
+            driverTime="+2.578"
+            driverPoints="+5"
+          />
+          <F1RaceResult
+            driverPosition="5"
+            driverName="COUNTERFEIT"
+            driverFlag="gb"
+            team="mercedes"
+            driverTime="+6.674"
             driverPoints="+4"
           />
           <F1RaceResult
-            driverPosition="9"
-            driverName="NYDROW"
-            driverFlag="be"
-            team="alfa-romeo"
-            driverTime="+36.114"
+            driverPosition="6"
+            driverName="FADED"
+            driverFlag="us"
+            team="alpine"
+            driverTime="+8.513"
+            driverPoints="+3"
+          />
+          <F1RaceResult
+            driverPosition="7"
+            driverName="Im3j3n"
+            driverFlag="de"
+            team="aston-martin"
+            driverTime="+9.987"
             driverPoints="+2"
           />
           <F1RaceResult
-            driverPosition="10"
-            driverName="BRIM"
-            driverFlag="nl"
-            team="mclaren"
-            driverTime="+40.807"
+            driverPosition="8"
+            driverName="NYDROW"
+            driverFlag="be"
+            team="alfa-romeo"
+            driverTime="+10.223"
             driverPoints="+1"
           />
           <F1RaceResult
-            driverPosition="11"
-            driverName="PHILIP"
+            driverPosition="9"
+            driverName="BRIM"
             driverFlag="nl"
-            team="haas"
-            driverTime="+42.160"
+            team="mclaren"
+            driverTime="+10.953"
+            driverPoints=""
+          />
+          <F1RaceResult
+            driverPosition="10"
+            driverName="LUCA"
+            driverFlag="gb"
+            team="mercedes"
+            driverTime="+11.373"
+            driverPoints=""
+          />
+          <F1RaceResult
+            driverPosition="11"
+            driverName="LUC"
+            driverFlag="nl"
+            team="mclaren"
+            driverTime="+11.693"
             driverPoints=""
           />
           <F1RaceResult
             driverPosition="12"
-            driverName="COUNTERFEIT"
-            driverFlag="gb"
-            team="mercedes"
-            driverTime="+45.189"
+            driverName="Maxfan"
+            driverFlag="pl"
+            team="red-bull"
+            driverTime="+18.254"
             driverPoints=""
           />
           <F1RaceResult
             driverPosition="13"
-            driverName="DANIEL BODNAR"
-            driverFlag="sk"
-            team="alfa-romeo"
-            driverTime="+45.189"
+            driverName="KUDOS"
+            driverFlag="de"
+            team="aston-martin"
+            driverTime="+19.637"
             driverPoints=""
           />
           <F1RaceResult
             driverPosition="14"
-            driverName="LUC"
+            driverName="PHILIP"
             driverFlag="nl"
-            team="mclaren"
-            driverTime="+1:23.012"
-            driverPoints=""
-          />
-          <F1RaceResult
-            driverPosition="15"
-            driverName="Zerotix"
-            driverFlag="de"
-            team="alpha-tauri"
-            driverTime="+1 LAP"
+            team="haas"
+            driverTime="+20.658"
             driverPoints=""
           />
           <F1RaceResult
             driverPosition=""
-            driverName="FADED"
-            driverFlag="us"
-            team="alpine"
-            driverTime="DNF"
-            driverPoints=""
-          />
-          <F1RaceResult
-            driverPosition=""
-            driverName="KUDOS"
-            driverFlag="de"
-            team="aston-martin"
-            driverTime="DNF"
-            driverPoints=""
-          />
-          <F1RaceResult
-            driverPosition=""
-            driverName="VEIXEL"
-            driverFlag="se"
-            team="alfa-romeo"
-            driverTime="DNF"
-            driverPoints=""
-          />
-          <F1RaceResult
-            driverPosition=""
-            driverName="NIK KEI"
-            driverFlag="gb"
-            team="alpine"
+            driverName="Antonio Cortes"
+            driverFlag="es"
+            team="ferrari"
             driverTime="DNF"
             driverPoints=""
           />

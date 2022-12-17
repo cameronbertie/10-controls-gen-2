@@ -3,7 +3,7 @@ import * as S from "../../../../../styles/styles";
 import styled from "styled-components";
 import F1ConstructorStanding from "../../F1ConstructorStanding";
 
-function F1Standingsconstructors1A() {
+function F1StandingsConstructors1A() {
   return (
     <>
     <StandingsTable id="standingsTable">
@@ -69,7 +69,7 @@ function F1Standingsconstructors1A() {
   );
 }
 
-export default F1Standingsconstructors1A;
+export default F1StandingsConstructors1A;
 
 const StandingsTable = styled.table`
   width: 100%;
