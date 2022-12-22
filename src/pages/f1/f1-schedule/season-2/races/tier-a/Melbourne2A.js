@@ -133,7 +133,7 @@ function Melbourne2A() {
           />
           <F1RaceResult
             driverPosition="12"
-            driverName="LUCA"
+            driverName="LUCADUDE40"
             driverFlag="gb"
             team="mercedes"
             driverTime="+45.768"

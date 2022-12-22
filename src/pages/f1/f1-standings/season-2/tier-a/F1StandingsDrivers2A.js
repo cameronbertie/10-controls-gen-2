@@ -67,7 +67,7 @@ function F1StandingsDrivers2A() {
       />
       <F1DriverStanding
         driverPosition="8"
-        driverName="LUCA"
+        driverName="LUCADUDE40"
         driverFlag="gb"
         team="mercedes"
         driverPoints="14"

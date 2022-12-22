@@ -19,15 +19,15 @@ function F1Schedule() {
       <F1SecondaryNavigation
       />
       <S.Section>
-      <F1ScheduleMenuTitle>Other Seasons</F1ScheduleMenuTitle>
+      {/* <F1ScheduleMenuTitle>Other Seasons</F1ScheduleMenuTitle> */}
       <F1ScheduleMenuContainer>
-          <button
+          {/* <button
             className="races-menu-link"
             style={{ display: selectedSeason === 'Season 1' ? 'none' : 'block' }}
             onClick={() => setSelectedSeason("Season 1")}
           >
             Season 1
-          </button>
+          </button> */}
           <button
             className="races-menu-link"
             style={{ display: selectedSeason === 'Season 2' ? 'none' : 'block' }}

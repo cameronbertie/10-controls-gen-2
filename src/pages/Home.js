@@ -13,33 +13,29 @@ function Home() {
         <h3>EUROPE’S NEW HOME FOR COMPETITIVE GAMING AND ESPORTS TOURNAMENTS</h3>
       </S.Section>
       <FeaturedSingle
-        // Required Image Size - 1280x720
         imageURL="/rl-hero-bg.jpg"
-        heading="Rocket League Tournaments Have Returned To 10 Controls"
+        heading="10 Controls sets off for Season 2 of F1 22 League racing. Why not take a look at the race calendar"
         siteURL="rl/tournaments"
       />
       <FeaturedDouble
-        // Required Image Size - 720x720
         firstImageURL="/f1-featured-image.png"
-        firstHeading="Rocket League Tournaments Have Returned To 10 Controls"
-        firstSiteURL="rl/tournaments"
+        firstHeading="Check out the 10 Controls YouTube channel for some unmissable content"
+        firstSiteURL="f1/standings"
         secondImageURL="/rocket-league-feature.png"
-        secondHeading="Rocket League Tournaments Have Returned To 10 Controls"
-        secondSiteURL="rl/tournaments"
+        secondHeading="Follow 10 Controls on twitch so you don't miss our next broadcast"
+        secondSiteURL="f1/standings"
       />
       <FeaturedSingle
-        // Required Image Size - 1280x720
         imageURL="/rl-hero-bg.jpg"
-        heading="Rocket League Tournaments Have Returned To 10 Controls"
+        heading="Meet the new drivers taking part in the second season of 10 controls f1 league racing"
         siteURL="rl/tournaments"
       />
       <FeaturedDouble
-        // Required Image Size - 720x720
         firstImageURL="/f1-featured-image.png"
-        firstHeading="Rocket League Tournaments Have Returned To 10 Controls"
+        firstHeading="ASSETTO CORSA COMPETIZIONE league races are coming to 10 controls soon"
         firstSiteURL="rl/tournaments"
         secondImageURL="/rocket-league-feature.png"
-        secondHeading="Rocket League Tournaments Have Returned To 10 Controls"
+        secondHeading="Rocket League Tournaments will return to 10 controls soon"
         secondSiteURL="rl/tournaments"
       />
       <S.Section>

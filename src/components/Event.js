@@ -10,6 +10,7 @@ function Events({ eventName, eventDescription, eventButtonText, eventButtonLink,
             <EventContainerImage style={{backgroundImage: `url(${eventImageURL})`}} />
             <EventContainerText>
             <h2>{eventName}</h2>
+            <br></br>
             <p>{eventDescription}</p>
             </EventContainerText>
           </EventContainerLeft>
@@ -44,24 +45,34 @@ const EventContainerLeft = styled.div`
   display: flex;
   flex-direction: row;
   column-gap: 25px;
+  width: 70%;
+
+  @media (max-width: 799px) {
+    width: 100%;
+  }
 `;
 
 const EventContainerImage = styled.div`
   height: 100px;
   width: 100px;
+  min-width: 100px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
+
+  @media (max-width: 799px) {
+    width: 100px;
+  }
+  
 `;
 
 const EventContainerRight = styled.div`
-
   @media (max-width: 799px) {
     margin-left: 125px;
   }
 `;
 
 const EventContainerText = styled.div`
-  
+ 
 `;

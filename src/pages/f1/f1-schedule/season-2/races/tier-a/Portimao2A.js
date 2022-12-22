@@ -77,7 +77,7 @@ function Portimao2A() {
           />
           <F1RaceResult
             driverPosition="5"
-            driverName="Cortes"
+            driverName="Antonio Cortes"
             driverFlag="es"
             team="ferrari"
             driverTime="+17.300"
@@ -85,7 +85,7 @@ function Portimao2A() {
           />
           <F1RaceResult
             driverPosition="6"
-            driverName="LUCA"
+            driverName="LUCADUDE40"
             driverFlag="gb"
             team="mercedes"
             driverTime="+26.437"
@@ -190,7 +190,7 @@ function Portimao2A() {
           <F1RaceResult
             driverPosition=""
             driverName="NIK KEI"
-            driverFlag="gb"
+            driverFlag="ua"
             team="alpine"
             driverTime="DNF"
             driverPoints=""

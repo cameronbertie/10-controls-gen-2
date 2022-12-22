@@ -16,9 +16,9 @@ function Austria() {
       <F1SecondaryNavigation
       />
       <S.Section>
-      <h6>Season 2 - Round 6</h6>
+      <h6>Season 2 - Round 6 - Sprint</h6>
         <br></br>
-        <h1>Austria</h1>
+        <h1>Spielberg</h1>
         <br></br>
         <hr></hr>
       <RaceDetails>

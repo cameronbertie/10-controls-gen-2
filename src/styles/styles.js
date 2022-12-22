@@ -61,6 +61,7 @@ export const SectionFull = styled.section`
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  object-fit: cover;
 
   @media (max-width: 1023px) {
     padding: 30px 0;

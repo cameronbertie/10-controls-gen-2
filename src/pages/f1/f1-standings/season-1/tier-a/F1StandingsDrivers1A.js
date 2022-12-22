@@ -27,7 +27,7 @@ function F1StandingsDrivers1A() {
         driverPosition="2"
         driverName="Nik Kei"
         driverFlag="ua"
-        team="mclaren"
+        team="alpine"
         driverPoints="176"
       />
       <F1DriverStanding

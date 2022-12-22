@@ -7,7 +7,7 @@ function FeaturedSingle({ heading, imageURL, siteURL }) {
   return (
     <S.Section>
       <FeaturedSingleContainer to={siteURL}>
-        <img src={imageURL} alt="" />
+        <FeaturedSingleImage style={{backgroundImage: `url(${imageURL})`}}></FeaturedSingleImage>
         <h2>{heading}</h2>
       </FeaturedSingleContainer>
     </S.Section>
@@ -27,10 +27,13 @@ const FeaturedSingleContainer = styled(Link)`
     text-decoration: underline !important;
     transition: 0.3s;
   }
+`;
 
-  > img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
+const FeaturedSingleImage = styled.div`
+width: 100%;
+aspect-ratio: 16 / 9;
+border-radius: 10px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 `;

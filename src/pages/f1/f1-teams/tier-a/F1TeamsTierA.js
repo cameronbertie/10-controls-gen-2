@@ -22,7 +22,7 @@ function F1TeamsTierA() {
       />
       <F1Team
         team="mercedes"
-        driver1Name="Luca"
+        driver1Name="LucaDude40"
         driver1flag="gb"
         driver2Name="Counterfeit"
         driver2flag="gb"

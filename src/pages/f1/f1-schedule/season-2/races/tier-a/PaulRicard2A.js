@@ -93,7 +93,7 @@ function PaulRicard2A() {
           />
           <F1RaceResult
             driverPosition="7"
-            driverName="LUCA"
+            driverName="LUCADUDE40"
             driverFlag="gb"
             team="mercedes"
             driverTime="+26.892"
@@ -270,7 +270,7 @@ function PaulRicard2A() {
           />
           <F1RaceResult
             driverPosition="10"
-            driverName="LUCA"
+            driverName="LUCADUDE40"
             driverFlag="gb"
             team="mercedes"
             driverTime="+11.373"

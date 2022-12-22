@@ -13,7 +13,7 @@ function F1TeamsTierB() {
       <F1Team  team="mclaren" driver1Name="CountMuttly" driver1flag="dk" driver2Name="Stra" driver2flag="rs" />
       <F1Team  team="alfa-romeo" driver1Name="SovietKing" driver1flag="au" driver2Name="Bald" driver2flag="ie" />
       <F1Team  team="aston-martin" driver1Name="AnOldEnemy" driver1flag="hr" driver2Name="Melon" driver2flag="ro" />
-      <F1Team  team="haas" driver1Name="Max Housley" driver1flag="gb" driver2Name="Kjaerbo" driver2flag="dk" />
+      <F1Team  team="haas" driver1Name="Max Housley" driver1flag="gb" driver2Name="JASPER" driver2flag="gb" />
       <F1Team  team="alpha-tauri" driver1Name="Manuel" driver1flag="it" driver2Name="Zerotix" driver2flag="de" />
       <F1Team  team="williams" driver1Name="Kogoda" driver1flag="ie" driver2Name="BartusG" driver2flag="hu" />
     </>

@@ -19,20 +19,40 @@ function F1() {
         backgroundImageURL="/f1-mclaren-screenshot.jpg"
       />
       <F1SecondaryNavigation />
+      <Video videoEmbedURL="YH3yCDOu35U" />
       <S.Section>
         <hr />
-        <h2>We value fair racing above all</h2>
+        <h2>Why Race with 10 Controls?</h2>
       </S.Section>
       <S.Section>
-        <p>
-          TWO TIER FORMAT WITH A PROMOTION/RELEGATION SYSTEM. WEEKLY SCHEDULED
-          RACES FOR BOTH TIERS. 50% RACE WITH SHORT QUALIFYING.
-        </p>
+        <p>TWO TIER FORMAT WITH A PROMOTION/RELEGATION SYSTEM</p>
+        <br></br>
+        <p> WEEKLY SCHEDULED RACES FOR BOTH TIERS</p>
+        <br></br> <p>50% RACE WITH SHORT QUALIFYING</p>
+        <br></br> <p>Prize Pool</p>
+        <br></br> <p>Cross-platform play</p>
+        <br></br> <p>We value fair racing above all</p>
+        <br></br> <p>Consistent and impartial stewarding</p>
+        <br></br>
+        <p>All races broadcasted live on twitch</p>
+        <br></br>
+        <p>Race highlights uploaded on YouTube</p>
       </S.Section>
-      <Video videoEmbedURL="YH3yCDOu35U" />
       <S.EventSection>
-          <Event eventName="Tier A" eventDescription="This is the description" eventButtonText="View Calendar" eventButtonLink="/" eventImageURL="/rl-hero-bg.jpg" />
-          <Event eventName="Tier B" eventDescription="This is the description" eventButtonText="View Calendar" eventButtonLink="/" eventImageURL="/rl-hero-bg.jpg" />
+        <Event
+          eventName="Tier A"
+          eventDescription="The pinnacle of 10 Controls F1 League Racing. the fastest and most consistent drivers, fighting for our top cash prizes."
+          eventButtonText="View Calendar"
+          eventButtonLink="/f1/schedule"
+          eventImageURL="/rl-hero-bg.jpg"
+        />
+        <Event
+          eventName="Tier B"
+          eventDescription="The entry-level tier into 10 Controls F1 League Racing. This Competitive and Tough tier is Where aspiring drivers first leave their mark."
+          eventButtonText="View Calendar"
+          eventButtonLink="/f1/schedule"
+          eventImageURL="/rl-hero-bg.jpg"
+        />
       </S.EventSection>
       <S.Section>
         <hr />
@@ -42,73 +62,71 @@ function F1() {
         <h6>Tier A Drivers' Championship</h6>
         <br></br>
         <PrizePoolContainer>
-        <PrizePoolItem>
-        <p>P1</p>
-        <h1>$80</h1>
-        </PrizePoolItem>
-        <PrizePoolItem>
-        <p>P2</p>
-        <h1>$40</h1>
-        </PrizePoolItem>
-        <PrizePoolItem>
-        <p>P3</p>
-        <h1>$20</h1>
-        </PrizePoolItem>
+          <PrizePoolItem>
+            <p>P1</p>
+            <h1>$80</h1>
+          </PrizePoolItem>
+          <PrizePoolItem>
+            <p>P2</p>
+            <h1>$40</h1>
+          </PrizePoolItem>
+          <PrizePoolItem>
+            <p>P3</p>
+            <h1>$20</h1>
+          </PrizePoolItem>
         </PrizePoolContainer>
         <br></br>
         <br></br>
         <h6>Tier B Drivers' Championship</h6>
         <br></br>
         <PrizePoolContainer>
-        <PrizePoolItem>
-        <p>P1</p>
-        <h1>$30</h1>
-        </PrizePoolItem>
-        <PrizePoolItem>
-        <p>P2</p>
-        <h1>$20</h1>
-        </PrizePoolItem>
-        <PrizePoolItem>
-        <p>P3</p>
-        <h1>$10</h1>
-        </PrizePoolItem>
+          <PrizePoolItem>
+            <p>P1</p>
+            <h1>$30</h1>
+          </PrizePoolItem>
+          <PrizePoolItem>
+            <p>P2</p>
+            <h1>$20</h1>
+          </PrizePoolItem>
+          <PrizePoolItem>
+            <p>P3</p>
+            <h1>$10</h1>
+          </PrizePoolItem>
         </PrizePoolContainer>
         <br></br>
         <br></br>
         <h6>Tier A Constructors' Championship</h6>
         <br></br>
         <PrizePoolContainer>
-        <PrizePoolItem>
-        <p>P1</p>
-        <h1>$20</h1>
-        <h5>$10 per driver</h5>
-        </PrizePoolItem>
+          <PrizePoolItem>
+            <p>P1</p>
+            <h1>$20</h1>
+            <h5>$10 per driver</h5>
+          </PrizePoolItem>
         </PrizePoolContainer>
         <br></br>
         <br></br>
         <h6>Tier B Constructors' Championship</h6>
         <br></br>
         <PrizePoolContainer>
-        <PrizePoolItem>
-        <p>P1</p>
-        <h1>$10</h1>
-        <h5>$5 per driver</h5>
-        </PrizePoolItem>
+          <PrizePoolItem>
+            <p>P1</p>
+            <h1>$10</h1>
+            <h5>$5 per driver</h5>
+          </PrizePoolItem>
         </PrizePoolContainer>
       </S.Section>
       <FeaturedSingle
-        // Required Image Size - 1280x720
         imageURL="/rl-hero-bg.jpg"
-        heading="Rocket League Tournaments Have Returned To 10 Controls"
+        heading="Find out where your favourite driver is positioned so far in this seasons 10 controls f1 drivers' championship."
         siteURL="rl/tournaments"
       />
       <FeaturedDouble
-        // Required Image Size - 720x720
         firstImageURL="/f1-featured-image.png"
-        firstHeading="Rocket League Tournaments Have Returned To 10 Controls"
+        firstHeading="Meet the new drivers taking part in the second season of 10 controls f1 league racing"
         firstSiteURL="rl/tournaments"
         secondImageURL="/rocket-league-feature.png"
-        secondHeading="Rocket League Tournaments Have Returned To 10 Controls"
+        secondHeading="Check out the 10 controls season 2 f1 league race calender"
         secondSiteURL="rl/tournaments"
       />
       <S.Section>
@@ -134,7 +152,7 @@ const PrizePoolContainer = styled.div`
 const PrizePoolItem = styled.div`
   display: flex;
   flex-direction: column;
-  
+
   > h3 {
     font-size: 50px;
   }

@@ -19,13 +19,13 @@ function RL() {
       />
       <S.Section>
         <hr />
-        <h2>This psection of the site is currently under construction. We are working very hard to make sure you get the very best user experience.</h2>
+        <h2>This section of the site is currently under construction. We are working very hard to make sure you get the very best user experience.</h2>
         <br></br>
         <p>
-          In the meantime why don't you check out our F1 22 League races.
+          In the meantime why don't you play some Rocket League Wordle.
         </p>
         <br></br>
-        <a href="/f1"><button>Take Me There</button></a>
+        <a href="https://rlcsle.com/" target="_blank" rel="noreferrer"><button>Take Me There</button></a>
       </S.Section>
       
       

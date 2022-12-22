@@ -16,53 +16,53 @@ function F1StandingsConstructors2B() {
       </tr>
       <F1ConstructorStanding
         constructorPosition="1"
-        team="haas"
-        constructorPoints="40"
+        team="red-bull"
+        constructorPoints="63"
       />
       <F1ConstructorStanding
         constructorPosition="2"
-        team="mclaren"
-        constructorPoints="30"
+        team="aston-martin"
+        constructorPoints="56"
       />
       <F1ConstructorStanding
         constructorPosition="3"
-        team="red-bull"
-        constructorPoints="28"
+        team="haas"
+        constructorPoints="56"
       />
       <F1ConstructorStanding
         constructorPosition="4"
+        team="mclaren"
+        constructorPoints="47"
+      />
+      <F1ConstructorStanding
+        constructorPosition="5"
+        team="mercedes"
+        constructorPoints="31"
+      />
+      <F1ConstructorStanding
+        constructorPosition="6"
+        team="williams"
+        constructorPoints="28"
+      />
+      <F1ConstructorStanding
+        constructorPosition="7"
         team="alpine"
         constructorPoints="26"
       />
       <F1ConstructorStanding
-        constructorPosition="5"
-        team="aston-martin"
-        constructorPoints="25"
-      />
-      <F1ConstructorStanding
-        constructorPosition="6"
-        team="mercedes"
-        constructorPoints="18"
-      />
-      <F1ConstructorStanding
-        constructorPosition="7"
+        constructorPosition="8"
         team="alpha-tauri"
         constructorPoints="17"
       />
       <F1ConstructorStanding
-        constructorPosition="8"
-        team="williams"
-        constructorPoints="6"
-      />
-      <F1ConstructorStanding
         constructorPosition="9"
         team="alfa-romeo"
-        constructorPoints="4"
+        constructorPoints="6"
       />
       <F1ConstructorStanding
         constructorPosition="10"
         team="ferrari"
-        constructorPoints="2"
+        constructorPoints="3"
       />
     </StandingsTable>
     </>

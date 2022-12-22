@@ -46,9 +46,9 @@ function F1ScheduleSeason2() {
         tierADriver="AlphaRomeo"
         tierADriverFlag="nl"
         tierADriverTeam="williams"
-        tierBDriver=""
-        tierBDriverFlag=""
-        tierBDriverTeam=""
+        tierBDriver="Melon"
+        tierBDriverFlag="ro"
+        tierBDriverTeam="aston-martin"
         tierAResultsLink="season-2/tier-a/paul-ricard"
         tierBResultsLink="season-2/tier-b/paul-ricard"
       />
@@ -69,12 +69,12 @@ function F1ScheduleSeason2() {
         raceDetailsLink="season-2/hungaroring"
       />
       <F1ScheduleUpcoming
-        roundNumber="6"
+        roundNumber="6 - Sprint"
         days="20-21"
         month="Jan"
         raceCountryFlag="at"
-        raceName="Austria"
-        raceDetailsLink="season-2/austria"
+        raceName="Spielberg"
+        raceDetailsLink="season-2/spielberg"
       />
       <F1ScheduleUpcoming
         roundNumber="7"

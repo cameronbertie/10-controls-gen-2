@@ -70,7 +70,7 @@ function App() {
           
           <Route path="/f1/schedule/season-2/suzuka" element={<Suzuka />} />
           <Route path="/f1/schedule/season-2/hungaroring" element={<Hungaroring />} />
-          <Route path="/f1/schedule/season-2/austria" element={<Austria />} />
+          <Route path="/f1/schedule/season-2/spielberg" element={<Austria />} />
           <Route path="/f1/schedule/season-2/baku" element={<Baku />} />
           <Route path="/f1/schedule/season-2/shanghai" element={<Shanghai />} />
           <Route path="/f1/schedule/season-2/austin" element={<Austin />} />

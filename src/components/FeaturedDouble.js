@@ -15,12 +15,12 @@ function FeaturedDouble({
     <S.Section>
       <FeaturedDoubleContainer>
         <FeaturedDoubleContent to={firstSiteURL}>
-          <img src={firstImageURL} alt="" />
+          <FeaturedDoubleImage style={{backgroundImage: `url(${firstImageURL})`}}></FeaturedDoubleImage>
           <h2>{firstHeading}</h2>
         </FeaturedDoubleContent>
 
         <FeaturedDoubleContent to={secondSiteURL}>
-          <img src={secondImageURL} alt="" />
+        <FeaturedDoubleImage style={{backgroundImage: `url(${secondImageURL})`}}></FeaturedDoubleImage>
           <h2>{secondHeading}</h2>
         </FeaturedDoubleContent>
       </FeaturedDoubleContainer>
@@ -55,14 +55,17 @@ const FeaturedDoubleContent = styled(Link)`
     transition: 0.3s;
   }
 
-  > img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-
   @media (max-width: 799px) {
     width: 100%;
     max-width: 100%;
   }
+`;
+
+const FeaturedDoubleImage = styled.div`
+width: 100%;
+aspect-ratio: 1 / 1;
+border-radius: 10px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 `;
