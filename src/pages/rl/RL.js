@@ -15,7 +15,7 @@ function RL() {
         smallHeading="Rocket League"
         mainHeading="Tournaments"
         subHeading="Returning Soon To 10 Controls"
-        backgroundImageURL="/rl-hero.jpg"
+        backgroundImageURL="/content/rl-hero-bg.jpg"
       />
       <S.Section>
         <hr />

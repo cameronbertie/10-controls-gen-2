@@ -15,7 +15,7 @@ function ACC() {
         smallHeading="Assetto Corse Competizione"
         mainHeading="League Racing"
         subHeading="Coming Soon To 10 Controls"
-        backgroundImageURL="/acc-screenshot-1.jpg"
+        backgroundImageURL="/content/acc-screenshot-1.jpg"
       />
       <S.Section>
         <hr />

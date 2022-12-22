@@ -13,30 +13,30 @@ function Home() {
         <h3>EUROPE’S NEW HOME FOR COMPETITIVE GAMING AND ESPORTS TOURNAMENTS</h3>
       </S.Section>
       <FeaturedSingle
-        imageURL="/rl-hero-bg.jpg"
-        heading="10 Controls sets off for Season 2 of F1 22 League racing. Why not take a look at the race calendar"
-        siteURL="rl/tournaments"
+        imageURL="/content/Abu_Dhabi_3_alpine_sandwhich.png"
+        heading="10 Controls sets off for Season 2 of F1 22 League racing. Take a look at the new race calendar"
+        siteURL="f1/schedule"
       />
       <FeaturedDouble
-        firstImageURL="/f1-featured-image.png"
-        firstHeading="Check out the 10 Controls YouTube channel for some unmissable content"
-        firstSiteURL="f1/standings"
-        secondImageURL="/rocket-league-feature.png"
-        secondHeading="Follow 10 Controls on twitch so you don't miss our next broadcast"
-        secondSiteURL="f1/standings"
+        firstImageURL="/content/Alfa_Silverstone.png"
+        firstHeading="Find out who are the top performing drivers in our 10 Controls racing leagues"
+        firstSiteURL="/f1/standings"
+        secondImageURL="/content/brazil_ferrari_aston.png"
+        secondHeading="Register now to start racing with 10 Controls"
+        secondSiteURL="/f1/register"
       />
       <FeaturedSingle
-        imageURL="/rl-hero-bg.jpg"
+        imageURL="/content/haas_williams_bahrain.png"
         heading="Meet the new drivers taking part in the second season of 10 controls f1 league racing"
-        siteURL="rl/tournaments"
+        siteURL="f1/teams"
       />
       <FeaturedDouble
-        firstImageURL="/f1-featured-image.png"
+        firstImageURL="/content/acc-screenshot-1.jpg"
         firstHeading="ASSETTO CORSA COMPETIZIONE league races are coming to 10 controls soon"
-        firstSiteURL="rl/tournaments"
-        secondImageURL="/rocket-league-feature.png"
+        firstSiteURL="/acc"
+        secondImageURL="content/rocket-league-feature.png"
         secondHeading="Rocket League Tournaments will return to 10 controls soon"
-        secondSiteURL="rl/tournaments"
+        secondSiteURL="/rl"
       />
       <S.Section>
       <Footer />

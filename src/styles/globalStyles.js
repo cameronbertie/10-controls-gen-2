@@ -25,12 +25,20 @@ body {
 #pageHero1 {
   background-image: linear-gradient(180deg, rgba(73,40,51,0.6) 0%, rgba(73,40,51,0.6) 100%);
   border-bottom: 1px solid #492833;
+
+  @media (max-width: 799px) {
+      background-attachment: scroll;
+    }
 }
 
 #pageHero2 {
   background-color: ${({ theme }) => theme.background};
   background-image: ${({ theme }) => theme.heroPattern};
   border-bottom: 1px solid #492833;
+
+  @media (max-width: 799px) {
+      background-attachment: scroll;
+    }
 }
 
 #eventContainer, #f1ScheduleCompletedContainer, #f1ScheduleUpcomingContainer, #f1TeamContainer, #resultsTable, #standingsTable {

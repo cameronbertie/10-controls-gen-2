@@ -57,7 +57,8 @@ export const EventSection = styled.section`
 export const SectionFull = styled.section`
   padding: 60px 0;
   width: 100%;
-  background-position: center;
+  height: 100%;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -66,4 +67,6 @@ export const SectionFull = styled.section`
   @media (max-width: 1023px) {
     padding: 30px 0;
     }
+
+    
 `;

@@ -20,7 +20,8 @@ function Navigation() {
     setOpen(false);
   }, [location]);
 
-  const theme = useSelector(selectTheme);
+  // const theme = useSelector(selectTheme);
+  const theme = "dark";
   const dispatch = useDispatch();
 
    const themeToggler = () => {
@@ -51,7 +52,7 @@ function Navigation() {
         <NavigationRight>
         
           <NavigationIconsContainer>
-          <button onClick={themeToggler}>Switch Theme</button>
+          {/* <button onClick={themeToggler}>Switch Theme</button> */}
 
             <NavigationIcon
               href="https://discord.gg/10controls"

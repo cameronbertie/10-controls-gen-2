@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Menu() {
   return (
@@ -10,65 +10,65 @@ function Menu() {
           
           <CategoryContent>
             <h2>
-              <Link to="/f1">
+              <NavLink to="/f1">
                 f1 22
-              </Link>
+              </NavLink>
             </h2>
             <hr id="menu__hr" />
             <CategoryList>
               <h3>
-                <Link to="/f1/schedule">
+                <NavLink to="/f1/schedule">
                   Schedule
-                </Link>
+                </NavLink>
               </h3>
             </CategoryList>
             <CategoryList>
               <h3>
-                <Link to="/f1/standings">
+                <NavLink to="/f1/standings">
                   Standings
-                </Link>
+                </NavLink>
               </h3>
             </CategoryList>
             <CategoryList>
               <h3>
-                <Link to="/f1/teams">
+                <NavLink to="/f1/teams">
                   Teams
-                </Link>
+                </NavLink>
               </h3>
             </CategoryList>
             <CategoryList>
               <h3>
-                <Link to="/f1/register">
+                <NavLink to="/f1/register">
                   Register
-                </Link>
+                </NavLink>
               </h3>
             </CategoryList>
           </CategoryContent>
           <CategoryContent>
             <h2>
-              <Link to="/acc" >
+              <NavLink to="/acc" >
                 Assetto Corsa Competizione
-              </Link>
+              </NavLink>
             </h2>
             <hr id="menu__hr" />
             {/* <CategoryList>
               <h3>
-                <Link to="/acc/drivers" >
+                <NavLink to="/acc/drivers" >
                   Drivers
-                </Link>
+                </NavLink>
               </h3>
             </CategoryList>
             <CategoryList>
               <h3>
-                <Link to="acc/register">
+                <NavLink to="acc/register">
                   Register
-                </Link>
+                </NavLink>
               </h3>
             </CategoryList> */}
           </CategoryContent>
           <CategoryContent>
             <h2>
-              <Link to="/rl">Rocket League</Link>
+              <NavLink to="/rl">Rocket League</NavLink>
             </h2>
             <hr id="menu__hr" />
             <CategoryList>
@@ -102,6 +102,15 @@ const MenuContainer = styled.div`
   @media (max-width: 799px) {
     top: 67px;
     }
+
+     a {
+    border-bottom: 2px transparent solid;
+  }
+
+   a.active {
+    border-bottom: 2px solid;
+    transition: none;
+  }
 `;
 const MenuOuterContainer = styled.div`
   height: 100vh;

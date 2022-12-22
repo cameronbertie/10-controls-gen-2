@@ -73,6 +73,7 @@ function Footer() {
       </FooterIcon> */}
       </FooterIconsContainer>
       <h6>10 Controls 2022, All rights reserved.</h6>
+      <h6>Website created by <a href="https://www.youtube.com/channel/UCvcR7QuqJKN58J-sQ970fWw" target="_blank" rel="noreferrer">Cameron Bertie</a></h6>
     </FooterContainer>
   );
 }
@@ -95,7 +96,7 @@ const FooterIconsContainer = styled.div`
     align-items: center;
 `;
 
-const FooterIcon = styled(Link)`
+const FooterIcon = styled.a`
 > img {
     width: 32px;
     height: auto;

@@ -48,6 +48,8 @@ const EventContainerLeft = styled.div`
   width: 70%;
 
   @media (max-width: 799px) {
+    flex-direction: column;
+    row-gap: 25px;
     width: 100%;
   }
 `;
@@ -68,9 +70,7 @@ const EventContainerImage = styled.div`
 `;
 
 const EventContainerRight = styled.div`
-  @media (max-width: 799px) {
-    margin-left: 125px;
-  }
+  
 `;
 
 const EventContainerText = styled.div`

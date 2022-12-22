@@ -12,6 +12,8 @@ import F1StandingsConstructors2B from "./season-2/tier-b/F1StandingsConstructors
 import F1StandingsConstructors1B from "./season-1/tier-b/F1StandingsConstructors1B";
 import F1StandingsConstructors2A from "./season-2/tier-a/F1StandingsConstructors2A";
 import F1StandingsDrivers2A from "./season-2/tier-a/F1StandingsDrivers2A";
+import F1StandingsKeyA from "./F1StandingsKeyA";
+import F1StandingsKeyB from "./F1StandingsKeyB";
 // import F1StandingsDrivers1B from "./season-1/tier-b/F1StandingsDrivers1B";
 // import F1StandingsConstructors1B from "./season-1/tier-b/F1StandingsDrivers1B";
 // import F1StandingsDrivers2A from "./season-2/tier-a/F1StandingsDrivers2A";
@@ -131,9 +133,15 @@ function F1Standings() {
             selectedSeason === "Season 2" &&
             selectedChampionship === "Drivers'" ? (
             <F1StandingsDrivers2B />
-          ) : 
+          ) : (
             <F1StandingsConstructors2B />
-          }
+          )}
+          {selectedChampionship === "Drivers'" && selectedTier === "Tier A" && (
+              <F1StandingsKeyA />
+          )}
+          {selectedChampionship === "Drivers'" && selectedTier === "Tier B" && (
+              <F1StandingsKeyB />
+          )}
         </F1StandingsGrid>
       </S.Section>
       <S.Section>
@@ -147,9 +155,10 @@ export default F1Standings;
 
 const F1StandingsOuterContainer = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  column-gap: 60px;
   row-gap: 30px;
-  justify-content: flex-end;
+  justify-content: flex-start;
 `;
 
 const F1StandingsMenuContainer = styled.div`
@@ -157,12 +166,12 @@ const F1StandingsMenuContainer = styled.div`
   flex-direction: row;
   column-gap: 24px;
   row-gap: 30px;
-  justify-content: flex-end;
+  justify-content: flex-start;
 `;
 
 const F1StandingsPreTitle = styled.h3`
   text-align: center;
-  margin-top: 30px;
+  margin-top: 60px;
 `;
 
 const F1StandingsTitle = styled.h2`
@@ -172,7 +181,7 @@ const F1StandingsTitle = styled.h2`
 
 const F1StandingsMenuTitle = styled.h6`
   margin-bottom: 16px;
-  text-align: right;
+  text-align: left;
 `;
 
 const F1StandingsGrid = styled.div`

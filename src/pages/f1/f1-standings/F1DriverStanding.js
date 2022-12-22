@@ -9,9 +9,12 @@ function F1DriverStanding({
   driverFlag,
   team,
   driverPoints,
+  status,
 }) {
   const [selectedTeam, setSelectedTeam] = useState();
   const [selectedTeamColor, setSelectedTeamColor] = useState();
+  const [rowBackgroundColor, setRowBackgroundColor] = useState();
+  const [fontColor, setFontColor] = useState();
 
   useEffect(() => {
     if (team === "red-bull") {
@@ -45,10 +48,18 @@ function F1DriverStanding({
       setSelectedTeam(team);
       setSelectedTeamColor("B6BABD");
     }
+
+    if (status === "promotion" ) {
+      setRowBackgroundColor("006400");
+    }
+
+    if (status === "demotion" ) {
+      setRowBackgroundColor("8B0000");
+    }
   }, []);
 
   return (
-    <tr>
+    <tr style={{ backgroundColor: `#${rowBackgroundColor}` }}>
       <td>
         <TeamLeft>
           <h6>{driverPosition ? driverPosition : "-"}</h6>
@@ -61,7 +72,9 @@ function F1DriverStanding({
         <h6>{driverName}</h6>
       </td>
       <DriverFlagData>
+        <DriverFlagContainer>
         <DriverFlag className="" src={`/flags/${driverFlag}.png`} />
+        </DriverFlagContainer>
       </DriverFlagData>
       <TeamDetailsData>
         <TeamDetails>
@@ -99,6 +112,12 @@ const DriverFlag = styled.img`
   width: 24px;
   border-radius: 2px;
   border: 1px solid;
+  border-color: inherit;
+`;
+
+const DriverFlagContainer = styled.div`
+  display: flex;
+  align-items: center;
   border-color: inherit;
 `;
 

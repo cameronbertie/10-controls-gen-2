@@ -16,7 +16,7 @@ function F1() {
         smallHeading="F1 22"
         mainHeading="League Racing"
         subHeading="Two tiers. highly competitive. prize money on the line. live on twitch"
-        backgroundImageURL="/f1-mclaren-screenshot.jpg"
+        backgroundImageURL="/content/f1-mclaren-screenshot.jpg"
       />
       <F1SecondaryNavigation />
       <Video videoEmbedURL="YH3yCDOu35U" />
@@ -44,14 +44,14 @@ function F1() {
           eventDescription="The pinnacle of 10 Controls F1 League Racing. the fastest and most consistent drivers, fighting for our top cash prizes."
           eventButtonText="View Calendar"
           eventButtonLink="/f1/schedule"
-          eventImageURL="/rl-hero-bg.jpg"
+          eventImageURL="/content/Portugal.png"
         />
         <Event
           eventName="Tier B"
           eventDescription="The entry-level tier into 10 Controls F1 League Racing. This Competitive and Tough tier is Where aspiring drivers first leave their mark."
           eventButtonText="View Calendar"
           eventButtonLink="/f1/schedule"
-          eventImageURL="/rl-hero-bg.jpg"
+          eventImageURL="/content/France.png"
         />
       </S.EventSection>
       <S.Section>
@@ -117,17 +117,17 @@ function F1() {
         </PrizePoolContainer>
       </S.Section>
       <FeaturedSingle
-        imageURL="/rl-hero-bg.jpg"
+        imageURL="/content/ferrari_williams_silverstone.png"
         heading="Find out where your favourite driver is positioned so far in this seasons 10 controls f1 drivers' championship."
-        siteURL="rl/tournaments"
+        siteURL="/f1/standings"
       />
       <FeaturedDouble
-        firstImageURL="/f1-featured-image.png"
+        firstImageURL="/content/ferrari_singapore.png"
         firstHeading="Meet the new drivers taking part in the second season of 10 controls f1 league racing"
-        firstSiteURL="rl/tournaments"
-        secondImageURL="/rocket-league-feature.png"
-        secondHeading="Check out the 10 controls season 2 f1 league race calender"
-        secondSiteURL="rl/tournaments"
+        firstSiteURL="/f1/teams"
+        secondImageURL="/content/mclaren_melbourne.png"
+        secondHeading="Check out the 10 controls season 2 f1 league race calendar"
+        secondSiteURL="/f1/calendar"
       />
       <S.Section>
         <Footer />

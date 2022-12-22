@@ -29,7 +29,7 @@ function PaulRicard2A() {
         <h2>Paul Ricard</h2>
         <h5>Results</h5>
         <br></br>
-        {/* <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=Fzu8GGtsgNg&ab_channel=10Controls"><button>View Race Highlights</button></a> */}
+        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=EsIOA2crutc&ab_channel=10Controls"><button>View Race Highlights</button></a>
         <ResultsTable id="resultsTable">
           <tr>
             <th></th>
@@ -388,7 +388,7 @@ const ResultsTable = styled.table`
 
   th,
   td {
-    padding: 18px 20px 14px;
+    padding: 14px 20px;
     text-align: left !important;
     border-bottom: 1px solid;
     border-color: inherit;

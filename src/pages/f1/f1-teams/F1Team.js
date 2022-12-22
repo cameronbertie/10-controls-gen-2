@@ -104,6 +104,7 @@ const F1TeamDrivers = styled.div`
     column-gap: 10px;
     row-gap: 5px;
     padding: 0 16px;
+    border-color: inherit;
 
     @media (max-width: 799px) {
     flex-direction: column;

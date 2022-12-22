@@ -22,6 +22,7 @@ function F1StandingsDrivers1A() {
         driverFlag="us"
         team="alpine"
         driverPoints="195"
+        
       />
       <F1DriverStanding
         driverPosition="2"
@@ -127,6 +128,7 @@ function F1StandingsDrivers1A() {
         driverFlag="ph"
         team="williams"
         driverPoints="4"
+        status="demotion"
       />
       <F1DriverStanding
         driverPosition="17"
@@ -134,6 +136,7 @@ function F1StandingsDrivers1A() {
         driverFlag="nl"
         team="alpha-tauri"
         driverPoints="3"
+        status="demotion"
       />
       <F1DriverStanding
         driverPosition="18"
@@ -141,6 +144,7 @@ function F1StandingsDrivers1A() {
         driverFlag="nl"
         team="red-bull"
         driverPoints="OUT"
+        status="demotion"
       />
       <F1DriverStanding
         driverPosition="19"
@@ -148,6 +152,7 @@ function F1StandingsDrivers1A() {
         driverFlag="ng"
         team="mercedes"
         driverPoints="OUT"
+        status="demotion"
       />
       <F1DriverStanding
         driverPosition="20"
@@ -155,6 +160,7 @@ function F1StandingsDrivers1A() {
         driverFlag="fr"
         team="mercedes"
         driverPoints="OUT"
+        status="demotion"
       />
     </StandingsTable>
     </>
@@ -169,7 +175,7 @@ const StandingsTable = styled.table`
 
   th,
   td {
-    padding: 18px 20px 14px;
+    padding: 14px 20px;
     text-align: left;
     border-bottom: 1px solid;
     border-color: inherit;

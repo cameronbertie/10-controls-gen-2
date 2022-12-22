@@ -22,6 +22,7 @@ function F1StandingsDrivers2B() {
         driverFlag="ro"
         team="aston-martin"
         driverPoints="68"
+        status="promotion"
       />
       <F1DriverStanding
         driverPosition="2"
@@ -29,6 +30,7 @@ function F1StandingsDrivers2B() {
         driverFlag="gb"
         team="haas"
         driverPoints="52"
+        status="promotion"
       />
       <F1DriverStanding
         driverPosition="3"
@@ -36,6 +38,7 @@ function F1StandingsDrivers2B() {
         driverFlag="us"
         team="red-bull"
         driverPoints="36"
+        status="promotion"
       />
       <F1DriverStanding
         driverPosition="4"
@@ -43,6 +46,7 @@ function F1StandingsDrivers2B() {
         driverFlag="rs"
         team="mclaren"
         driverPoints="34"
+        status="promotion"
       />
       <F1DriverStanding
         driverPosition="5"
@@ -50,6 +54,7 @@ function F1StandingsDrivers2B() {
         driverFlag="se"
         team="mercedes"
         driverPoints="31"
+        status="promotion"
       />
       <F1DriverStanding
         driverPosition="6"
@@ -130,13 +135,15 @@ function F1StandingsDrivers2B() {
         driverFlag="cz"
         team="ferrari"
         driverPoints="0"
+        status="demotion"
       />
       <F1DriverStanding
         driverPosition="17"
         driverName="ANOLDENEMY"
-        driverFlag="nl"
+        driverFlag="hr"
         team="aston-martin"
         driverPoints="0"
+        status="demotion"
       />
       <F1DriverStanding
         driverPosition="18"
@@ -144,6 +151,7 @@ function F1StandingsDrivers2B() {
         driverFlag="fi"
         team="alpine"
         driverPoints="0"
+        status="demotion"
       />
       <F1DriverStanding
         driverPosition="19"
@@ -151,6 +159,7 @@ function F1StandingsDrivers2B() {
         driverFlag="it"
         team="alpha-tauri"
         driverPoints="0"
+        status="demotion"
       />
       <F1DriverStanding
         driverPosition="20"
@@ -158,6 +167,7 @@ function F1StandingsDrivers2B() {
         driverFlag="ie"
         team="alfa-romeo"
         driverPoints="0"
+        status="demotion"
       /> 
     </StandingsTable>
     </>
@@ -172,7 +182,7 @@ const StandingsTable = styled.table`
 
   th,
   td {
-    padding: 18px 20px 14px;
+    padding: 14px 20px;
     text-align: left;
     border-bottom: 1px solid;
     border-color: inherit;

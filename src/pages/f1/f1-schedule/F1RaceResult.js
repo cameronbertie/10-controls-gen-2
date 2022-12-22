@@ -62,7 +62,9 @@ function F1RaceResult({
         <h6>{driverName}</h6>
       </td>
       <DriverFlagData>
+        <DriverFlagContainer>
         <DriverFlag className="" src={`/flags/${driverFlag}.png`} />
+        </DriverFlagContainer>
       </DriverFlagData>
       <TeamDetailsData>
         <TeamDetails>
@@ -96,6 +98,12 @@ const TeamRectangle = styled.div`
   @media (max-width: 799px) {
     height: 18px;
   }
+`;
+
+const DriverFlagContainer = styled.div`
+  display: flex;
+  align-items: center;
+  border-color: inherit;
 `;
 
 const DriverFlag = styled.img`

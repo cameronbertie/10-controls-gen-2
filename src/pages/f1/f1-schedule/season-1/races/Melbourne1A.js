@@ -267,7 +267,7 @@ const ResultsTable = styled.table`
 
   th,
   td {
-    padding: 18px 20px 14px;
+    padding: 14px 20px;
     text-align: left !important;
     border-bottom: 1px solid;
     border-color: inherit;
