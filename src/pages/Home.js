@@ -12,6 +12,22 @@ function Home() {
         <h1>10 Controls</h1>
         <h3>EUROPE’S NEW HOME FOR COMPETITIVE GAMING AND ESPORTS TOURNAMENTS</h3>
       </S.Section>
+       {/* Add a placeholder for the Twitch embed 
+    <div id="twitch-embed"></div>
+
+     Load the Twitch embed JavaScript file 
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+     Create a Twitch.Embed object that will render within the "twitch-embed" element
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "monstercat",
+        // Only needed if this page is going to be embedded on other websites
+        parent: ["embed.example.com", "othersite.example.com"]
+      });
+    </script> */}
       <FeaturedSingle
         imageURL="/content/Abu_Dhabi_3_alpine_sandwhich.png"
         heading="10 Controls sets off for Season 2 of F1 22 League racing. Take a look at the new race calendar"

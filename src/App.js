@@ -10,8 +10,10 @@ import F1Standings from './pages/f1/f1-standings/F1Standings';
 import F1Teams from './pages/f1/f1-teams/F1Teams';
 import F1Register from './pages/f1/f1-register/F1Register';
 
-import Melbourne1A from './pages/f1/f1-schedule/season-1/races/Melbourne1A';
-import Silverstone1A from './pages/f1/f1-schedule/season-1/races/Silverstone1A';
+import Melbourne1A from './pages/f1/f1-schedule/season-1/races/tier-a/Melbourne1A';
+import Melbourne1B from './pages/f1/f1-schedule/season-1/races/tier-b/Melbourne1B';
+import Silverstone1A from './pages/f1/f1-schedule/season-1/races/tier-a/Silverstone1A';
+import Silverstone1B from "./pages/f1/f1-schedule/season-1/races/tier-b/Silverstone1B";
 
 import Melbourne2A from './pages/f1/f1-schedule/season-2/races/tier-a/Melbourne2A';
 import Melbourne2B from './pages/f1/f1-schedule/season-2/races/tier-b/Melbourne2B';
@@ -38,6 +40,7 @@ import { selectTheme } from "./redux/features/themeSlice";
 
 
 
+
 function App() {
 
 
@@ -59,7 +62,9 @@ function App() {
           <Route path="/f1/register" element={<F1Register />} />
           
           <Route path="/f1/schedule/season-1/tier-a/melbourne" element={<Melbourne1A />} />
+          <Route path="/f1/schedule/season-1/tier-b/melbourne" element={<Melbourne1B />} />
           <Route path="/f1/schedule/season-1/tier-a/silverstone" element={<Silverstone1A />} />
+          <Route path="/f1/schedule/season-1/tier-b/silverstone" element={<Silverstone1B />} />
 
           <Route path="/f1/schedule/season-2/tier-a/melbourne" element={<Melbourne2A />} />
           <Route path="/f1/schedule/season-2/tier-b/melbourne" element={<Melbourne2B />} />

@@ -1,36 +1,37 @@
 import React from "react";
-import * as S from "../../../../../styles/styles";
+import * as S from "../../../../../../styles/styles";
 import styled from "styled-components";
-import PageHero2 from "../../../../../components/PageHero2";
+import PageHero2 from "../../../../../../components/PageHero2";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Link } from "react-router-dom";
-import Footer from "../../../../../components/Footer";
-import SecondaryNavigation from "../../../../../components/SecondaryNavigation";
-import F1RaceResult from "../../F1RaceResult";
+import Footer from "../../../../../../components/Footer";
+import F1RaceResult from "../../../F1RaceResult";
+import F1SecondaryNavigation from "../../../../F1SecondaryNavigation";
 
-function Silverstone1A() {
+function Melbourne1A() {
   return (
     <>
-      <SecondaryNavigation
+      <F1SecondaryNavigation
         // Please ensure that page titles are in order of how they should be displayed. Make sure that the order of the links match their respected page titles.
         pages={["Schedule", "Teams", "Standings", "Register"]}
         links={["/f1/schedule", "/f1/teams", "/f1/standings", "/f1/register"]}
       />
-      <PageHero2
-        mainHeading="Silverstone"
-        subHeading="Season 1 - Tier A - Round 2"
-      />
       <S.Section>
+      
         <CalendarArrowContainer>
-          <Link to={`/f1/schedule/season-1/tier-a/melbourne`}>
+          <Link>
             <ArrowPrevious />
           </Link>
-          <Link to={`/f1/schedule/season-1/tier-a/spa`}>
+          <Link to={`/f1/schedule/season-1/tier-a/silverstone`}>
             <ArrowNext />
           </Link>
         </CalendarArrowContainer>
-
+        <h6>Season 1 - Tier A - Round 1</h6>
+        <br></br>
+        <h2>Melbourne</h2>
+        <br></br>
+        <a target="_blank" href="https://www.youtube.com/watch?v=nh6SaPSJByY&t=138s&ab_channel=10Controls"><button>View Race Highlights</button></a>
         <ResultsTable id="resultsTable">
           <tr>
             <th></th>
@@ -46,8 +47,8 @@ function Silverstone1A() {
           </tr>
           <F1RaceResult
             driverPosition="1"
-            driverName="Cortes"
-            driverFlag="/es.png"
+            driverName="Antonio Cortes"
+            driverFlag="es"
             team="ferrari"
             driverTime="45:23.952"
             driverPoints="+25"
@@ -55,7 +56,7 @@ function Silverstone1A() {
           <F1RaceResult
             driverPosition="2"
             driverName="Kudos"
-            driverFlag="/de.png"
+            driverFlag="de"
             team="mclaren"
             driverTime="+1.125"
             driverPoints="+18"
@@ -63,7 +64,7 @@ function Silverstone1A() {
           <F1RaceResult
             driverPosition="3"
             driverName="Nik Kei"
-            driverFlag="/ua.png"
+            driverFlag="ua"
             team="alpine"
             driverTime="+3.138"
             driverPoints="+15"
@@ -71,7 +72,7 @@ function Silverstone1A() {
           <F1RaceResult
             driverPosition="4"
             driverName="AnOldEnemy"
-            driverFlag="/hr.png"
+            driverFlag="hr"
             team="haas"
             driverTime="+4.131"
             driverPoints="+13"
@@ -79,7 +80,7 @@ function Silverstone1A() {
           <F1RaceResult
             driverPosition="5"
             driverName="Focuser"
-            driverFlag="/es.png"
+            driverFlag="es"
             team="alfa-romeo"
             driverTime="+4.536"
             driverPoints="+10"
@@ -87,7 +88,7 @@ function Silverstone1A() {
           <F1RaceResult
             driverPosition="6"
             driverName="Counterfeit"
-            driverFlag="/gb.png"
+            driverFlag="gb"
             team="aston-martin"
             driverTime="+5.024"
             driverPoints="+8"
@@ -95,7 +96,7 @@ function Silverstone1A() {
           <F1RaceResult
             driverPosition="7"
             driverName="Kalcess"
-            driverFlag="/no.png"
+            driverFlag="no"
             team="williams"
             driverTime="+7.501"
             driverPoints="+6"
@@ -103,7 +104,7 @@ function Silverstone1A() {
           <F1RaceResult
             driverPosition="8"
             driverName="Joram"
-            driverFlag="/nl.png"
+            driverFlag="nl"
             team="mercedes"
             driverTime="+11.687"
             driverPoints="+4"
@@ -111,7 +112,7 @@ function Silverstone1A() {
           <F1RaceResult
             driverPosition="9"
             driverName="LawrenceSelling"
-            driverFlag="/ph.png"
+            driverFlag="ph"
             team="williams"
             driverTime="+22.823"
             driverPoints="+2"
@@ -119,23 +120,23 @@ function Silverstone1A() {
           <F1RaceResult
             driverPosition="10"
             driverName="Newman"
-            driverFlag="/it.png"
+            driverFlag="it"
             team="ferrari"
             driverTime="+23.635"
             driverPoints="+1"
           />
           <F1RaceResult
             driverPosition="11"
-            driverName="LucaDude"
-            driverFlag="/gb.png"
-            team="aston Martin"
+            driverName="LucaDude40"
+            driverFlag="gb"
+            team="aston-martin"
             driverTime="+24.977"
             driverPoints=""
           />
           <F1RaceResult
             driverPosition=""
             driverName="Jesse"
-            driverFlag="/nl.png"
+            driverFlag="nl"
             team="red-bull"
             driverTime="DNF"
             driverPoints=""
@@ -143,7 +144,7 @@ function Silverstone1A() {
           <F1RaceResult
             driverPosition=""
             driverName="CountMuttly"
-            driverFlag="/dk.png"
+            driverFlag="dk"
             team="alfa-romeo"
             driverTime="DNF"
             driverPoints=""
@@ -151,7 +152,7 @@ function Silverstone1A() {
           <F1RaceResult
             driverPosition=""
             driverName="Kyan"
-            driverFlag="/nl.png"
+            driverFlag="nl"
             team="alpha-tauri"
             driverTime="DNF"
             driverPoints=""
@@ -159,7 +160,7 @@ function Silverstone1A() {
           <F1RaceResult
             driverPosition=""
             driverName="Faded"
-            driverFlag="/us.png"
+            driverFlag="us"
             team="alpine"
             driverTime="DNF"
             driverPoints=""
@@ -167,7 +168,7 @@ function Silverstone1A() {
           <F1RaceResult
             driverPosition=""
             driverName="Jaysen"
-            driverFlag="/nl.png"
+            driverFlag="nl"
             team="alpha-tauri"
             driverTime="DNF"
             driverPoints=""
@@ -175,12 +176,22 @@ function Silverstone1A() {
           <F1RaceResult
             driverPosition=""
             driverName="iM3j3n"
-            driverFlag="/de.png"
+            driverFlag="de"
             team="mclaren"
             driverTime="DNF"
             driverPoints=""
           />
         </ResultsTable>
+
+        <FastestLapContainer>
+          <h6>Fastest Lap: AnOldEnemy</h6>
+          <img src="/teams/haas.png" alt=""/>
+          <h6>1:19.832</h6>
+        </FastestLapContainer>
+        <DriverDayContainer>
+          <h6>Driver Of The Day: Cortes</h6>
+          <img src="/teams/ferrari.png" alt=""/>
+        </DriverDayContainer>
       </S.Section>
 
       <S.Section>
@@ -190,7 +201,7 @@ function Silverstone1A() {
   );
 }
 
-export default Silverstone1A;
+export default Melbourne1A;
 
 const CalendarArrowContainer = styled.div`
   display: flex;
@@ -198,8 +209,40 @@ const CalendarArrowContainer = styled.div`
   margin-bottom: 30px;
 `;
 
+const FastestLapContainer = styled.div`
+  display: flex;
+  column-gap: 5px;
+  margin: 30px 0;
+  align-items: center;
+
+  > img {
+    height: 16px;
+    width: auto;
+
+    @media only screen and (max-width: 799px) {
+      height: 13px;
+  }
+  }
+`;
+
+const DriverDayContainer = styled.div`
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+
+  > img {
+    height: 16px;
+    width: auto;
+
+    @media only screen and (max-width: 799px) {
+      height: 13px;
+  }
+  }
+`;
+
 const ArrowPrevious = styled(ArrowBackIosNewIcon)`
   font-size: 64px !important;
+  display: none !important;
 
   :hover {
     opacity: 1;
@@ -216,6 +259,7 @@ const ArrowNext = styled(ArrowForwardIosIcon)`
 const ResultsTable = styled.table`
   width: 100%;
   border-spacing: 0;
+  margin-top: 30px;
 
   th,
   td {

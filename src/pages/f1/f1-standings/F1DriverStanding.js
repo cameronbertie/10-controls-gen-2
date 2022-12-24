@@ -50,16 +50,16 @@ function F1DriverStanding({
     }
 
     if (status === "promotion" ) {
-      setRowBackgroundColor("006400");
+      setRowBackgroundColor("rgb(25, 135, 84, 0.4)");
     }
 
     if (status === "demotion" ) {
-      setRowBackgroundColor("8B0000");
+      setRowBackgroundColor("rgb(220, 53, 69, 0.4)");
     }
   }, []);
 
   return (
-    <tr style={{ backgroundColor: `#${rowBackgroundColor}` }}>
+    <tr style={{ backgroundColor: `${rowBackgroundColor}` }}>
       <td>
         <TeamLeft>
           <h6>{driverPosition ? driverPosition : "-"}</h6>

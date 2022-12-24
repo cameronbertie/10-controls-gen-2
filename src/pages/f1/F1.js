@@ -23,21 +23,23 @@ function F1() {
       <S.Section>
         <hr />
         <h2>Why Race with 10 Controls?</h2>
+        <br></br> <br></br>
+        <ul>
+        <li><p>TWO TIER FORMAT WITH A PROMOTION/RELEGATION SYSTEM</p></li>
+        <br></br>
+        <li><p> WEEKLY SCHEDULED RACES FOR BOTH TIERS</p></li>
+        <br></br> <li><p>50% RACE WITH SHORT QUALIFYING</p></li>
+        <br></br> <li><p>Prize Pool</p></li>
+        <br></br> <li><p>Cross-platform play</p></li>
+        <br></br> <li><p>We value fair racing above all</p></li>
+        <br></br> <li><p>Consistent and impartial stewarding</p></li>
+        <br></br>
+        <li><p>All races broadcasted live on <a href="https://www.twitch.tv/10controlstv" target="_blank" rel="noreferrer">twitch</a></p></li>
+        <br></br>
+        <li><p>Race highlights uploaded on <a href="https://www.youtube.com/channel/UCTC5mPAHhoBq6Uv4eNIshMg" target="_blank" rel="noreferrer">YouTube</a></p></li>
+        </ul>
       </S.Section>
-      <S.Section>
-        <p>TWO TIER FORMAT WITH A PROMOTION/RELEGATION SYSTEM</p>
-        <br></br>
-        <p> WEEKLY SCHEDULED RACES FOR BOTH TIERS</p>
-        <br></br> <p>50% RACE WITH SHORT QUALIFYING</p>
-        <br></br> <p>Prize Pool</p>
-        <br></br> <p>Cross-platform play</p>
-        <br></br> <p>We value fair racing above all</p>
-        <br></br> <p>Consistent and impartial stewarding</p>
-        <br></br>
-        <p>All races broadcasted live on twitch</p>
-        <br></br>
-        <p>Race highlights uploaded on YouTube</p>
-      </S.Section>
+
       <S.EventSection>
         <Event
           eventName="Tier A"

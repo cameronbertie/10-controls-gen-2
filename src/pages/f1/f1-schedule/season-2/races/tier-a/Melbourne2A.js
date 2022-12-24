@@ -159,7 +159,7 @@ function Melbourne2A() {
             driverPosition="15"
             driverName="DANIEL BODNAR"
             driverFlag="sk"
-            team="alfa-romeo"
+            team="haas"
             driverTime="+1:27.717"
             driverPoints=""
           />

@@ -10,7 +10,7 @@ function F1StandingsKeyA() {
         <th><h5>Key</h5></th>
       </tr>
       <tr>
-        <td style={{backgroundColor: '#8B0000'}}><h6>Relegated to tier b</h6></td>
+        <td style={{backgroundColor: "rgba(220, 53, 69, 0.4)"}}><h6>Relegated to tier b</h6></td>
       </tr>
     </StandingsTable>
     </>

@@ -1,41 +1,34 @@
 import React from "react";
-import * as S from "../../../../../styles/styles";
+import * as S from "../../../../../../styles/styles";
 import styled from "styled-components";
-import PageHero2 from "../../../../../components/PageHero2";
+import PageHero2 from "../../../../../../components/PageHero2";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Link } from "react-router-dom";
-import Footer from "../../../../../components/Footer";
-import F1RaceResult from "../../F1RaceResult";
-import F1SecondaryNavigation from "../../../F1SecondaryNavigation";
+import Footer from "../../../../../../components/Footer";
+import F1SecondaryNavigation from "../../../../F1SecondaryNavigation";
+import F1RaceResult from "../../../F1RaceResult";
 
-function Melbourne1A() {
+function Silverstone1A() {
   return (
     <>
-      <F1SecondaryNavigation
-        // Please ensure that page titles are in order of how they should be displayed. Make sure that the order of the links match their respected page titles.
-        pages={["Schedule", "Teams", "Standings", "Register"]}
-        links={["/f1/schedule", "/f1/teams", "/f1/standings", "/f1/register"]}
+     <F1SecondaryNavigation
       />
-      {/* <PageHero2
-        mainHeading="Melbourne"
-        subHeading="Season 1 - Tier A - Round 1"
-      /> */}
       <S.Section>
       
         <CalendarArrowContainer>
-          <Link>
+          <Link to={`/f1/schedule/season-1/tier-a/melbourne`}>
             <ArrowPrevious />
           </Link>
-          <Link to={`/f1/schedule/season-1/tier-a/silverstone`}>
+          {/* <Link to={`/f1/schedule/season-1/tier-a/spa`}>
             <ArrowNext />
-          </Link>
+          </Link> */}
         </CalendarArrowContainer>
-        <h6>Season 1 - Tier A - Round 1</h6>
+        <h6>Season 1 - Tier A - Round 2</h6>
         <br></br>
-        <h2>Melbourne</h2>
+        <h2>Silverstone</h2>
         <br></br>
-        <a target="_blank" href="https://www.youtube.com/watch?v=nh6SaPSJByY&t=138s&ab_channel=10Controls"><button>View Race Highlights</button></a>
+        <a target="_blank" href="https://www.youtube.com/watch?v=yw-ooSL5eSI&t=302s&ab_channel=10Controls"><button>View Race Highlights</button></a>
         <ResultsTable id="resultsTable">
           <tr>
             <th></th>
@@ -51,149 +44,172 @@ function Melbourne1A() {
           </tr>
           <F1RaceResult
             driverPosition="1"
-            driverName="Cortes"
-            driverFlag="/es.png"
+            driverName="Antonio Branchix"
+            driverFlag="it"
             team="ferrari"
-            driverTime="45:23.952"
+            driverTime="42:02.146"
             driverPoints="+25"
           />
           <F1RaceResult
             driverPosition="2"
-            driverName="Kudos"
-            driverFlag="/de.png"
-            team="mclaren"
-            driverTime="+1.125"
+            driverName="Kalcess"
+            driverFlag="no"
+            team="williams"
+            driverTime="+0.398"
             driverPoints="+18"
           />
           <F1RaceResult
             driverPosition="3"
-            driverName="Nik Kei"
-            driverFlag="/ua.png"
-            team="alpine"
-            driverTime="+3.138"
+            driverName="Kudos"
+            driverFlag="de"
+            team="mclaren"
+            driverTime="+7.356"
             driverPoints="+15"
           />
           <F1RaceResult
             driverPosition="4"
-            driverName="AnOldEnemy"
-            driverFlag="/hr.png"
-            team="haas"
-            driverTime="+4.131"
+            driverName="Dopichu"
+            driverFlag="fi"
+            team="alpha-tauri"
+            driverTime="+21.110"
             driverPoints="+13"
           />
           <F1RaceResult
             driverPosition="5"
-            driverName="Focuser"
-            driverFlag="/es.png"
-            team="alfa-romeo"
-            driverTime="+4.536"
+            driverName="Antonio Cortes"
+            driverFlag="es"
+            team="ferrari"
+            driverTime="+21.779"
             driverPoints="+10"
           />
           <F1RaceResult
             driverPosition="6"
-            driverName="Counterfeit"
-            driverFlag="/gb.png"
+            driverName="LucaDude40"
+            driverFlag="gb"
             team="aston-martin"
-            driverTime="+5.024"
+            driverTime="+22.474"
             driverPoints="+8"
           />
           <F1RaceResult
             driverPosition="7"
-            driverName="Kalcess"
-            driverFlag="/no.png"
-            team="williams"
-            driverTime="+7.501"
+            driverName="CountMuttly"
+            driverFlag="dk"
+            team="alfa-romeo"
+            driverTime="+27.050"
             driverPoints="+6"
           />
           <F1RaceResult
             driverPosition="8"
-            driverName="Joram"
-            driverFlag="/nl.png"
-            team="mercedes"
-            driverTime="+11.687"
+            driverName="Jaysen"
+            driverFlag="nl"
+            team="alpha-tauri"
+            driverTime="+33.677"
             driverPoints="+4"
           />
           <F1RaceResult
             driverPosition="9"
-            driverName="LawrenceSelling"
-            driverFlag="/ph.png"
-            team="williams"
-            driverTime="+22.823"
+            driverName="Focuser"
+            driverFlag="es"
+            team="alfa-romeo"
+            driverTime="+34.487"
             driverPoints="+2"
           />
           <F1RaceResult
             driverPosition="10"
-            driverName="Newman"
-            driverFlag="/it.png"
-            team="ferrari"
-            driverTime="+23.635"
+            driverName="Mute"
+            driverFlag="ng"
+            team="mercedes"
+            driverTime="+44.707"
             driverPoints="+1"
           />
           <F1RaceResult
             driverPosition="11"
-            driverName="LucaDude"
-            driverFlag="/gb.png"
-            team="aston-martin"
-            driverTime="+24.977"
+            driverName="Luc"
+            driverFlag="nl"
+            team="haas"
+            driverTime="+47.617"
             driverPoints=""
           />
           <F1RaceResult
-            driverPosition=""
-            driverName="Jesse"
-            driverFlag="/nl.png"
-            team="red-bull"
-            driverTime="DNF"
-            driverPoints=""
-          />
-          <F1RaceResult
-            driverPosition=""
-            driverName="CountMuttly"
-            driverFlag="/dk.png"
-            team="alfa-romeo"
-            driverTime="DNF"
-            driverPoints=""
-          />
-          <F1RaceResult
-            driverPosition=""
-            driverName="Kyan"
-            driverFlag="/nl.png"
-            team="alpha-tauri"
-            driverTime="DNF"
-            driverPoints=""
-          />
-          <F1RaceResult
-            driverPosition=""
-            driverName="Faded"
-            driverFlag="/us.png"
+            driverPosition="12"
+            driverName="Nik Kei"
+            driverFlag="ua"
             team="alpine"
-            driverTime="DNF"
+            driverTime="+49.449"
+            driverPoints=""
+          />
+          <F1RaceResult
+            driverPosition="13"
+            driverName="Hailee"
+            driverFlag="nl"
+            team="red-bull"
+            driverTime="+1:05.456"
+            driverPoints=""
+          />
+          <F1RaceResult
+            driverPosition="14"
+            driverName="LawrenceSelling"
+            driverFlag="ph"
+            team="williams"
+            driverTime="+1:20.285"
+            driverPoints=""
+          />
+          <F1RaceResult
+            driverPosition="15"
+            driverName="Bald"
+            driverFlag="ie"
+            team="red-bull"
+            driverTime="+1:25.211"
+            driverPoints=""
+          />
+          <F1RaceResult
+            driverPosition="16"
+            driverName="Counterfeit"
+            driverFlag="gb"
+            team="aston-martin"
+            driverTime="+1:25.274"
             driverPoints=""
           />
           <F1RaceResult
             driverPosition=""
-            driverName="Jaysen"
-            driverFlag="/nl.png"
-            team="alpha-tauri"
+            driverName="Joram"
+            driverFlag="nl"
+            team="alpine"
             driverTime="DNF"
             driverPoints=""
           />
           <F1RaceResult
             driverPosition=""
             driverName="iM3j3n"
-            driverFlag="/de.png"
+            driverFlag="de"
             team="mclaren"
             driverTime="DNF"
             driverPoints=""
           />
+          <F1RaceResult
+            driverPosition=""
+            driverName="UPPSEY"
+            driverFlag="it"
+            team="mercedes"
+            driverTime="DNF"
+            driverPoints=""
+          />
+          <F1RaceResult
+            driverPosition=""
+            driverName="FLAW"
+            driverFlag="nl"
+            team="haas"
+            driverTime="DNF"
+            driverPoints=""
+          />
         </ResultsTable>
-
         <FastestLapContainer>
-          <h6>Fastest Lap: AnOldEnemy</h6>
+          <h6>Fastest Lap: Bald</h6>
           <img src="/teams/red-bull.png" alt=""/>
           <h6>1:19.832</h6>
         </FastestLapContainer>
         <DriverDayContainer>
-          <h6>Driver Of The Day: Cortes</h6>
+          <h6>Driver Of The Day: Antonio Branchix</h6>
           <img src="/teams/ferrari.png" alt=""/>
         </DriverDayContainer>
       </S.Section>
@@ -205,7 +221,7 @@ function Melbourne1A() {
   );
 }
 
-export default Melbourne1A;
+export default Silverstone1A;
 
 const CalendarArrowContainer = styled.div`
   display: flex;
@@ -246,7 +262,6 @@ const DriverDayContainer = styled.div`
 
 const ArrowPrevious = styled(ArrowBackIosNewIcon)`
   font-size: 64px !important;
-  display: none !important;
 
   :hover {
     opacity: 1;

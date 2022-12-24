@@ -10,10 +10,10 @@ function F1StandingsKeyB() {
         <th><h5>Key</h5></th>
       </tr>
       <tr>
-        <td style={{backgroundColor: '#006400'}}><h6>Promoted to tier A</h6></td>
+        <td style={{backgroundColor: "rgba(25, 135, 84, 0.4)"}}><h6>Promoted to tier A</h6></td>
       </tr>
       <tr>
-        <td style={{backgroundColor: '#8B0000'}}><h6>Relegated to open qualifiers</h6></td>
+        <td style={{backgroundColor: "rgba(220, 53, 69, 0.4)"}}><h6>Relegated to open qualifiers</h6></td>
       </tr>
     </StandingsTable>
     </>
