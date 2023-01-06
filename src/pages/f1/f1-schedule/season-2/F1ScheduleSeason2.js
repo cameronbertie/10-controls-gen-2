@@ -10,7 +10,7 @@ function F1ScheduleSeason2() {
       <F1ScheduleCompleted
         roundNumber="1"
         days="2-3"
-        month="Dec"
+        month="Dec 2022"
         raceCountryFlag="au"
         raceName="Melbourne"
         tierADriver="AlphaRomeo"
@@ -25,7 +25,7 @@ function F1ScheduleSeason2() {
       <F1ScheduleCompleted
         roundNumber="2"
         days="9-10"
-        month="Dec"
+        month="Dec 2022"
         raceCountryFlag="pt"
         raceName="PORTIMÃO"
         tierADriver="Melon"
@@ -40,7 +40,7 @@ function F1ScheduleSeason2() {
       <F1ScheduleCompleted
          roundNumber="3 - sprint"
          days="16-17"
-         month="Dec"
+         month="Dec 2022"
          raceCountryFlag="fr"
          raceName="Paul Ricard"
         tierADriver="AlphaRomeo"
@@ -55,7 +55,7 @@ function F1ScheduleSeason2() {
       <F1ScheduleUpcoming
         roundNumber="4"
         days="6-7"
-        month="Jan"
+        month="Jan 2023"
         raceCountryFlag="jp"
         raceName="Suzuka"
         raceDetailsLink="season-2/suzuka"
@@ -63,7 +63,7 @@ function F1ScheduleSeason2() {
       <F1ScheduleUpcoming
         roundNumber="5"
         days="13-14"
-        month="Jan"
+        month="Jan 2023"
         raceCountryFlag="hu"
         raceName="Hungaroring"
         raceDetailsLink="season-2/hungaroring"
@@ -71,7 +71,7 @@ function F1ScheduleSeason2() {
       <F1ScheduleUpcoming
         roundNumber="6 - Sprint"
         days="20-21"
-        month="Jan"
+        month="Jan 2023"
         raceCountryFlag="at"
         raceName="Spielberg"
         raceDetailsLink="season-2/spielberg"
@@ -79,7 +79,7 @@ function F1ScheduleSeason2() {
       <F1ScheduleUpcoming
         roundNumber="7"
         days="27-28"
-        month="Jan"
+        month="Jan 2023"
         raceCountryFlag="az"
         raceName="Baku"
         raceDetailsLink="season-2/baku"
@@ -87,7 +87,7 @@ function F1ScheduleSeason2() {
       <F1ScheduleUpcoming
         roundNumber="8"
         days="3-4"
-        month="Feb"
+        month="Feb 2023"
         raceCountryFlag="cn"
         raceName="Shanghai"
         raceDetailsLink="season-2/shanghai"
@@ -95,7 +95,7 @@ function F1ScheduleSeason2() {
       <F1ScheduleUpcoming
         roundNumber="9 - sprint"
         days="10-11"
-        month="Feb"
+        month="Feb 2023"
         raceCountryFlag="us"
         raceName="Austin"
         raceDetailsLink="season-2/austin"
@@ -103,7 +103,7 @@ function F1ScheduleSeason2() {
       <F1ScheduleUpcoming
         roundNumber="10"
         days="17-18"
-        month="Feb"
+        month="Feb 2023"
         raceCountryFlag="it"
         raceName="Imola"
         raceDetailsLink="season-2/imola"
@@ -111,7 +111,7 @@ function F1ScheduleSeason2() {
       <F1ScheduleUpcoming
         roundNumber="11"
         days="24-25"
-        month="Feb"
+        month="Feb 2023"
         raceCountryFlag="sg"
         raceName="Singapore"
         raceDetailsLink="season-2/singapore"
@@ -119,7 +119,7 @@ function F1ScheduleSeason2() {
       <F1ScheduleUpcoming
         roundNumber="12"
         days="3-4"
-        month="Mar"
+        month="Mar 2023"
         raceCountryFlag="br"
         raceName="Interlagos"
         raceDetailsLink="season-2/interlagos"

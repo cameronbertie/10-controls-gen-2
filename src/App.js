@@ -14,6 +14,20 @@ import Melbourne1A from './pages/f1/f1-schedule/season-1/races/tier-a/Melbourne1
 import Melbourne1B from './pages/f1/f1-schedule/season-1/races/tier-b/Melbourne1B';
 import Silverstone1A from './pages/f1/f1-schedule/season-1/races/tier-a/Silverstone1A';
 import Silverstone1B from "./pages/f1/f1-schedule/season-1/races/tier-b/Silverstone1B";
+import Spa1A from './pages/f1/f1-schedule/season-1/races/tier-a/Spa1A';
+import Spa1B from "./pages/f1/f1-schedule/season-1/races/tier-b/Spa1B";
+import Jeddah1A from './pages/f1/f1-schedule/season-1/races/tier-a/Jeddah1A';
+import Jeddah1B from './pages/f1/f1-schedule/season-1/races/tier-b/Jeddah1B';
+import Zandvoort1A from './pages/f1/f1-schedule/season-1/races/tier-a/Zandvoort1A';
+import Zandvoort1B from './pages/f1/f1-schedule/season-1/races/tier-b/Zandvoort1B';
+// import Monza1A from './pages/f1/f1-schedule/season-1/races/tier-a/Monza1A';
+import Monza1B from './pages/f1/f1-schedule/season-1/races/tier-b/Monza1B';
+// import Hungaroring1A from './pages/f1/f1-schedule/season-1/races/tier-a/Hungaroring1A';
+import Hungaroring1B from './pages/f1/f1-schedule/season-1/races/tier-b/Hungaroring1B';
+// import Miami1A from './pages/f1/f1-schedule/season-1/races/tier-a/Miami1A';
+import Miami1B from './pages/f1/f1-schedule/season-1/races/tier-b/Miami1B';
+// import Mexico1A from './pages/f1/f1-schedule/season-1/races/tier-a/Mexico1A';
+import Mexico1B from './pages/f1/f1-schedule/season-1/races/tier-b/Mexico1B';
 
 import Melbourne2A from './pages/f1/f1-schedule/season-2/races/tier-a/Melbourne2A';
 import Melbourne2B from './pages/f1/f1-schedule/season-2/races/tier-b/Melbourne2B';
@@ -65,6 +79,20 @@ function App() {
           <Route path="/f1/schedule/season-1/tier-b/melbourne" element={<Melbourne1B />} />
           <Route path="/f1/schedule/season-1/tier-a/silverstone" element={<Silverstone1A />} />
           <Route path="/f1/schedule/season-1/tier-b/silverstone" element={<Silverstone1B />} />
+          <Route path="/f1/schedule/season-1/tier-a/spa" element={<Spa1A />} />
+          <Route path="/f1/schedule/season-1/tier-b/spa" element={<Spa1B />} />
+          <Route path="/f1/schedule/season-1/tier-a/jeddah" element={<Jeddah1A />} />
+          <Route path="/f1/schedule/season-1/tier-b/jeddah" element={<Jeddah1B />} />
+          <Route path="/f1/schedule/season-1/tier-a/zandvoort" element={<Zandvoort1A />} />
+          <Route path="/f1/schedule/season-1/tier-b/zandvoort" element={<Zandvoort1B />} />
+          {/* <Route path="/f1/schedule/season-1/tier-a/monza" element={<Monza1A />} /> */}
+          <Route path="/f1/schedule/season-1/tier-b/monza" element={<Monza1B />} />
+          {/* <Route path="/f1/schedule/season-1/tier-a/hungaroring" element={<Hungaroring1A />} /> */}
+          <Route path="/f1/schedule/season-1/tier-b/hungaroring" element={<Hungaroring1B />} />
+          {/* <Route path="/f1/schedule/season-1/tier-a/miami" element={<Miami1A />} /> */}
+          <Route path="/f1/schedule/season-1/tier-b/miami" element={<Miami1B />} />
+          {/* <Route path="/f1/schedule/season-1/tier-a/mexico" element={<Mexico1A />} /> */}
+          <Route path="/f1/schedule/season-1/tier-b/mexico" element={<Mexico1B />} />
 
           <Route path="/f1/schedule/season-2/tier-a/melbourne" element={<Melbourne2A />} />
           <Route path="/f1/schedule/season-2/tier-b/melbourne" element={<Melbourne2B />} />
