@@ -21,17 +21,17 @@ function Navigation() {
   }, [location]);
 
   // const theme = useSelector(selectTheme);
-  const theme = "dark";
-  const dispatch = useDispatch();
+  // const theme = "dark";
+  // const dispatch = useDispatch();
 
-   const themeToggler = () => {
-    theme === "light" ? dispatch(darkMode()) : dispatch(lightMode());
-  };
+  //  const themeToggler = () => {
+  //   theme === "light" ? dispatch(darkMode()) : dispatch(lightMode());
+  // };
 
   return (
-    <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+    // <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <>
-        <GlobalStyles />
+        {/* <GlobalStyles /> */}
         <NavigationTop id="navigation__top">
           <SiteLogoContainer>
             <Link to="/">
@@ -61,7 +61,7 @@ function Navigation() {
               label="Join our Discord server"
             >
               <svg
-                width="32"
+                width="20"
                 height="auto"
                 viewBox="0 0 16 18"
                 xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +82,7 @@ function Navigation() {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="32"
+                width="20"
                 height="auto"
                 viewBox="0 0 24 24"
               >
@@ -101,7 +101,7 @@ function Navigation() {
               label="Subscribe to our YouTube Channel"
             >
               <svg
-                width="32"
+                width="20"
                 height="auto"
                 viewBox="0 0 20 14"
                 xmlns="http://www.w3.org/2000/svg"
@@ -121,7 +121,7 @@ function Navigation() {
           </NavigationIconsContainer>
         </NavigationRight>
       </>
-    </ThemeProvider>
+    // </ThemeProvider>
   );
 }
 
