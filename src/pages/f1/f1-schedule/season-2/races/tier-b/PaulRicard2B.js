@@ -18,22 +18,22 @@ function PaulRicard2B() {
           <Link to={`/f1/schedule/season-2/tier-b/portimao`}>
             <ArrowPrevious />
           </Link>
-          {/* <Link >
+          <Link to={`/f1/schedule/season-2/tier-b/suzuka`}>
             <ArrowNext />
-          </Link> */}
+          </Link>
         </CalendarArrowContainer>
         <h6>Season 2 - Tier B - Round 3</h6>
         <br></br>
         <h2>Paul Ricard</h2>
         <h5>Results</h5>
         <br></br>
-        {/* <a
+        <a
           target="_blank"
           rel="noreferrer"
-          href="https://www.youtube.com/watch?v=PrPKO3VKsVM&ab_channel=10Controls"
+          href="https://www.youtube.com/watch?v=75UHE9bwrso&ab_channel=10Controls"
         >
           <button>View Race Highlights</button>
-        </a> */}
+        </a>
         <ResultsTable id="resultsTable">
           <tr>
             <th></th>
@@ -129,7 +129,7 @@ function PaulRicard2B() {
           />
           <F1RaceResult
             driverPosition="11"
-            driverName="Bartusg"
+            driverName="bartusg5"
             driverFlag="hu"
             team="williams"
             driverTime="+55.563"
@@ -201,14 +201,6 @@ function PaulRicard2B() {
         <br></br>
         <h2>Paul Ricard</h2>
         <h5>Sprint Results</h5>
-        <br></br>
-        {/* <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.youtube.com/watch?v=PrPKO3VKsVM&ab_channel=10Controls"
-        >
-          <button>View Race Highlights</button>
-        </a> */}
         <ResultsTable id="resultsTable">
           <tr>
             <th></th>
@@ -288,7 +280,7 @@ function PaulRicard2B() {
           />
           <F1RaceResult
             driverPosition="9"
-            driverName="Bartusg"
+            driverName="bartusg5"
             driverFlag="hu"
             team="williams"
             driverTime="+17.975"

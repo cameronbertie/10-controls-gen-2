@@ -52,13 +52,20 @@ function F1ScheduleSeason2() {
         tierAResultsLink="season-2/tier-a/paul-ricard"
         tierBResultsLink="season-2/tier-b/paul-ricard"
       />
-      <F1ScheduleUpcoming
+      <F1ScheduleCompleted
         roundNumber="4"
         days="6-7"
         month="Jan 2023"
         raceCountryFlag="jp"
         raceName="Suzuka"
-        raceDetailsLink="season-2/suzuka"
+        tierADriver="Antonio Cortes"
+        tierADriverFlag="es"
+        tierADriverTeam="ferrari"
+        tierBDriver="Stra"
+        tierBDriverFlag="rs"
+        tierBDriverTeam="mclaren"
+        tierAResultsLink="season-2/tier-a/suzuka"
+        tierBResultsLink="season-2/tier-b/suzuka"
       />
       <F1ScheduleUpcoming
         roundNumber="5"

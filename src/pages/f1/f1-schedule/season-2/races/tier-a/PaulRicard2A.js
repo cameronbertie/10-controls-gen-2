@@ -20,9 +20,9 @@ function PaulRicard2A() {
           <Link to={`/f1/schedule/season-2/tier-a/portimao`}>
             <ArrowPrevious />
           </Link>
-          {/* <Link to={`/f1/schedule/portimao`}>
+          <Link to={`/f1/schedule/season-2/tier-a/suzuka`}>
             <ArrowNext />
-          </Link> */}
+          </Link>
         </CalendarArrowContainer>
         <h6>Season 2 - Tier A - Round 3</h6>
         <br></br>
@@ -181,8 +181,6 @@ function PaulRicard2A() {
         <br></br>
         <h2>Paul Ricard</h2>
         <h5>Sprint Results</h5>
-        <br></br>
-        {/* <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=Fzu8GGtsgNg&ab_channel=10Controls"><button>View Race Highlights</button></a> */}
         <ResultsTable id="resultsTable">
           <tr>
             <th></th>

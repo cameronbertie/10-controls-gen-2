@@ -8,7 +8,7 @@ function F1TeamsTierA() {
     <>
       <F1Team
         team="red-bull"
-        driver1Name="ThomasVink"
+        driver1Name="Thomas Vink"
         driver1flag="nl"
         driver2Name="focuser"
         driver2flag="es"
@@ -66,8 +66,8 @@ function F1TeamsTierA() {
         team="alpha-tauri"
         driver1Name="Kalcess"
         driver1flag="no"
-        driver2Name="Cheers"
-        driver2flag="de"
+        driver2Name="Melon"
+        driver2flag="ro"
       />
       <F1Team
         team="williams"
