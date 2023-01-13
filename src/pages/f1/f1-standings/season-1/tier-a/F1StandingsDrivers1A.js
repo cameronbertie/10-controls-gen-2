@@ -104,7 +104,7 @@ function F1StandingsDrivers1A() {
       <F1DriverStanding
         driverPosition="13"
         driverName="AnOldEnemy"
-        driverFlag="nl"
+        driverFlag="hr"
         team="haas"
         driverPoints="39"
       />

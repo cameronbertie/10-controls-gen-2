@@ -90,7 +90,7 @@ function Suzuka2B() {
           <F1RaceResult
             driverPosition="6"
             driverName="AnOldEnemy"
-            driverFlag="nl"
+            driverFlag="hr"
             team="aston-martin"
             driverTime="+30.073"
             driverPoints="+8"

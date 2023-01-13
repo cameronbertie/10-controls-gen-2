@@ -44,7 +44,7 @@ function Navigation() {
               <NavigationLink to="/rl/">Rocket League</NavigationLink>
           </NavigationLinks>
           <MenuContainer>
-            <HamburgerIcon toggled={isOpen} toggle={setOpen} />
+            <Hamburger toggled={isOpen} toggle={setOpen} />
             {isOpen && <Menu />}
           </MenuContainer>
         </NavigationTop>
@@ -65,6 +65,7 @@ function Navigation() {
                 height="auto"
                 viewBox="0 0 16 18"
                 xmlns="http://www.w3.org/2000/svg"
+                id="discordIcon"
               >
                 <path
                   fill-rule="evenodd"
@@ -85,6 +86,7 @@ function Navigation() {
                 width="20"
                 height="auto"
                 viewBox="0 0 24 24"
+                id="twitchIcon"
               >
                 <path
                   d="M2.149 0l-1.612 4.119v16.836h5.731v3.045h3.224l3.045-3.045h4.657l6.269-6.269v-14.686h-21.314zm19.164 13.612l-3.582 3.582h-5.731l-3.045 3.045v-3.045h-4.836v-15.045h17.194v11.463zm-3.582-7.343v6.262h-2.149v-6.262h2.149zm-5.731 0v6.262h-2.149v-6.262h2.149z"
@@ -105,6 +107,7 @@ function Navigation() {
                 height="auto"
                 viewBox="0 0 20 14"
                 xmlns="http://www.w3.org/2000/svg"
+                id="youtubeIcon"
               >
                 <path d="M19.0901 2.1121C18.8685 1.28468 18.2037 0.631452 17.3616 0.402823C15.8437 0 9.75 0 9.75 0C9.75 0 3.65625 0 2.12727 0.402823C1.28523 0.620565 0.631534 1.27379 0.398864 2.1121C0 3.61452 0 6.75 0 6.75C0 6.75 0 9.88548 0.409943 11.3879C0.631534 12.2153 1.29631 12.8685 2.13835 13.0972C3.65625 13.5 9.75 13.5 9.75 13.5C9.75 13.5 15.8437 13.5 17.3727 13.0972C18.2148 12.8794 18.8685 12.2262 19.1011 11.3879C19.5 9.88548 19.5 6.75 19.5 6.75C19.5 6.75 19.5 3.61452 19.0901 2.1121ZM7.75568 9.60242V3.89758L12.8523 6.75L7.75568 9.60242Z"></path>
               </svg>
@@ -193,10 +196,6 @@ const MenuContainer = styled.div`
   justify-content: center;
   align-items: center;
   border-left: 1px solid #492833;
-`;
-
-const HamburgerIcon = styled(Hamburger)`
-  color: white;
 `;
 
 const NavigationLeft = styled.nav`

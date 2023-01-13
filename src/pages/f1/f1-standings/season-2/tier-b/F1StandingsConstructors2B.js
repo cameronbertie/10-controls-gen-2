@@ -17,12 +17,12 @@ function F1StandingsConstructors2B() {
       <F1ConstructorStanding
         constructorPosition="1"
         team="mclaren"
-        constructorPoints="80"
+        constructorPoints="82"
       />
       <F1ConstructorStanding
         constructorPosition="2"
         team="aston-martin"
-        constructorPoints="66"
+        constructorPoints="64"
       />
       <F1ConstructorStanding
         constructorPosition="3"

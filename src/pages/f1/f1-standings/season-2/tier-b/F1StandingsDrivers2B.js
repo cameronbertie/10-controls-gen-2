@@ -93,17 +93,17 @@ function F1StandingsDrivers2B() {
       />
       <F1DriverStanding
         driverPosition="11"
-        driverName="ANOLDENEMY"
-        driverFlag="hr"
-        team="aston-martin"
-        driverPoints="10"
-      />
-      <F1DriverStanding
-        driverPosition="12"
         driverName="COUNTMUTTLY"
         driverFlag="dk"
         team="mclaren"
-        driverPoints="9"
+        driverPoints="11"
+      />
+      <F1DriverStanding
+        driverPosition="12"
+        driverName="ANOLDENEMY"
+        driverFlag="hr"
+        team="aston-martin"
+        driverPoints="8"
       />
       <F1DriverStanding
         driverPosition="13"

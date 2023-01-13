@@ -54,10 +54,6 @@ body {
   color: ${({ theme }) => theme.borderColor};
 }
 
-#filterButton {
-
-}
-
 svg {
   fill: ${({ theme }) => theme.text};
 
@@ -66,6 +62,32 @@ svg {
     transition: 0.3s;
   }
 }
+
+#youtubeIcon:hover {
+  fill: #FF0000;
+  opacity: 100%;
+}
+
+#twitchIcon:hover {
+  fill: #9146FF;
+  opacity: 100%;
+}
+
+#discordIcon:hover {
+  fill: #5865F2;
+  opacity: 100%;
+}
+
+.hamburger-react {
+  color: ${({ theme }) => theme.text};
+
+  :hover {
+    opacity: 50%;
+    transition: 0.3s;
+  }
+}
+
+
 
 h1, h2, h3, h4, h5, h6, p {
   color: ${({ theme }) => theme.text};

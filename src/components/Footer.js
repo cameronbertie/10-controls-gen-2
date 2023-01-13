@@ -59,6 +59,7 @@ const [theme, setTheme] = useState(JSON.parse(localStorage.getItem("theme")))
               label="Join our Discord server"
             >
               <svg
+                id="discordIcon"
                 width="20"
                 height="auto"
                 viewBox="0 0 16 18"
@@ -79,6 +80,7 @@ const [theme, setTheme] = useState(JSON.parse(localStorage.getItem("theme")))
               label="Follow us on Twitch"
             >
               <svg
+                id="twitchIcon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
                 height="auto"
@@ -99,6 +101,7 @@ const [theme, setTheme] = useState(JSON.parse(localStorage.getItem("theme")))
               label="Subscribe to our YouTube Channel"
             >
               <svg
+                id="youtubeIcon"
                 width="20"
                 height="auto"
                 viewBox="0 0 20 14"
