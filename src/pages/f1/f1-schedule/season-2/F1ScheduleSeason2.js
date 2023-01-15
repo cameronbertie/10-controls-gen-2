@@ -67,13 +67,20 @@ function F1ScheduleSeason2() {
         tierAResultsLink="season-2/tier-a/suzuka"
         tierBResultsLink="season-2/tier-b/suzuka"
       />
-      <F1ScheduleUpcoming
+      <F1ScheduleCompleted
         roundNumber="5"
         days="13-14"
         month="Jan 2023"
         raceCountryFlag="hu"
         raceName="Hungaroring"
-        raceDetailsLink="season-2/hungaroring"
+        tierADriver="Melon"
+        tierADriverFlag="ro"
+        tierADriverTeam="alpha-tauri"
+        tierBDriver="Arab"
+        tierBDriverFlag="us"
+        tierBDriverTeam="red-bull"
+        tierAResultsLink="season-2/tier-a/hungaroring"
+        tierBResultsLink="season-2/tier-b/hungaroring"
       />
       <F1ScheduleUpcoming
         roundNumber="6 - Sprint"

@@ -21,63 +21,63 @@ function F1StandingsDrivers2A() {
         driverName="ALPHAROMEO"
         driverFlag="nl"
         team="williams"
-        driverPoints="74"
+        driverPoints="84"
       />
       <F1DriverStanding
         driverPosition="2"
+        driverName="Melon"
+        driverFlag="ro"
+        team="alpha-tauri"
+        driverPoints="68"
+      />
+      <F1DriverStanding
+        driverPosition="3"
+        driverName="THOMAS VINK"
+        driverFlag="nl"
+        team="red-bull"
+        driverPoints="54"
+      />
+      <F1DriverStanding
+        driverPosition="4"
         driverName="ANTONIO CORTES"
         driverFlag="es"
         team="ferrari"
         driverPoints="47"
       />
       <F1DriverStanding
-        driverPosition="3"
-        driverName="Melon"
-        driverFlag="ro"
-        team="alpha-tauri"
-        driverPoints="43"
-      />
-      <F1DriverStanding
-        driverPosition="4"
-        driverName="THOMAS VINK"
-        driverFlag="nl"
-        team="red-bull"
-        driverPoints="36"
-      />
-      <F1DriverStanding
         driverPosition="5"
+        driverName="COUNTERFEIT"
+        driverFlag="gb"
+        team="mercedes"
+        driverPoints="45"
+      />
+      <F1DriverStanding
+        driverPosition="6"
+        driverName="FOCUSER"
+        driverFlag="es"
+        team="red-bull"
+        driverPoints="44"
+      />
+      <F1DriverStanding
+        driverPosition="7"
         driverName="FADED"
         driverFlag="us"
         team="alpine"
         driverPoints="36"
       />
       <F1DriverStanding
-        driverPosition="6"
+        driverPosition="8"
         driverName="ANTONIO BRANCHIX"
         driverFlag="it"
         team="ferrari"
         driverPoints="34"
       />
       <F1DriverStanding
-        driverPosition="7"
-        driverName="COUNTERFEIT"
-        driverFlag="gb"
-        team="mercedes"
-        driverPoints="33"
-      />
-      <F1DriverStanding
-        driverPosition="8"
-        driverName="FOCUSER"
-        driverFlag="es"
-        team="red-bull"
-        driverPoints="29"
-      />
-      <F1DriverStanding
         driverPosition="9"
         driverName="LUCADUDE40"
         driverFlag="gb"
         team="mercedes"
-        driverPoints="24"
+        driverPoints="30"
       />
       <F1DriverStanding
         driverPosition="10"
@@ -88,31 +88,31 @@ function F1StandingsDrivers2A() {
       />
       <F1DriverStanding
         driverPosition="11"
+        driverName="KUDOS"
+        driverFlag="de"
+        team="aston-martin"
+        driverPoints="14"
+      />
+      <F1DriverStanding
+        driverPosition="12"
         driverName="PHILIP"
         driverFlag="nl"
         team="haas"
         driverPoints="12"
       />
       <F1DriverStanding
-        driverPosition="12"
-        driverName="KUDOS"
-        driverFlag="de"
-        team="aston-martin"
-        driverPoints="12"
-      />
-      <F1DriverStanding
         driverPosition="13"
-        driverName="KALCESS"
-        driverFlag="no"
-        team="alpha-tauri"
+        driverName="FLAW"
+        driverFlag="nl"
+        team="williams"
         driverPoints="10"
       />
       <F1DriverStanding
         driverPosition="14"
-        driverName="FLAW"
-        driverFlag="nl"
-        team="williams"
-        driverPoints="6"
+        driverName="KALCESS"
+        driverFlag="no"
+        team="alpha-tauri"
+        driverPoints="10"
       />
       <F1DriverStanding
         driverPosition="15"
@@ -142,7 +142,7 @@ function F1StandingsDrivers2A() {
         driverName="LUC"
         driverFlag="nl"
         team="mclaren"
-        driverPoints="0"
+        driverPoints="1"
         status="demotion"
       />
       <F1DriverStanding

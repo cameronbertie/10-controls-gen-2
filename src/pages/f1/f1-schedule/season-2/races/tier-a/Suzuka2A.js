@@ -20,16 +20,16 @@ function Suzuka2A() {
           <Link to={`/f1/schedule/season-2/tier-a/paul-ricard`}>
             <ArrowPrevious />
           </Link>
-          {/* <Link to={`/f1/schedule/portimao`}>
+          <Link to={`/f1/schedule/season-2/tier-a/hungaroring`}>
             <ArrowNext />
-          </Link> */}
+          </Link>
         </CalendarArrowContainer>
         <h6>Season 2 - Tier A - Round 4</h6>
         <br></br>
         <h2>Suzuka</h2>
         <h5>Results</h5>
         <br></br>
-        {/* <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=EsIOA2crutc&ab_channel=10Controls"><button>View Race Highlights</button></a> */}
+        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=PzhicbQGaX4&ab_channel=10Controls"><button>View Race Highlights</button></a>
         <ResultsTable id="resultsTable">
           <tr>
             <th></th>
