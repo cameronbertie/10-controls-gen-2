@@ -29,7 +29,7 @@ function Hungaroring2A() {
         <h2>Hungaroring</h2>
         <h5>Results</h5>
         <br></br>
-        {/* <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=EsIOA2crutc&ab_channel=10Controls"><button>View Race Highlights</button></a> */}
+        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=ccWjV6nppiY&ab_channel=10Controls"><button>View Race Highlights</button></a>
         <ResultsTable id="resultsTable">
           <tr>
             <th></th>
@@ -46,7 +46,7 @@ function Hungaroring2A() {
           <F1RaceResult
             driverPosition="1"
             driverName="Melon"
-            driverFlag="de"
+            driverFlag="ro"
             team="alpha-tauri"
             driverTime="51:22.035"
             driverPoints="+25"

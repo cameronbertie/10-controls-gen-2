@@ -27,13 +27,13 @@ function Hungaroring2B() {
         <h2>Hungaroring</h2>
         <h5>Results</h5>
         <br></br>
-        {/* <a
+        <a
           target="_blank"
           rel="noreferrer"
-          href="https://www.youtube.com/watch?v=PrPKO3VKsVM&ab_channel=10Controls"
+          href="https://www.youtube.com/watch?v=HrtdwsUmjts&ab_channel=10Controls"
         >
           <button>View Race Highlights</button>
-        </a> */}
+        </a>
         <ResultsTable id="resultsTable">
           <tr>
             <th></th>

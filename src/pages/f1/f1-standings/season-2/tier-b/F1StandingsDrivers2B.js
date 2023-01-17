@@ -139,7 +139,7 @@ function F1StandingsDrivers2B() {
         driverName="LUKAS HENDRYCH"
         driverFlag="cz"
         team="ferrari"
-        driverPoints="1"
+        driverPoints="0"
         status="demotion"
       />
       <F1DriverStanding
