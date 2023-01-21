@@ -39,6 +39,8 @@ import Suzuka2A from './pages/f1/f1-schedule/season-2/races/tier-a/Suzuka2A';
 import Suzuka2B from './pages/f1/f1-schedule/season-2/races/tier-b/Suzuka2B';
 import Hungaroring2A from './pages/f1/f1-schedule/season-2/races/tier-a/Hungaroring2A';
 import Hungaroring2B from './pages/f1/f1-schedule/season-2/races/tier-b/Hungaroring2B';
+import Spielberg2A from './pages/f1/f1-schedule/season-2/races/tier-a/Spielberg2A';
+// import Spielberg2B from './pages/f1/f1-schedule/season-2/races/tier-b/Spielberg2B';
 
 import Suzuka from "./pages/f1/f1-schedule/season-2/races/Suzuka";
 import Hungaroring from "./pages/f1/f1-schedule/season-2/races/Hungaroring";
@@ -108,6 +110,8 @@ function App() {
           <Route path="/f1/schedule/season-2/tier-b/suzuka" element={<Suzuka2B />} />
           <Route path="/f1/schedule/season-2/tier-a/hungaroring" element={<Hungaroring2A />} />
           <Route path="/f1/schedule/season-2/tier-b/hungaroring" element={<Hungaroring2B />} />
+          <Route path="/f1/schedule/season-2/tier-a/spielberg" element={<Spielberg2A />} />
+          {/* <Route path="/f1/schedule/season-2/tier-b/spielberg" element={<Spielberg2B />} /> */}
           
           <Route path="/f1/schedule/season-2/suzuka" element={<Suzuka />} />
           <Route path="/f1/schedule/season-2/hungaroring" element={<Hungaroring />} />

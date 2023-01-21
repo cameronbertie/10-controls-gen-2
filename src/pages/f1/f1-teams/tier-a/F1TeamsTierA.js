@@ -15,8 +15,8 @@ function F1TeamsTierA() {
       />
       <F1Team
         team="ferrari"
-        driver1Name="Antonio Cortes"
-        driver1flag="es"
+        driver1Name="AlphaRomeo"
+        driver1flag="nl"
         driver2Name="Antonio Branchix"
         driver2flag="it"
       />
@@ -73,8 +73,8 @@ function F1TeamsTierA() {
         team="williams"
         driver1Name="Flaw"
         driver1flag="nl"
-        driver2Name="AlphaRomeo"
-        driver2flag="nl"
+        driver2Name="Stra"
+        driver2flag="rs"
       />
     </>
   );

@@ -20,9 +20,9 @@ function Hungaroring2A() {
           <Link to={`/f1/schedule/season-2/tier-a/suzuka`}>
             <ArrowPrevious />
           </Link>
-          {/* <Link to={`/f1/schedule/season-2/tier-a/suzuka`}>
+          <Link to={`/f1/schedule/season-2/tier-a/spielberg`}>
             <ArrowNext />
-          </Link> */}
+          </Link>
         </CalendarArrowContainer>
         <h6>Season 2 - Tier A - Round 5</h6>
         <br></br>

@@ -18,52 +18,52 @@ function F1StandingsDrivers2A() {
       </tr>
       <F1DriverStanding
         driverPosition="1"
-        driverName="ALPHAROMEO"
-        driverFlag="nl"
-        team="williams"
-        driverPoints="84"
-      />
-      <F1DriverStanding
-        driverPosition="2"
         driverName="Melon"
         driverFlag="ro"
         team="alpha-tauri"
-        driverPoints="68"
+        driverPoints="101"
+      />
+      <F1DriverStanding
+        driverPosition="2"
+        driverName="ALPHAROMEO"
+        driverFlag="nl"
+        team="ferrari"
+        driverPoints="90"
       />
       <F1DriverStanding
         driverPosition="3"
         driverName="THOMAS VINK"
         driverFlag="nl"
         team="red-bull"
-        driverPoints="54"
+        driverPoints="61"
       />
       <F1DriverStanding
         driverPosition="4"
-        driverName="ANTONIO CORTES"
-        driverFlag="es"
-        team="ferrari"
-        driverPoints="47"
+        driverName="FADED"
+        driverFlag="us"
+        team="alpine"
+        driverPoints="52"
       />
       <F1DriverStanding
         driverPosition="5"
         driverName="COUNTERFEIT"
         driverFlag="gb"
         team="mercedes"
-        driverPoints="45"
+        driverPoints="49"
       />
       <F1DriverStanding
         driverPosition="6"
-        driverName="FOCUSER"
-        driverFlag="es"
-        team="red-bull"
-        driverPoints="44"
+        driverName="LUCADUDE40"
+        driverFlag="gb"
+        team="mercedes"
+        driverPoints="48"
       />
       <F1DriverStanding
         driverPosition="7"
-        driverName="FADED"
-        driverFlag="us"
-        team="alpine"
-        driverPoints="36"
+        driverName="FOCUSER"
+        driverFlag="es"
+        team="red-bull"
+        driverPoints="45"
       />
       <F1DriverStanding
         driverPosition="8"
@@ -74,67 +74,67 @@ function F1StandingsDrivers2A() {
       />
       <F1DriverStanding
         driverPosition="9"
-        driverName="LUCADUDE40"
-        driverFlag="gb"
-        team="mercedes"
-        driverPoints="30"
+        driverName="KALCESS"
+        driverFlag="no"
+        team="alpha-tauri"
+        driverPoints="33"
       />
       <F1DriverStanding
         driverPosition="10"
+        driverName="KUDOS"
+        driverFlag="de"
+        team="aston-martin"
+        driverPoints="24"
+      />
+      <F1DriverStanding
+        driverPosition="11"
         driverName="IM3J3N"
         driverFlag="de"
         team="aston-martin"
         driverPoints="18"
       />
       <F1DriverStanding
-        driverPosition="11"
-        driverName="KUDOS"
-        driverFlag="de"
-        team="aston-martin"
-        driverPoints="14"
-      />
-      <F1DriverStanding
         driverPosition="12"
         driverName="PHILIP"
         driverFlag="nl"
         team="haas"
-        driverPoints="12"
+        driverPoints="14"
       />
       <F1DriverStanding
         driverPosition="13"
+        driverName="NIK KEI"
+        driverFlag="ua"
+        team="alpine"
+        driverPoints="10"
+      />
+      <F1DriverStanding
+        driverPosition="14"
         driverName="FLAW"
         driverFlag="nl"
         team="williams"
         driverPoints="10"
       />
       <F1DriverStanding
-        driverPosition="14"
-        driverName="KALCESS"
-        driverFlag="no"
-        team="alpha-tauri"
-        driverPoints="10"
-      />
-      <F1DriverStanding
         driverPosition="15"
-        driverName="NYDROW"
-        driverFlag="be"
-        team="alfa-romeo"
-        driverPoints="3"
+        driverName="Stra"
+        driverFlag="rs"
+        team="williams"
+        driverPoints="6"
       />
       <F1DriverStanding
         driverPosition="16"
         driverName="BRIM"
         driverFlag="nl"
         team="mclaren"
-        driverPoints="3"
+        driverPoints="6"
         status="demotion"
       />
       <F1DriverStanding
         driverPosition="17"
-        driverName="NIK KEI"
-        driverFlag="ua"
-        team="alpine"
-        driverPoints="2"
+        driverName="NYDROW"
+        driverFlag="be"
+        team="alfa-romeo"
+        driverPoints="3"
         status="demotion"
       />
       <F1DriverStanding
