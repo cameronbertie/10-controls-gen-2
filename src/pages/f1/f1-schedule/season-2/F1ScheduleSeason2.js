@@ -82,13 +82,20 @@ function F1ScheduleSeason2() {
         tierAResultsLink="season-2/tier-a/hungaroring"
         tierBResultsLink="season-2/tier-b/hungaroring"
       />
-      <F1ScheduleUpcoming
+      <F1ScheduleCompleted
         roundNumber="6 - Sprint"
         days="20-21"
         month="Jan 2023"
         raceCountryFlag="at"
         raceName="Spielberg"
-        raceDetailsLink="season-2/spielberg"
+        tierADriver="Melon"
+        tierADriverFlag="ro"
+        tierADriverTeam="alpha-tauri"
+        tierBDriver="Arab"
+        tierBDriverFlag="us"
+        tierBDriverTeam="red-bull"
+        tierAResultsLink="season-2/tier-a/spielberg"
+        tierBResultsLink="season-2/tier-b/spielberg"
       />
       <F1ScheduleUpcoming
         roundNumber="7"

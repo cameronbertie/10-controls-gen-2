@@ -71,8 +71,8 @@ function F1TeamsTierB() {
       />
       <F1Team
         team="williams"
-        driver1Name="Kogoda"
-        driver1flag="ie"
+        driver1Name="Hidlex"
+        driver1flag="nl"
         driver2Name="bartusg5"
         driver2flag="hu"
       />
