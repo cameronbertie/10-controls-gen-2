@@ -49,7 +49,7 @@ function F1StandingsDrivers2B() {
         status="promotion"
       />
       <F1DriverStanding
-        driverPosition="7"
+        driverPosition="5"
         driverName="VADE"
         driverFlag="se"
         team="alpine"
@@ -155,7 +155,7 @@ function F1StandingsDrivers2B() {
       />
       <F1DriverStanding
         driverPosition="19"
-        driverName="Hiddlex"
+        driverName="Hidlex"
         driverFlag="nl"
         team="williams"
         driverPoints="2"

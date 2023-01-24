@@ -129,7 +129,7 @@ function Spielberg2B() {
           />
           <F1RaceResult
             driverPosition="11"
-            driverName="Eyman Akin"
+            driverName="Eymen Akin"
             driverFlag="tr"
             team="mclaren"
             driverTime="+1 LAP"
@@ -248,7 +248,7 @@ function Spielberg2B() {
           />
           <F1RaceResult
             driverPosition="6"
-            driverName="Eyman Akin"
+            driverName="Eymen Akin"
             driverFlag="tr"
             team="mclaren"
             driverTime="+9.540"

@@ -54,7 +54,7 @@ function Spielberg2A() {
           <F1RaceResult
             driverPosition="2"
             driverName="Kalcess"
-            driverFlag="ro"
+            driverFlag="no"
             team="alpha-tauri"
             driverTime="+1.888"
             driverPoints="+18"
@@ -86,7 +86,7 @@ function Spielberg2A() {
           <F1RaceResult
             driverPosition="6"
             driverName="Nik Kei"
-            driverFlag="us"
+            driverFlag="ua"
             team="alpine"
             driverTime="+3.270"
             driverPoints="+8"
@@ -245,7 +245,7 @@ function Spielberg2A() {
           <F1RaceResult
             driverPosition="4"
             driverName="Kalcess"
-            driverFlag="ro"
+            driverFlag="no"
             team="alpha-tauri"
             driverTime="+4.119"
             driverPoints="+5"
@@ -301,7 +301,7 @@ function Spielberg2A() {
           <F1RaceResult
             driverPosition="11"
             driverName="Nik Kei"
-            driverFlag="us"
+            driverFlag="ua"
             team="alpine"
             driverTime="+8.608"
             driverPoints=""

@@ -38,7 +38,7 @@ function F1TeamsTierB() {
         team="mclaren"
         driver1Name="CountMuttly"
         driver1flag="dk"
-        driver2Name="Wymen"
+        driver2Name="Eymen Akin"
         driver2flag="tr"
       />
       <F1Team
