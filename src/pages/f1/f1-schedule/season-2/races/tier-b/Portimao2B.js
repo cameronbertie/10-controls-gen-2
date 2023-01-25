@@ -81,62 +81,54 @@ function Portimao2B() {
           />
           <F1RaceResult
             driverPosition="5"
-            driverName="ARAB"
-            driverFlag="us"
-            team="red-bull"
-            driverTime="+9.933"
-            driverPoints="+10"
-          />
-          <F1RaceResult
-            driverPosition="6"
             driverName="MAXFAN"
             driverFlag="pl"
             team="red-bull"
             driverTime="+14.310"
-            driverPoints="+8"
+            driverPoints="+10"
           />
           <F1RaceResult
-            driverPosition="7"
+            driverPosition="6"
             driverName="VADE"
             driverFlag="se"
             team="alpine"
             driverTime="+14.671"
-            driverPoints="+6"
+            driverPoints="+8"
           />
           <F1RaceResult
-            driverPosition="8"
+            driverPosition="7"
             driverName="DOPICHU"
             driverFlag="fi"
             team="williams"
             driverTime="+25.451"
-            driverPoints="+4"
+            driverPoints="+6"
           />
           <F1RaceResult
-            driverPosition="9"
+            driverPosition="8"
             driverName="ZEROTIX"
             driverFlag="de"
             team="alpha-tauri"
             driverTime="+31.160"
-            driverPoints="+2"
+            driverPoints="+4"
           />
           <F1RaceResult
-            driverPosition="10"
+            driverPosition="9"
             driverName="ARBITERELITE"
             driverFlag="it"
             team="ferrari"
             driverTime="+33.289"
-            driverPoints="+2"
+            driverPoints="+3"
           />
           <F1RaceResult
-            driverPosition="11"
+            driverPosition="10"
             driverName="CountMuttly"
             driverFlag="dk"
             team="mclaren"
             driverTime="+1:18.842"
-            driverPoints=""
+            driverPoints="+1"
           />
           <F1RaceResult
-            driverPosition="12"
+            driverPosition="11"
             driverName="JCOB ADAMCZAK"
             driverFlag="pl"
             team="mercedes"

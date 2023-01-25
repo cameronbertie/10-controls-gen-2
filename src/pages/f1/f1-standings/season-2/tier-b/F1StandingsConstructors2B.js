@@ -16,53 +16,53 @@ function F1StandingsConstructors2B() {
       </tr>
       <F1ConstructorStanding
         constructorPosition="1"
-        team="red-bull"
-        constructorPoints="140"
+        team="mclaren"
+        constructorPoints="105"
       />
       <F1ConstructorStanding
         constructorPosition="2"
-        team="mclaren"
-        constructorPoints="93"
+        team="alpine"
+        constructorPoints="90"
       />
       <F1ConstructorStanding
         constructorPosition="3"
-        team="alpine"
-        constructorPoints="76"
+        team="mercedes"
+        constructorPoints="85"
       />
       <F1ConstructorStanding
         constructorPosition="4"
         team="aston-martin"
-        constructorPoints="76"
+        constructorPoints="80"
       />
       <F1ConstructorStanding
         constructorPosition="5"
-        team="mercedes"
-        constructorPoints="70"
+        team="ferrari"
+        constructorPoints="68"
       />
       <F1ConstructorStanding
         constructorPosition="6"
-        team="haas"
-        constructorPoints="60"
+        team="williams"
+        constructorPoints="61"
       />
       <F1ConstructorStanding
         constructorPosition="7"
-        team="ferrari"
-        constructorPoints="52"
+        team="haas"
+        constructorPoints="59"
       />
       <F1ConstructorStanding
         constructorPosition="8"
-        team="williams"
-        constructorPoints="50"
+        team="red-bull"
+        constructorPoints="54"
       />
       <F1ConstructorStanding
         constructorPosition="9"
         team="alpha-tauri"
-        constructorPoints="38"
+        constructorPoints="47"
       />
       <F1ConstructorStanding
         constructorPosition="10"
         team="alfa-romeo"
-        constructorPoints="18"
+        constructorPoints="25"
       />
     </StandingsTable>
     </>

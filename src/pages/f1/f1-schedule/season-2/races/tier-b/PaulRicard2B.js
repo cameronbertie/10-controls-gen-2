@@ -57,86 +57,78 @@ function PaulRicard2B() {
           />
           <F1RaceResult
             driverPosition="2"
-            driverName="ARAB"
-            driverFlag="us"
-            team="red-bull"
-            driverTime="+3.063"
-            driverPoints="+18"
-          />
-          <F1RaceResult
-            driverPosition="3"
             driverName="Kogoda"
             driverFlag="ie"
             team="williams"
             driverTime="+26.981"
-            driverPoints="+15"
+            driverPoints="+18"
           />
           <F1RaceResult
-            driverPosition="4"
+            driverPosition="3"
             driverName="STRA"
             driverFlag="rs"
             team="mclaren"
             driverTime="+27.085"
-            driverPoints="+12"
+            driverPoints="+15"
           />
           <F1RaceResult
-            driverPosition="5"
+            driverPosition="4"
             driverName="MAX HOUSLEY"
             driverFlag="gb"
             team="haas"
             driverTime="+28.423"
-            driverPoints="+10"
+            driverPoints="+12"
           />
           <F1RaceResult
-            driverPosition="6"
+            driverPosition="5"
             driverName="SP3XTRE"
             driverFlag="se"
             team="mercedes"
             driverTime="+29.228"
-            driverPoints="+8"
+            driverPoints="+10"
           />
           <F1RaceResult
-            driverPosition="7"
+            driverPosition="6"
             driverName="MAXFAN"
             driverFlag="pl"
             team="red-bull"
             driverTime="+34.518"
-            driverPoints="+6"
+            driverPoints="+8"
           />
           <F1RaceResult
-            driverPosition="8"
+            driverPosition="7"
             driverName="JASPER"
             driverFlag="gb"
             team="ferrari"
             driverTime="+39.040"
-            driverPoints="+4"
+            driverPoints="+6"
           />
           <F1RaceResult
-            driverPosition="9"
+            driverPosition="8"
             driverName="SOVIETKING"
             driverFlag="au"
             team="alfa-romeo"
             driverTime="+49.029"
-            driverPoints="+2"
+            driverPoints="+4"
           />
           <F1RaceResult
-            driverPosition="10"
+            driverPosition="9"
             driverName="CountMuttly"
             driverFlag="dk"
             team="mclaren"
             driverTime="+55.210"
-            driverPoints="+1"
+            driverPoints="+2"
           />
           <F1RaceResult
-            driverPosition="11"
+            driverPosition="10"
             driverName="bartusg5"
             driverFlag="hu"
             team="williams"
             driverTime="+55.563"
-            driverPoints=""
+            driverPoints="+1"
           />
           <F1RaceResult
-            driverPosition="12"
+            driverPosition="11"
             driverName="UKLUCASW"
             driverFlag="gb"
             team="mercedes"
@@ -144,7 +136,7 @@ function PaulRicard2B() {
             driverPoints=""
           />
           <F1RaceResult
-            driverPosition="13"
+            driverPosition="12"
             driverName="Jonas"
             driverFlag="dk"
             team="alpha-tauri"
@@ -152,7 +144,7 @@ function PaulRicard2B() {
             driverPoints=""
           />
           <F1RaceResult
-            driverPosition="14"
+            driverPosition="13"
             driverName="Lando"
             driverFlag="pl"
             team="aston-martin"
@@ -160,7 +152,7 @@ function PaulRicard2B() {
             driverPoints=""
           />
           <F1RaceResult
-            driverPosition="15"
+            driverPosition="14"
             driverName="JSTN NL"
             driverFlag="nl"
             team="ferrari"
@@ -191,8 +183,8 @@ function PaulRicard2B() {
           <h6>1:31.354</h6>
         </FastestLapContainer>
         <DriverDayContainer>
-          <h6>Driver Of The Day: Arab</h6>
-          <img src="/teams/red-bull.png" alt="" />
+          <h6>Driver Of The Day: Melon</h6>
+          <img src="/teams/aston-martin.png" alt="" />
         </DriverDayContainer>
       </S.Section>
 
@@ -216,138 +208,130 @@ function PaulRicard2B() {
           </tr>
           <F1RaceResult
             driverPosition="1"
-            driverName="ARAB"
-            driverFlag="us"
-            team="red-bull"
-            driverTime="14:01.739"
+            driverName="Kogoda"
+            driverFlag="ie"
+            team="williams"
+            driverTime="14:02.7629"
             driverPoints="+8"
           />
           <F1RaceResult
             driverPosition="2"
-            driverName="Kogoda"
-            driverFlag="ie"
-            team="williams"
-            driverTime="+0.890"
+            driverName="MELON"
+            driverFlag="ro"
+            team="aston-martin"
+            driverTime="+10.406"
             driverPoints="+7"
           />
           <F1RaceResult
             driverPosition="3"
-            driverName="MELON"
-            driverFlag="ro"
-            team="aston-martin"
-            driverTime="+11.296"
+            driverName="SP3XTRE"
+            driverFlag="se"
+            team="mercedes"
+            driverTime="+12.968"
             driverPoints="+6"
           />
           <F1RaceResult
             driverPosition="4"
-            driverName="SP3XTRE"
-            driverFlag="se"
-            team="mercedes"
-            driverTime="+13.858"
+            driverName="STRA"
+            driverFlag="rs"
+            team="mclaren"
+            driverTime="+13.378"
             driverPoints="+5"
           />
           <F1RaceResult
             driverPosition="5"
-            driverName="STRA"
-            driverFlag="rs"
-            team="mclaren"
-            driverTime="+14.268"
+            driverName="MAXFAN"
+            driverFlag="pl"
+            team="red-bull"
+            driverTime="+13.592"
             driverPoints="+4"
           />
           <F1RaceResult
             driverPosition="6"
-            driverName="MAXFAN"
-            driverFlag="pl"
-            team="red-bull"
-            driverTime="+14.482"
+            driverName="MAX HOUSLEY"
+            driverFlag="gb"
+            team="haas"
+            driverTime="+14.909"
             driverPoints="+3"
           />
           <F1RaceResult
             driverPosition="7"
-            driverName="MAX HOUSLEY"
-            driverFlag="gb"
-            team="haas"
-            driverTime="+15.799"
+            driverName="JSTN NL"
+            driverFlag="nl"
+            team="ferrari"
+            driverTime="+15.953"
             driverPoints="+2"
           />
           <F1RaceResult
             driverPosition="8"
-            driverName="JSTN NL"
-            driverFlag="nl"
-            team="ferrari"
-            driverTime="+16.843"
+            driverName="bartusg5"
+            driverFlag="hu"
+            team="williams"
+            driverTime="+17.085"
             driverPoints="+1"
           />
           <F1RaceResult
             driverPosition="9"
-            driverName="bartusg5"
-            driverFlag="hu"
-            team="williams"
-            driverTime="+17.975"
+            driverName="Jonas"
+            driverFlag="dk"
+            team="alpha-tauri"
+            driverTime="+20.393"
             driverPoints=""
           />
           <F1RaceResult
             driverPosition="10"
-            driverName="Jonas"
-            driverFlag="dk"
-            team="alpha-tauri"
-            driverTime="+21.283"
+            driverName="VADE"
+            driverFlag="se"
+            team="alpine"
+            driverTime="+22.863"
             driverPoints=""
           />
           <F1RaceResult
             driverPosition="11"
-            driverName="VADE"
-            driverFlag="se"
-            team="alpine"
-            driverTime="+23.753"
+            driverName="CountMuttly"
+            driverFlag="dk"
+            team="mclaren"
+            driverTime="+27.235"
             driverPoints=""
           />
           <F1RaceResult
             driverPosition="12"
-            driverName="CountMuttly"
-            driverFlag="dk"
-            team="mclaren"
-            driverTime="+28.125"
+            driverName="SOVIETKING"
+            driverFlag="au"
+            team="alfa-romeo"
+            driverTime="+27.833"
             driverPoints=""
           />
           <F1RaceResult
             driverPosition="13"
-            driverName="SOVIETKING"
-            driverFlag="au"
-            team="alfa-romeo"
-            driverTime="+28.723"
+            driverName="UKLUCASW"
+            driverFlag="gb"
+            team="mercedes"
+            driverTime="+29.898"
             driverPoints=""
           />
           <F1RaceResult
             driverPosition="14"
-            driverName="UKLUCASW"
-            driverFlag="gb"
-            team="mercedes"
-            driverTime="+30.788"
+            driverName="Lando"
+            driverFlag="pl"
+            team="aston-martin"
+            driverTime="+42.426"
             driverPoints=""
           />
           <F1RaceResult
             driverPosition="15"
-            driverName="Lando"
-            driverFlag="pl"
-            team="aston-martin"
-            driverTime="+43.316"
+            driverName="JASPER"
+            driverFlag="gb"
+            team="ferrari"
+            driverTime="+47.249"
             driverPoints=""
           />
           <F1RaceResult
             driverPosition="16"
-            driverName="JASPER"
-            driverFlag="gb"
-            team="ferrari"
-            driverTime="+48.139"
-            driverPoints=""
-          />
-          <F1RaceResult
-            driverPosition="17"
             driverName="Sharky"
             driverFlag="se"
             team="alpine"
-            driverTime="+52.096"
+            driverTime="+51.206"
             driverPoints=""
           />
         </ResultsTable>

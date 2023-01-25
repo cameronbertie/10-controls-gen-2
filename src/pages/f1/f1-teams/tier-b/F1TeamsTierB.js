@@ -8,8 +8,8 @@ function F1TeamsTierB() {
     <>
       <F1Team
         team="red-bull"
-        driver1Name="Arab"
-        driver1flag="us"
+        driver1Name="LUKAS HENDRYCH"
+        driver1flag="cz"
         driver2Name="Maxfan"
         driver2flag="pl"
       />
@@ -17,8 +17,8 @@ function F1TeamsTierB() {
         team="ferrari"
         driver1Name="JSTN NL"
         driver1flag="nl"
-        driver2Name="LUKAS HENDRYCH"
-        driver2flag="cz"
+        driver2Name="LANDO"
+        driver2flag="pl"
       />
       <F1Team
         team="mercedes"
@@ -29,8 +29,8 @@ function F1TeamsTierB() {
       />
       <F1Team
         team="alpine"
-        driver1Name="Jelly"
-        driver1flag="fi"
+        driver1Name="KJAERBO"
+        driver1flag="dk"
         driver2Name="Vade"
         driver2flag="se"
       />

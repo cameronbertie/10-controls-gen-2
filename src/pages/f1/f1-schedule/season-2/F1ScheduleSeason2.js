@@ -76,9 +76,9 @@ function F1ScheduleSeason2() {
         tierADriver="Melon"
         tierADriverFlag="ro"
         tierADriverTeam="alpha-tauri"
-        tierBDriver="Arab"
-        tierBDriverFlag="us"
-        tierBDriverTeam="red-bull"
+        tierBDriver="SP3XTRE"
+        tierBDriverFlag="se"
+        tierBDriverTeam="mercedes"
         tierAResultsLink="season-2/tier-a/hungaroring"
         tierBResultsLink="season-2/tier-b/hungaroring"
       />

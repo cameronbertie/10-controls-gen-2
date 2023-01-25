@@ -49,98 +49,90 @@ function Hungaroring2B() {
           </tr>
           <F1RaceResult
             driverPosition="1"
-            driverName="ARAB"
-            driverFlag="us"
-            team="red-bull"
-            driverTime="54:40.401"
+            driverName="SP3XTRE"
+            driverFlag="se"
+            team="mercedes"
+            driverTime="54:41.247"
             driverPoints="+25"
           />
           <F1RaceResult
             driverPosition="2"
-            driverName="SP3XTRE"
-            driverFlag="se"
-            team="mercedes"
-            driverTime="+0.846"
+            driverName="KELANKINGI"
+            driverFlag="fi"
+            team="alpine"
+            driverTime="+0.249"
             driverPoints="+18"
           />
           <F1RaceResult
             driverPosition="3"
-            driverName="KELANKINGI"
-            driverFlag="fi"
-            team="alpine"
-            driverTime="+1.095"
+            driverName="Zerotix"
+            driverFlag="de"
+            team="alpha-tauri"
+            driverTime="+4.488"
             driverPoints="+15"
           />
           <F1RaceResult
             driverPosition="4"
-            driverName="Zerotix"
-            driverFlag="de"
-            team="alpha-tauri"
-            driverTime="+5.334"
+            driverName="MAXFAN"
+            driverFlag="pl"
+            team="red-bull"
+            driverTime="+4.575"
             driverPoints="+12"
           />
           <F1RaceResult
             driverPosition="5"
-            driverName="MAXFAN"
-            driverFlag="pl"
-            team="red-bull"
-            driverTime="+5.421"
+            driverName="JSTN NL"
+            driverFlag="nl"
+            team="ferrari"
+            driverTime="+4.852"
             driverPoints="+10"
           />
           <F1RaceResult
             driverPosition="6"
-            driverName="JSTN NL"
-            driverFlag="nl"
-            team="ferrari"
-            driverTime="+5.698"
+            driverName="SOVIETKING"
+            driverFlag="au"
+            team="alfa-romeo"
+            driverTime="+6.468"
             driverPoints="+8"
           />
           <F1RaceResult
             driverPosition="7"
-            driverName="SOVIETKING"
-            driverFlag="au"
-            team="alfa-romeo"
-            driverTime="+7.314"
+            driverName="UKLUCASW"
+            driverFlag="gb"
+            team="mercedes"
+            driverTime="+8.092"
             driverPoints="+6"
           />
           <F1RaceResult
             driverPosition="8"
-            driverName="UKLUCASW"
-            driverFlag="gb"
-            team="mercedes"
-            driverTime="+8.938"
+            driverName="STRA"
+            driverFlag="rs"
+            team="mclaren"
+            driverTime="+8.557"
             driverPoints="+4"
           />
           <F1RaceResult
             driverPosition="9"
-            driverName="STRA"
-            driverFlag="rs"
-            team="mclaren"
-            driverTime="+9.403"
+            driverName="VADE"
+            driverFlag="se"
+            team="alpine"
+            driverTime="+10.831"
             driverPoints="+2"
           />
           <F1RaceResult
             driverPosition="10"
-            driverName="VADE"
-            driverFlag="se"
-            team="alpine"
-            driverTime="+11.677"
+            driverName="bartusg5"
+            driverFlag="hu"
+            team="williams"
+            driverTime="+12.167"
             driverPoints="+1"
           />
           <F1RaceResult
             driverPosition="11"
-            driverName="bartusg5"
-            driverFlag="hu"
-            team="williams"
-            driverTime="+13.013"
-            driverPoints=""
-          />
-          <F1RaceResult
-            driverPosition="12"
             driverName="JASPER"
             driverFlag="gb"
             team="haas"
-            driverTime="+23.929"
+            driverTime="+23.083"
             driverPoints=""
           />
           <F1RaceResult
@@ -183,8 +175,8 @@ function Hungaroring2B() {
           <h6>1:18.169</h6>
         </FastestLapContainer>
         <DriverDayContainer>
-          <h6>Driver Of The Day: Arab</h6>
-          <img src="/teams/red-bull.png" alt="" />
+          <h6>Driver Of The Day: Zerotix</h6>
+          <img src="/teams/alpha-tauri.png" alt="" />
         </DriverDayContainer>
       </S.Section>
 

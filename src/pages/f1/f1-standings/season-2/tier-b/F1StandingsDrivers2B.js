@@ -18,26 +18,26 @@ function F1StandingsDrivers2B() {
       </tr>
       <F1DriverStanding
         driverPosition="1"
-        driverName="ARAB"
-        driverFlag="us"
-        team="red-bull"
-        driverPoints="95"
+        driverName="SP3XTRE"
+        driverFlag="se"
+        team="mercedes"
+        driverPoints="77"
         status="promotion"
       />
       <F1DriverStanding
         driverPosition="2"
-        driverName="SP3XTRE"
-        driverFlag="se"
-        team="mercedes"
-        driverPoints="64"
+        driverName="JSTN NL"
+        driverFlag="nl"
+        team="ferrari"
+        driverPoints="61"
         status="promotion"
       />
       <F1DriverStanding
         driverPosition="3"
-        driverName="JSTN NL"
-        driverFlag="nl"
-        team="ferrari"
-        driverPoints="55"
+        driverName="VADE"
+        driverFlag="se"
+        team="alpine"
+        driverPoints="60"
         status="promotion"
       />
       <F1DriverStanding
@@ -45,108 +45,90 @@ function F1StandingsDrivers2B() {
         driverName="MAX HOUSLEY"
         driverFlag="gb"
         team="haas"
-        driverPoints="52"
+        driverPoints="55"
         status="promotion"
-      />
+      /> 
       <F1DriverStanding
         driverPosition="5"
-        driverName="VADE"
-        driverFlag="se"
-        team="alpine"
-        driverPoints="49"
-        status="promotion"
-      />
-      
-      
-      <F1DriverStanding
-        driverPosition="6"
         driverName="MAXFAN"
         driverFlag="pl"
         team="red-bull"
-        driverPoints="45"
+        driverPoints="54"
+        status="promotion"
       />
       
       <F1DriverStanding
-        driverPosition="7"
+        driverPosition="6"
         driverName="ZEROTIX"
         driverFlag="de"
         team="alpha-tauri"
-        driverPoints="29"
+        driverPoints="34"
       />
       <F1DriverStanding
-        driverPosition="8"
+        driverPosition="7"
         driverName="bartusg5"
         driverFlag="hu"
         team="williams"
-        driverPoints="20"
+        driverPoints="26"
       />
       <F1DriverStanding
-        driverPosition="9"
+        driverPosition="8"
         driverName="COUNTMUTTLY"
         driverFlag="dk"
         team="mclaren"
-        driverPoints="17"
+        driverPoints="21"
       />
       <F1DriverStanding
-        driverPosition="10"
+        driverPosition="9"
         driverName="HACKODK"
         driverFlag="dk"
         team="aston-martin"
+        driverPoints="15"
+      />
+      <F1DriverStanding
+        driverPosition="10"
+        driverName="Rocky"
+        driverFlag="de"
+        team="alpha-tauri"
         driverPoints="12"
       />
       <F1DriverStanding
         driverPosition="11"
-        driverName="ANOLDENEMY"
-        driverFlag="hr"
-        team="aston-martin"
-        driverPoints="8"
-      />
-      <F1DriverStanding
-        driverPosition="12"
-        driverName="Rocky"
-        driverFlag="de"
-        team="alpha-tauri"
-        driverPoints="8"
-      />
-      <F1DriverStanding
-        driverPosition="13"
         driverName="SOVIETKING"
         driverFlag="au"
         team="alfa-romeo"
-        driverPoints="8"
+        driverPoints="12"
       />
       <F1DriverStanding
-        driverPosition="14"
+        driverPosition="12"
         driverName="JASPER"
         driverFlag="gb"
         team="haas"
+        driverPoints="10"
+      />
+      <F1DriverStanding
+        driverPosition="13"
+        driverName="LUKAS HENDRYCH"
+        driverFlag="cz"
+        team="red-bull"
+        driverPoints="10"
+      />
+      <F1DriverStanding
+        driverPosition="14"
+        driverName="UKLUCASW"
+        driverFlag="gb"
+        team="mercedes"
         driverPoints="8"
       />
       <F1DriverStanding
         driverPosition="15"
-        driverName="LUKAS HENDRYCH"
-        driverFlag="cz"
-        team="ferrari"
+        driverName="BALD"
+        driverFlag="ie"
+        team="alfa-romeo"
         driverPoints="7"
       />
       <F1DriverStanding
         driverPosition="16"
-        driverName="BALD"
-        driverFlag="ie"
-        team="alfa-romeo"
-        driverPoints="6"
-        status="demotion"
-      />
-      <F1DriverStanding
-        driverPosition="17"
-        driverName="UKLUCASW"
-        driverFlag="gb"
-        team="mercedes"
-        driverPoints="6"
-        status="demotion"
-      />
-      <F1DriverStanding
-        driverPosition="18"
         driverName="EYMEN AKIN"
         driverFlag="tr"
         team="mclaren"
@@ -154,7 +136,7 @@ function F1StandingsDrivers2B() {
         status="demotion"
       />
       <F1DriverStanding
-        driverPosition="19"
+        driverPosition="17"
         driverName="Hidlex"
         driverFlag="nl"
         team="williams"
@@ -162,7 +144,15 @@ function F1StandingsDrivers2B() {
         status="demotion"
       />
       <F1DriverStanding
-        driverPosition="20"
+        driverPosition="18"
+        driverName="Lando"
+        driverFlag="pl"
+        team="ferrari"
+        driverPoints="0"
+        status="demotion"
+      />
+      <F1DriverStanding
+        driverPosition="19"
         driverName="Kjaerbo"
         driverFlag="dk"
         team="alpine"

@@ -175,14 +175,6 @@ function Suzuka2B() {
             driverTime="DNF"
             driverPoints=""
           />
-          <F1RaceResult
-            driverPosition=""
-            driverName="ARAB"
-            driverFlag="us"
-            team="red-bull"
-            driverTime="DNF"
-            driverPoints=""
-          />
         </ResultsTable>
 
         <FastestLapContainer>
