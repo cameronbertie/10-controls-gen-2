@@ -18,9 +18,9 @@ function Spielberg2B() {
           <Link to={`/f1/schedule/season-2/tier-b/hungaroring`}>
             <ArrowPrevious />
           </Link>
-          {/* <Link to={`/f1/schedule/season-2/tier-b/suzuka`}>
+          <Link to={`/f1/schedule/season-2/tier-b/baku`}>
             <ArrowNext />
-          </Link> */}
+          </Link>
         </CalendarArrowContainer>
         <h6>Season 2 - Tier B - Round 6</h6>
         <br></br>
@@ -49,94 +49,86 @@ function Spielberg2B() {
           </tr>
           <F1RaceResult
             driverPosition="1"
-            driverName="ARAB"
-            driverFlag="us"
-            team="red-bull"
-            driverTime="42:34.234"
-            driverPoints="+25"
-          />
-          <F1RaceResult
-            driverPosition="2"
             driverName="VADE"
             driverFlag="se"
             team="williams"
             driverTime="+0.085"
-            driverPoints="+18"
+            driverPoints="+25"
           />
           <F1RaceResult
-            driverPosition="3"
+            driverPosition="2"
             driverName="SP3XTRE"
             driverFlag="se"
             team="mercedes"
             driverTime="+2.514"
-            driverPoints="+15"
+            driverPoints="+18"
           />
           <F1RaceResult
-            driverPosition="4"
+            driverPosition="3"
             driverName="HACKODK"
             driverFlag="dk"
             team="aston-martin"
             driverTime="+6.096"
-            driverPoints="+12"
+            driverPoints="+15"
           />
           <F1RaceResult
-            driverPosition="5"
+            driverPosition="4"
             driverName="JSTN NL"
             driverFlag="nl"
             team="ferrari"
             driverTime="+7.212"
-            driverPoints="+10"
+            driverPoints="+12"
           />
           <F1RaceResult
-            driverPosition="6"
+            driverPosition="5"
             driverName="Rocky"
             driverFlag="de"
             team="alpha-tauri"
             driverTime="+8.788"
-            driverPoints="+8"
+            driverPoints="+11"
           />
           <F1RaceResult
-            driverPosition="7"
+            driverPosition="6"
             driverName="CountMuttly"
             driverFlag="dk"
             team="mclaren"
             driverTime="+8.800"
-            driverPoints="+6"
+            driverPoints="+8"
           />
           <F1RaceResult
-            driverPosition="8"
+            driverPosition="7"
             driverName="bartusg5"
             driverFlag="hu"
             team="williams"
             driverTime="+10.837"
-            driverPoints="+4"
+            driverPoints="+6"
           />
           <F1RaceResult
-            driverPosition="9"
+            driverPosition="8"
             driverName="LUKAS HENDRYCH"
             driverFlag="cz"
             team="ferrari"
             driverTime="+13.325"
-            driverPoints="+2"
+            driverPoints="+4"
           />
           <F1RaceResult
-            driverPosition="10"
+            driverPosition="9"
             driverName="MAXFAN"
             driverFlag="pl"
             team="red-bull"
             driverTime="+13.899"
-            driverPoints="+1"
+            driverPoints="+2"
           />
           <F1RaceResult
-            driverPosition="11"
+            driverPosition="10"
             driverName="Eymen Akin"
             driverFlag="tr"
             team="mclaren"
             driverTime="+1 LAP"
-            driverPoints=""
+            driverPoints="+1"
           />
           <F1RaceResult
-            driverPosition="12"
+            driverPosition="11"
             driverName="Bald"
             driverFlag="ie"
             team="alfa-romeo"
@@ -144,7 +136,7 @@ function Spielberg2B() {
             driverPoints=""
           />
           <F1RaceResult
-            driverPosition="13"
+            driverPosition="12"
             driverName="UKLUCASW"
             driverFlag="gb"
             team="mercedes"

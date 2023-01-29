@@ -17,37 +17,37 @@ function F1StandingsConstructors2A() {
       <F1ConstructorStanding
         constructorPosition="1"
         team="alpha-tauri"
-        constructorPoints="128"
+        constructorPoints="147"
       />
       <F1ConstructorStanding
         constructorPosition="2"
         team="red-bull"
-        constructorPoints="106"
+        constructorPoints="116"
       />
       <F1ConstructorStanding
         constructorPosition="3"
         team="williams"
-        constructorPoints="100"
+        constructorPoints="115"
       />
       <F1ConstructorStanding
         constructorPosition="4"
+        team="ferrari"
+        constructorPoints="112"
+      />
+      <F1ConstructorStanding
+        constructorPosition="5"
         team="mercedes"
         constructorPoints="97"
       />
       <F1ConstructorStanding
-        constructorPosition="5"
-        team="ferrari"
-        constructorPoints="87"
-      />
-      <F1ConstructorStanding
         constructorPosition="6"
         team="aston-martin"
-        constructorPoints="67"
+        constructorPoints="77"
       />
       <F1ConstructorStanding
         constructorPosition="7"
         team="alpine"
-        constructorPoints="62"
+        constructorPoints="75"
       />
       <F1ConstructorStanding
         constructorPosition="8"

@@ -21,50 +21,51 @@ function F1StandingsDrivers2A() {
         driverName="Melon"
         driverFlag="ro"
         team="alpha-tauri"
-        driverPoints="101"
+        driverPoints="120"
       />
       <F1DriverStanding
         driverPosition="2"
         driverName="ALPHAROMEO"
         driverFlag="nl"
         team="ferrari"
-        driverPoints="90"
+        driverPoints="115"
       />
       <F1DriverStanding
         driverPosition="3"
+        driverName="FADED"
+        driverFlag="us"
+        team="alpine"
+        driverPoints="64"
+      />
+      <F1DriverStanding
+        driverPosition="4"
         driverName="THOMAS VINK"
         driverFlag="nl"
         team="red-bull"
         driverPoints="61"
       />
       <F1DriverStanding
-        driverPosition="4"
-        driverName="FADED"
-        driverFlag="us"
-        team="alpine"
-        driverPoints="52"
+        driverPosition="5"
+        driverName="FOCUSER"
+        driverFlag="es"
+        team="red-bull"
+        driverPoints="55"
       />
       <F1DriverStanding
-        driverPosition="5"
+        driverPosition="6"
         driverName="COUNTERFEIT"
         driverFlag="gb"
         team="mercedes"
         driverPoints="49"
       />
       <F1DriverStanding
-        driverPosition="6"
+        driverPosition="7"
         driverName="LUCADUDE40"
         driverFlag="gb"
         team="mercedes"
         driverPoints="48"
       />
-      <F1DriverStanding
-        driverPosition="7"
-        driverName="FOCUSER"
-        driverFlag="es"
-        team="red-bull"
-        driverPoints="45"
-      />
+      
       <F1DriverStanding
         driverPosition="8"
         driverName="ANTONIO BRANCHIX"
@@ -84,65 +85,65 @@ function F1StandingsDrivers2A() {
         driverName="KUDOS"
         driverFlag="de"
         team="aston-martin"
-        driverPoints="24"
+        driverPoints="26"
       />
       <F1DriverStanding
         driverPosition="11"
         driverName="IM3J3N"
         driverFlag="de"
         team="aston-martin"
-        driverPoints="18"
+        driverPoints="26"
       />
       <F1DriverStanding
         driverPosition="12"
+        driverName="Stra"
+        driverFlag="rs"
+        team="williams"
+        driverPoints="21"
+      />
+      <F1DriverStanding
+        driverPosition="13"
         driverName="PHILIP"
         driverFlag="nl"
         team="haas"
         driverPoints="14"
       />
       <F1DriverStanding
-        driverPosition="13"
+        driverPosition="14"
+        driverName="BRIM"
+        driverFlag="nl"
+        team="mclaren"
+        driverPoints="12"
+      />
+      <F1DriverStanding
+        driverPosition="15"
         driverName="NIK KEI"
         driverFlag="ua"
         team="alpine"
-        driverPoints="10"
+        driverPoints="11"
       />
       <F1DriverStanding
-        driverPosition="14"
+        driverPosition="16"
         driverName="FLAW"
         driverFlag="nl"
         team="williams"
         driverPoints="10"
-      />
-      <F1DriverStanding
-        driverPosition="15"
-        driverName="Stra"
-        driverFlag="rs"
-        team="williams"
-        driverPoints="6"
-      />
-      <F1DriverStanding
-        driverPosition="16"
-        driverName="BRIM"
-        driverFlag="nl"
-        team="mclaren"
-        driverPoints="6"
         status="demotion"
       />
       <F1DriverStanding
         driverPosition="17"
-        driverName="NYDROW"
-        driverFlag="be"
-        team="alfa-romeo"
-        driverPoints="3"
+        driverName="LUC"
+        driverFlag="nl"
+        team="mclaren"
+        driverPoints="5"
         status="demotion"
       />
       <F1DriverStanding
         driverPosition="18"
-        driverName="LUC"
-        driverFlag="nl"
-        team="mclaren"
-        driverPoints="1"
+        driverName="NYDROW"
+        driverFlag="be"
+        team="alfa-romeo"
+        driverPoints="3"
         status="demotion"
       />
       <F1DriverStanding

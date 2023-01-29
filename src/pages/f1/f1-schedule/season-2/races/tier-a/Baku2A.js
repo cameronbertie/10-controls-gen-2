@@ -9,31 +9,27 @@ import Footer from "../../../../../../components/Footer";
 import F1RaceResult from "../../../F1RaceResult";
 import F1SecondaryNavigation from "../../../../F1SecondaryNavigation";
 
-function Hungaroring2B() {
+function Baku2A() {
   return (
     <>
-      <F1SecondaryNavigation />
+      <F1SecondaryNavigation
+      />
       <S.Section>
+      
         <CalendarArrowContainer>
-          <Link to={`/f1/schedule/season-2/tier-b/suzuka`}>
+          <Link to={`/f1/schedule/season-2/tier-a/spielberg`}>
             <ArrowPrevious />
           </Link>
-          <Link to={`/f1/schedule/season-2/tier-b/spielberg`}>
+          {/* <Link to={`/f1/schedule/season-2/tier-a/suzuka`}>
             <ArrowNext />
-          </Link>
+          </Link> */}
         </CalendarArrowContainer>
-        <h6>Season 2 - Tier B - Round 5</h6>
+        <h6>Season 2 - Tier A - Round 7</h6>
         <br></br>
-        <h2>Hungaroring</h2>
+        <h2>Baku</h2>
         <h5>Results</h5>
         <br></br>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.youtube.com/watch?v=HrtdwsUmjts&ab_channel=10Controls"
-        >
-          <button>View Race Highlights</button>
-        </a>
+        {/* <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=ccWjV6nppiY&ab_channel=10Controls"><button>View Race Highlights</button></a> */}
         <ResultsTable id="resultsTable">
           <tr>
             <th></th>
@@ -49,136 +45,144 @@ function Hungaroring2B() {
           </tr>
           <F1RaceResult
             driverPosition="1"
-            driverName="SP3XTRE"
-            driverFlag="se"
-            team="mercedes"
-            driverTime="54:41.247"
+            driverName="ALPHAROMEO"
+            driverFlag="nl"
+            team="ferrari"
+            driverTime="53:54.503"
             driverPoints="+25"
           />
           <F1RaceResult
             driverPosition="2"
-            driverName="KELANKINGI"
-            driverFlag="fi"
-            team="alpine"
-            driverTime="+0.249"
-            driverPoints="+18"
+            driverName="Melon"
+            driverFlag="ro"
+            team="alpha-tauri"
+            driverTime="+0.579"
+            driverPoints="+19"
           />
           <F1RaceResult
             driverPosition="3"
-            driverName="Zerotix"
-            driverFlag="de"
-            team="alpha-tauri"
-            driverTime="+4.488"
+            driverName="STRA"
+            driverFlag="rs"
+            team="williams"
+            driverTime="+5.527"
             driverPoints="+15"
           />
           <F1RaceResult
             driverPosition="4"
-            driverName="MAXFAN"
-            driverFlag="pl"
-            team="red-bull"
-            driverTime="+4.575"
+            driverName="FADED"
+            driverFlag="us"
+            team="alpine"
+            driverTime="+7.598"
             driverPoints="+12"
           />
           <F1RaceResult
             driverPosition="5"
-            driverName="JSTN NL"
-            driverFlag="nl"
-            team="ferrari"
-            driverTime="+4.852"
+            driverName="Focuser"
+            driverFlag="es"
+            team="red-bull"
+            driverTime="+10.684"
             driverPoints="+10"
           />
           <F1RaceResult
             driverPosition="6"
-            driverName="SOVIETKING"
-            driverFlag="au"
-            team="alfa-romeo"
-            driverTime="+6.468"
+            driverName="IM3J3N"
+            driverFlag="de"
+            team="aston-martin"
+            driverTime="+11.022"
             driverPoints="+8"
           />
           <F1RaceResult
             driverPosition="7"
-            driverName="UKLUCASW"
-            driverFlag="gb"
-            team="mercedes"
-            driverTime="+8.092"
+            driverName="BRIM"
+            driverFlag="nl"
+            team="mclaren"
+            driverTime="+11.026"
             driverPoints="+6"
           />
           <F1RaceResult
             driverPosition="8"
-            driverName="STRA"
-            driverFlag="rs"
+            driverName="LUC"
+            driverFlag="nl"
             team="mclaren"
-            driverTime="+8.557"
+            driverTime="+11.510"
             driverPoints="+4"
           />
           <F1RaceResult
             driverPosition="9"
-            driverName="VADE"
-            driverFlag="se"
-            team="alpine"
-            driverTime="+10.831"
+            driverName="KUDOS"
+            driverFlag="de"
+            team="aston-martin"
+            driverTime="+14.637"
             driverPoints="+2"
           />
           <F1RaceResult
             driverPosition="10"
-            driverName="bartusg5"
-            driverFlag="hu"
-            team="williams"
-            driverTime="+12.167"
+            driverName="Nik Kei"
+            driverFlag="ua"
+            team="alpine"
+            driverTime="+14.756"
             driverPoints="+1"
           />
           <F1RaceResult
             driverPosition="11"
-            driverName="JASPER"
+            driverName="LUCADUDE40"
             driverFlag="gb"
-            team="haas"
-            driverTime="+23.083"
+            team="mercedes"
+            driverTime="+16.597"
+            driverPoints=""
+          />
+          <F1RaceResult
+            driverPosition="12"
+            driverName="COUNTERFEIT"
+            driverFlag="gb"
+            team="mercedes"
+            driverTime="+2 LAPS"
             driverPoints=""
           />
           <F1RaceResult
             driverPosition=""
-            driverName="Lukas Hendrych"
-            driverFlag="cz"
+            driverName="ANTONIO BRANCHIX"
+            driverFlag="it"
             team="ferrari"
             driverTime="DNF"
             driverPoints=""
           />
           <F1RaceResult
             driverPosition=""
-            driverName="CountMuttly"
-            driverFlag="dk"
-            team="mclaren"
-            driverTime="DNF"
-            driverPoints=""
-          />
-          <F1RaceResult
-            driverPosition=""
-            driverName="Manuel"
-            driverFlag="it"
-            team="alpha-tauri"
-            driverTime="DNF"
-            driverPoints=""
-          />
-          <F1RaceResult
-            driverPosition=""
-            driverName="Bald"
-            driverFlag="ie"
+            driverName="Veixel"
+            driverFlag="se"
             team="alfa-romeo"
+            driverTime="DNF"
+            driverPoints=""
+          />
+          <F1RaceResult
+            driverPosition=""
+            driverName="Philip"
+            driverFlag="nl"
+            team="haas"
+            driverTime="DNF"
+            driverPoints=""
+          />
+          <F1RaceResult
+            driverPosition=""
+            driverName="THOMAS VINK"
+            driverFlag="nl"
+            team="red-bull"
             driverTime="DNF"
             driverPoints=""
           />
         </ResultsTable>
 
         <FastestLapContainer>
-          <h6>Fastest Lap: Jasper</h6>
-          <img src="/teams/haas.png" alt="" />
-          <h6>1:18.169</h6>
+          <h6>Fastest Lap: Melon</h6>
+          <img src="/teams/alpha-tauri.png" alt=""/>
+          <h6>1:42.153</h6>
         </FastestLapContainer>
         <DriverDayContainer>
-          <h6>Driver Of The Day: Zerotix</h6>
-          <img src="/teams/alpha-tauri.png" alt="" />
+          <h6>Driver Of The Day: Brim</h6>
+          <img src="/teams/mclaren.png" alt=""/>
         </DriverDayContainer>
-      </S.Section>
+        </S.Section>
 
       <S.Section>
         <Footer />
@@ -187,7 +191,7 @@ function Hungaroring2B() {
   );
 }
 
-export default Hungaroring2B;
+export default Baku2A;
 
 const CalendarArrowContainer = styled.div`
   display: flex;
@@ -207,7 +211,7 @@ const FastestLapContainer = styled.div`
 
     @media only screen and (max-width: 799px) {
       height: 13px;
-    }
+  }
   }
 `;
 
@@ -222,7 +226,7 @@ const DriverDayContainer = styled.div`
 
     @media only screen and (max-width: 799px) {
       height: 13px;
-    }
+  }
   }
 `;
 
@@ -255,18 +259,18 @@ const ResultsTable = styled.table`
 
     @media only screen and (max-width: 799px) {
       padding: 9px 10px 7px;
-    }
+  }
   }
 `;
 
 const TeamDetailsHeader = styled.th`
   @media (max-width: 799px) {
-    display: none;
-  }
+      display: none;
+    }
 `;
 
 const DriverFlagHeader = styled.th`
   @media (max-width: 799px) {
-    display: none;
-  }
+      display: none;
+    }
 `;

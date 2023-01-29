@@ -91,19 +91,26 @@ function F1ScheduleSeason2() {
         tierADriver="Melon"
         tierADriverFlag="ro"
         tierADriverTeam="alpha-tauri"
-        tierBDriver="Arab"
-        tierBDriverFlag="us"
-        tierBDriverTeam="red-bull"
+        tierBDriver="Vade"
+        tierBDriverFlag="se"
+        tierBDriverTeam="alpine"
         tierAResultsLink="season-2/tier-a/spielberg"
         tierBResultsLink="season-2/tier-b/spielberg"
       />
-      <F1ScheduleUpcoming
+      <F1ScheduleCompleted
         roundNumber="7"
         days="27-28"
         month="Jan 2023"
         raceCountryFlag="az"
         raceName="Baku"
-        raceDetailsLink="season-2/baku"
+        tierADriver="ALPHAROMEO"
+        tierADriverFlag="nl"
+        tierADriverTeam="ferrari"
+        tierBDriver="LUKAS HENDRYCH"
+        tierBDriverFlag="cz"
+        tierBDriverTeam="red-bull"
+        tierAResultsLink="season-2/tier-a/baku"
+        tierBResultsLink="season-2/tier-b/baku"
       />
       <F1ScheduleUpcoming
         roundNumber="8"

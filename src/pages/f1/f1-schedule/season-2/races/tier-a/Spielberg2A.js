@@ -20,9 +20,9 @@ function Spielberg2A() {
           <Link to={`/f1/schedule/season-2/tier-a/hungaroring`}>
             <ArrowPrevious />
           </Link>
-          {/* <Link to={`/f1/schedule/season-2/tier-a/suzuka`}>
+          <Link to={`/f1/schedule/season-2/tier-a/baku`}>
             <ArrowNext />
-          </Link> */}
+          </Link>
         </CalendarArrowContainer>
         <h6>Season 2 - Tier A - Round 6</h6>
         <br></br>
